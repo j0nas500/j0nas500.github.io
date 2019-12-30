@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>StrapQuery</title>
+		<!-- Bootstrap -->
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font-Awesome -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Style -->
+		<link href="templates/strapquery/css/strapquery.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+		<!-- jQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<!-- StrapQuery -->
+		<script src="templates/strapquery/js/strapquery.js"></script>
+		<!-- OpenLoad -->
+		<script src="src/js/openload.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container-fluid">
+			<div class="row">
+			<img class="logo" src="templates/strapquery/img/logo.png">
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<div class="content">
+						<div class="well well-sm"><h3 id="playername"><em>Loading data...</em></h3></div>
+						<img class="gear" src="templates/strapquery/img/gear.png">
+						<img class="avatar" id="avatar" src="templates/strapquery/img/unknown_avatar.jpg">
+						<p id="status" class="status"></p>
+						<p id="file" class="file"></p>
+						<div class="progress progress-striped active">
+						  <div id="progress" class="progress-bar"  role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-user"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right"><p class="small grid-text right colinfo">SteamID</p><h3 class="grid-text right" id="steamid"><em>Loading...</em></h3></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-usd"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right"><p class="small grid-text right colinfo">RP Cash</p><h3 class="grid-text right" id="darkrp"><em>Loading...</em></h3></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left bg-end-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-unchecked"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right bg-end-right"><p class="small grid-text right colinfo">PS Points</p><h3 class="grid-text right" id="pointshop"><em>Loading...</em></h3></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="right">
+					<div class="content">
+						<div class="well well-sm"><h3 id="mapname"></h3></div>
+						<img id="mapimage" class="server-map-image" src="templates/strapquery/img/unknown_map.jpg">
+						<p class="server-name" id="servername"></p>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-globe"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right"><p class="small grid-text right colinfo">Players</p><h3 class="grid-text right clean" id="maxplayers">0</h3><h3 class="grid-text right clean">/</h3><h3 class="grid-text right clean" id="players">0</h3></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-download"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right"><p class="small grid-text right colinfo">Files</p><h3 class="grid-text right clean" id="filestotal">0</h3><h3 class="grid-text right clean">/</h3><h3 class="grid-text right clean" id="filesneeded">0</h3></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-signal"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right"><p class="small grid-text right colinfo">Address</p><h3 class="grid-text right" id="ip"><em>Loading...</em></h3></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg-left bg-end-left"><h3 class="grid-text left"><span class="glyphicon glyphicon-play-circle"></span></h3></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bg-right bg-end-right"><p class="small grid-text right colinfo">Gamemode</p><h3 class="grid-text right" id="gamemode"><em>Loading...</em></h3></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

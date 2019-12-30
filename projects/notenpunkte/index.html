@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benötigte Punktzahl Rechner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container"><br><br><br>
+	<h4> Gesamtpunktzahl </h4>
+        <table id='worksheet_table' class="table table-striped">
+            <thead>
+              <tr>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="text" name="punkte" id="punkte" class="form-control" onkeyup="getValues()" /></td>
+              </tr>
+            </tbody>
+          </table>
+  <br>
+  <h4> sonstige Noten </h4>
+          <table id='worksheet_table' class="table table-striped">
+            <thead>
+              <tr>
+                <th>15NP</th>
+                <th>14NP</th>
+                <th>13NP</th>
+				<th>12NP</th>
+                <th>11NP</th>
+                <th>10NP</th>
+				<th>09NP</th>
+                <th>08NP</th>
+                <th>07NP</th>
+				<th>06NP</th>
+                <th>05NP</th>
+                <th>04NP</th>
+				<th>03NP</th>
+                <th>02NP</th>
+                <th>01NP</th>
+                <th>00NP</th>				
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td name="NP15" id="NP15"></td>
+                <td name="NP14" id="NP14"></td>
+                <td name="NP13" id="NP13"></td>
+				<td name="NP12" id="NP12"></td>
+                <td name="NP11" id="NP11"></td>
+                <td name="NP10" id="NP10"></td>
+				<td name="NP09" id="NP09"></td>
+                <td name="NP08" id="NP08"></td>
+                <td name="NP07" id="NP07"></td>
+				<td name="NP06" id="NP06"></td>
+                <td name="NP05" id="NP05"></td>
+                <td name="NP04" id="NP04"></td>
+				<td name="NP03" id="NP03"></td>
+                <td name="NP02" id="NP02"></td>
+                <td name="NP01" id="NP01"></td>
+				<td name="NP00" id="NP00"></td>
+              </tr>
+            </tbody>
+          </table>
+		  
+		  <br><br>
+  <h4> Klausur Noten </h4>
+          <table id='worksheet_table' class="table table-striped">
+            <thead>
+              <tr>
+                <th>15NP</th>
+                <th>14NP</th>
+                <th>13NP</th>
+				<th>12NP</th>
+                <th>11NP</th>
+                <th>10NP</th>
+				<th>09NP</th>
+                <th>08NP</th>
+                <th>07NP</th>
+				<th>06NP</th>
+                <th>05NP</th>
+                <th>04NP</th>
+				<th>03NP</th>
+                <th>02NP</th>
+                <th>01NP</th>
+                <th>00NP</th>				
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td name="NP15" id="KNP15"></td>
+                <td name="NP14" id="KNP14"></td>
+                <td name="NP13" id="KNP13"></td>
+				<td name="NP12" id="KNP12"></td>
+                <td name="NP11" id="KNP11"></td>
+                <td name="NP10" id="KNP10"></td>
+				<td name="NP09" id="KNP09"></td>
+                <td name="NP08" id="KNP08"></td>
+                <td name="NP07" id="KNP07"></td>
+				<td name="NP06" id="KNP06"></td>
+                <td name="NP05" id="KNP05"></td>
+                <td name="NP04" id="KNP04"></td>
+				<td name="NP03" id="KNP03"></td>
+                <td name="NP02" id="KNP02"></td>
+                <td name="NP01" id="KNP01"></td>
+				<td name="NP00" id="KNP00"></td>
+              </tr>
+            </tbody>
+          </table>
+		  <br><br><br>
+		  <h4> Rechenweg </h4>
+		  <p> Hier die Rechnung zur Nachvollziehung: <code> gesamtpunktzahl * prozent / 100 </code>
+		  <table id='worksheet_table' class="table table-striped">
+            <thead>
+              <tr>
+				<th>Notenpunkte</th>
+                <th>sonstige Noten</th>
+                <th>Klausur Noten</th>				
+              </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>15</th>
+					<th>98,67%</th>
+					<th>95%</th>
+				<tr>
+				<tr>
+					<th>14</th>
+					<th>97,33%</th>
+					<th>90%</th>
+				<tr>
+				<tr>
+					<th>13</th>
+					<th>96%</th>
+					<th>85%</th>
+				<tr>
+				<tr>
+					<th>12</th>
+					<th>90,67%</th>
+					<th>80%</th>
+				<tr>
+				<tr>
+					<th>11</th>
+					<th>95,33%</th>
+					<th>75%</th>
+				<tr>
+				<tr>
+					<th>10</th>
+					<th>80%</th>
+					<th>70%</th>
+				<tr>
+				<tr>
+					<th>09</th>
+					<th>73,33%</th>
+					<th>65%</th>
+				<tr>
+				<tr>
+					<th>08</th>
+					<th>66,67%</th>
+					<th>60%</th>
+				<tr>
+				<tr>
+					<th>07</th>
+					<th>60%</th>
+					<th>55%</th>
+				<tr>
+				<tr>
+					<th>06</th>
+					<th>55,33%</th>
+					<th>50%</th>
+				<tr>
+				<tr>
+					<th>05</th>
+					<th>46,67%</th>
+					<th>45%</th>
+				<tr>
+				<tr>
+					<th>04</th>
+					<th>40%</th>
+					<th>40%</th>
+				<tr>
+				<tr>
+					<th>03</th>
+					<th>33,33%</th>
+					<th>33%</th>
+				<tr>
+				<tr>
+					<th>02</th>
+					<th>26,67%</th>
+					<th>27%</th>
+				<tr>
+				<tr>
+					<th>01</th>
+					<th>20%</th>
+					<th>20%</th>
+				<tr>
+				<tr>
+					<th>00</th>
+					<th>0%</th>
+					<th>0%</th>
+				<tr>
+				
+		  
+		  </div>
+<script>
+
+
+    function getValues()
+  {
+    var punkte = document.getElementById('punkte').value;
+    var N15 = 0;
+    var N14 = 0;
+    var N13 = 0;
+	var N12 = 0;
+    var N11 = 0;
+    var N10 = 0;
+	var N09 = 0;
+    var N08 = 0;
+    var N07 = 0;
+	var N06 = 0;
+    var N05 = 0;
+    var N04 = 0;
+	var N03 = 0;
+    var N02 = 0;
+    var N01 = 0;
+	var N00 = 0;
+	
+	var KN15 = 0;
+    var KN14 = 0;
+    var KN13 = 0;
+	var KN12 = 0;
+    var KN11 = 0;
+    var KN10 = 0;
+	var KN09 = 0;
+    var KN08 = 0;
+    var KN07 = 0;
+	var KN06 = 0;
+    var KN05 = 0;
+    var KN04 = 0;
+	var KN03 = 0;
+    var KN02 = 0;
+    var KN01 = 0;
+	var KN00 = 0;
+  
+    if (punkte=="")
+    {
+      
+    }
+    else
+    {
+      N15 = punkte * 98.67 / 100;
+	  N14 = punkte * 97.33 / 100;
+	  N13 = punkte * 96 / 100;
+	  N12 = punkte * 90.67 / 100;
+	  N11 = punkte * 85.33 / 100;
+	  N10 = punkte * 80 / 100;
+	  N09 = punkte * 73.33 / 100;
+	  N08 = punkte * 66.67 / 100;
+	  N07 = punkte * 60 / 100;
+	  N06 = punkte * 53.33 / 100;
+	  N05 = punkte * 46.67 / 100;
+	  N04 = punkte * 40 / 100;
+	  N03 = punkte * 33.33 / 100;
+	  N02 = punkte * 26.67 / 100;
+	  N01 = punkte * 20 / 100;
+	  N00 = punkte * 0 / 100;
+	  
+	  N15 = Math.round(N15 * 100) / 100
+	  N14 = Math.round(N14 * 100) / 100
+	  N13 = Math.round(N13 * 100) / 100
+	  N12 = Math.round(N12 * 100) / 100
+	  N11 = Math.round(N11 * 100) / 100
+	  N10 = Math.round(N10 * 100) / 100
+	  N09 = Math.round(N09 * 100) / 100
+	  N08 = Math.round(N08 * 100) / 100
+	  N07 = Math.round(N07 * 100) / 100
+	  N06 = Math.round(N06 * 100) / 100
+	  N05 = Math.round(N05 * 100) / 100
+	  N04 = Math.round(N04 * 100) / 100
+	  N03 = Math.round(N03 * 100) / 100
+	  N02 = Math.round(N02 * 100) / 100
+	  N01 = Math.round(N01 * 100) / 100
+	  N00 = Math.round(N00 * 100) / 100
+	  
+	  
+	  
+	  
+	  
+	  
+	  KN15 = punkte * 95 / 100;
+	  KN14 = punkte * 90 / 100;
+	  KN13 = punkte * 85 / 100;
+	  KN12 = punkte * 80 / 100;
+	  KN11 = punkte * 75 / 100;
+	  KN10 = punkte * 70 / 100;
+	  KN09 = punkte * 65 / 100;
+	  KN08 = punkte * 60 / 100;
+	  KN07 = punkte * 55 / 100;
+	  KN06 = punkte * 50 / 100;
+	  KN05 = punkte * 45 / 100;
+	  KN04 = punkte * 40 / 100;
+	  KN03 = punkte * 33 / 100;
+	  KN02 = punkte * 27 / 100;
+	  KN01 = punkte * 20 / 100;
+	  KN00 = punkte * 0 / 100;
+	  
+	  KN15 = Math.round(KN15 * 100) / 100
+	  KN14 = Math.round(KN14 * 100) / 100
+	  KN13 = Math.round(KN13 * 100) / 100
+	  KN12 = Math.round(KN12 * 100) / 100
+	  KN11 = Math.round(KN11 * 100) / 100
+	  KN10 = Math.round(KN10 * 100) / 100
+	  KN09 = Math.round(KN09 * 100) / 100
+	  KN08 = Math.round(KN08 * 100) / 100
+	  KN07 = Math.round(KN07 * 100) / 100
+	  KN06 = Math.round(KN06 * 100) / 100
+	  KN05 = Math.round(KN05 * 100) / 100
+	  KN04 = Math.round(KN04 * 100) / 100
+	  KN03 = Math.round(KN03 * 100) / 100
+	  KN02 = Math.round(KN02 * 100) / 100
+	  KN01 = Math.round(KN01 * 100) / 100
+	  KN00 = Math.round(KN00 * 100) / 100
+	  
+    }
+    document.getElementById("NP15").innerHTML = N15;
+	document.getElementById("NP14").innerHTML = N14;
+	document.getElementById("NP13").innerHTML = N13;
+	document.getElementById("NP12").innerHTML = N12;
+	document.getElementById("NP11").innerHTML = N11;
+	document.getElementById("NP10").innerHTML = N10;
+	document.getElementById("NP09").innerHTML = N09;
+	document.getElementById("NP08").innerHTML = N08;
+	document.getElementById("NP07").innerHTML = N07;
+	document.getElementById("NP06").innerHTML = N06;
+	document.getElementById("NP05").innerHTML = N05;
+	document.getElementById("NP04").innerHTML = N04;
+	document.getElementById("NP03").innerHTML = N03;
+	document.getElementById("NP02").innerHTML = N02;
+	document.getElementById("NP01").innerHTML = N01;
+	document.getElementById("NP00").innerHTML = N00;
+	
+	
+	
+	document.getElementById("KNP15").innerHTML = KN15;
+	document.getElementById("KNP14").innerHTML = KN14;
+	document.getElementById("KNP13").innerHTML = KN13;
+	document.getElementById("KNP12").innerHTML = KN12;
+	document.getElementById("KNP11").innerHTML = KN11;
+	document.getElementById("KNP10").innerHTML = KN10;
+	document.getElementById("KNP09").innerHTML = KN09;
+	document.getElementById("KNP08").innerHTML = KN08;
+	document.getElementById("KNP07").innerHTML = KN07;
+	document.getElementById("KNP06").innerHTML = KN06;
+	document.getElementById("KNP05").innerHTML = KN05;
+	document.getElementById("KNP04").innerHTML = KN04;
+	document.getElementById("KNP03").innerHTML = KN03;
+	document.getElementById("KNP02").innerHTML = KN02;
+	document.getElementById("KNP01").innerHTML = KN01;
+	document.getElementById("KNP00").innerHTML = KN00;
+	
+  }
+</script>
+
+
+
+</body>
+</html>
