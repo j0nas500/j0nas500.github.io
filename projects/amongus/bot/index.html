@@ -1,16 +1,17 @@
-
 <!doctype html>
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>AmongUsBot</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+
+<link href='file://C://Users//Jonas//AppData//Roaming//Typora/themes/gitbook/fonts.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -66,7 +67,7 @@ div.hr:focus { cursor: none; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
 .md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
@@ -78,6 +79,7 @@ div.hr:focus { cursor: none; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
 li { margin: 0px; position: relative; }
 blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
@@ -87,10 +89,10 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -101,6 +103,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
@@ -136,11 +139,11 @@ code { text-align: left; vertical-align: initial; }
 a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
 .MathJax_SVG * { transition: none 0s ease 0s; }
 .MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
@@ -151,13 +154,61 @@ table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
 @media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 
 
 @import '';
@@ -165,49 +216,49 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 /*by H16nning*/
 
 :root {
-  --bg-color: #242932;
-  --side-bar-bg-color: #29303c;
-  --control-text-color: #e6ecf1;
-  --primary-color: rgb(56, 132, 255);
-  --primary-btn-border-color: #3884ff;
-  --active-file-bg-color: #5d6574;
+  --bg-color: white;
+  --side-bar-bg-color: #f5f7f9;
+  --control-text-color: #3b454e;
+  --primary-color: rgb(26, 168, 139);
+  --primary-btn-border-color: rgb(26, 168, 139);
+  --active-file-bg-color: #e6ecf1;
   --active-file-text-color: inherit;
-  --active-file-border-color: #3884ff;
-  --item-hover-text-color: #8092af;
-  --item-hover-bg-color: #29303c;
-  --window-border: 1px solid #5d6574;
-  --select-text-font-color: #e6ecf1;
-  --select-text-bg-color: #3277e5;
+  --active-file-border-color: rgb(26, 168, 139);
+  --item-hover-text-color: #242a31;
+  --item-hover-bg-color: #f5f7f9;
+  --window-border: 1px solid #e6ecf1;
+  --select-text-font-color: white;
+  --select-text-bg-color: rgb(50, 119, 229);
 
-  --md-char-color: #8092af;
-  --heading-char-color: #8092af;
-  --meta-content-color: #3783ff;
+  --md-char-color: #9daab6;
+  --heading-char-color: #9daab6;
+  --meta-content-color: rgb(26, 168, 139);
 
-  --borders: #353c49;
-  --table-border-color: #353c49;
-  --boxes: #29303c;
-  --boxes-darker: #424b5a;
-  --boxes-darker2: #485364;
-  --boxes-darkest: #5b697e;
-  --drag-placeholder-color: #424b5a;
+  --borders: #e6ecf1;
+  --table-border-color: #e6ecf1;
+  --boxes: #f5f7f9;
+  --boxes-darker: #d8e0e7;
+  --boxes-darker2: #bac2c9;
+  --boxes-darkest: #9daab6;
+  --drag-placeholder-color: #d8e0e7;
 
   --mds: #183055;
-  --text-color: #e6ecf1;
-  --heading-text-color: white;
-  --light-text-color: #5b697e;
-  --light-text-color-brighter: #768292;
-  --codeboxes: white;
+  --text-color: #3b454e;
+  --heading-text-color: #242a31;
+  --light-text-color: #9daab6;
+  --light-text-color-darker: #74818d;
+  --codeboxes: #183055;
   --rawblock-edit-panel-bd: transparent;
 
-  --primary-color-white: #5272a7;
-  --primary-color-white-darker: #5a83c5;
-  --primary-color-darker: #1f65d6;
-  --focus-ring-color: #3783ff;
+  --primary-color-white: rgb(106, 228, 203);
+  --primary-color-white-darker: rgb(67, 196, 170);
+  --primary-color-darker: rgb(12, 131, 107);
+  --focus-ring-color: rgb(26, 168, 139);
 
   --danger-color: rgb(255, 70, 66);
 
-  --node-fill: #5252ad;
-  --node-border: #3f3fb8;
+  --node-fill: #ececff;
+  --node-border: #ccccff;
   --cluster-fill: #ffffde;
   --cluster-border: #aaaa33;
   --note-fill: #fff5ad;
@@ -230,7 +281,7 @@ body {
   background: var(--bg-color);
   font-family: var(--font-family);
   font-weight: 400;
-  color: white;
+  color: #3b454e;
   line-height: 1.625rem;
   height: 100%;
 }
@@ -478,7 +529,7 @@ ol:last-child {
 }
 
 mark {
-  background-color: rgb(56, 132, 255, 0.4);
+  background-color: hsla(168, 80%, 47%, 0.2);
   color: var(--text-color);
 }
 
@@ -488,7 +539,7 @@ blockquote {
   width: 100%;
   background-color: var(--boxes);
   border-left: 4px solid var(--primary-color);
-  border-radius: 0.3em;
+  border-radius: 0.3rem;
   padding: 1rem;
 }
 
@@ -496,14 +547,14 @@ blockquote blockquote {
   padding-right: 0;
 }
 
+/*TABLE*/
+
 table {
   font-size: 0.875rem;
   padding: 0;
   margin: 1.5rem 0;
   word-break: initial;
 }
-
-/*TABLE*/
 
 table tr {
   border-top: 1px solid var(--borders);
@@ -522,7 +573,7 @@ table tr th {
   border-bottom: solid 2px var(--borders);
   margin: 0;
   padding: 10px 16px;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   transition-property: background-color;
 }
 
@@ -530,7 +581,7 @@ table tr td {
   border: none;
   margin: 0;
   padding: 10px 16px;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   transition-property: background-color;
 }
 
@@ -555,7 +606,7 @@ table tr td:last-child {
   padding: 0.3rem;
   border: solid 1px var(--borders);
   border-radius: 0.3rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
@@ -564,12 +615,12 @@ table tr td:last-child {
 .ty-table-edit:focus,
 .popover:active,
 .popover:focus {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 .popover {
   border: solid 1px var(--borders);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   border-radius: 0.3rem;
 }
 
@@ -589,6 +640,12 @@ table tr td:last-child {
 .md-grid-board a:hover {
   background-color: var(--primary-color-white);
   border-color: var(--primary-color-white-darker);
+}
+
+#md-grid-width,
+#md-grid-height {
+  border-radius: 0.3rem;
+  border-color: var(--borders);
 }
 
 #md-grid-width,
@@ -627,7 +684,7 @@ table tr td:last-child {
 }
 
 .CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
-  border-left: solid 2px var(--light-text-color-brighter);
+  border-left: solid 2px var(--light-text-color-darker);
 }
 
 .CodeMirror.cm-s-typora-default .CodeMirror-activeline-background {
@@ -635,12 +692,12 @@ table tr td:last-child {
 }
 
 .cm-s-inner .CodeMirror-cursor {
-  color: white;
-  border-left: solid 1px white;
+  color: black;
+  border-left: solid 1px black;
 }
 
 .cm-s-inner .CodeMirror-linenumber {
-  color: white;
+  color: var(--bg-color);
   opacity: 0.6;
   width: 1.9532rem !important /*required*/;
 }
@@ -737,8 +794,12 @@ table tr td:last-child {
   color: var(--window-border);
 }
 
+#typora-source span.cm-def {
+  color: var(--text-color);
+}
+
 #write .code-tooltip {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.08) 0px 2px 6px 0px;
   border: solid 1px var(--borders);
   border-radius: 0.3rem;
   background-color: var(--bg-color);
@@ -800,8 +861,7 @@ code {
   border-radius: 0.2rem;
 }
 
-.md-fences .CodeMirror div.CodeMirror-cursor,
-.md-htmlblock-panel .CodeMirror div.CodeMirror-cursor {
+.md-fences .CodeMirror div.CodeMirror-cursor {
   border-left: solid 1px white;
 }
 
@@ -833,6 +893,7 @@ code {
 .md-diagram-panel-error {
   color: var(--danger-color);
 }
+
 /*CHECKBOXES*/
 
 .md-task-list-item > input:before,
@@ -939,11 +1000,31 @@ input[type='checkbox']:checked:after {
   opacity: 1;
 }
 
+/*TOC*/
+
 .md-toc {
   margin: 1.5rem 0rem;
 }
 
+.md-toc:focus .md-toc-content {
+  border: none;
+}
+
+.md-toc-tooltip .btn {
+  padding: 0.5rem;
+  line-height: 1rem;
+}
+
+.md-toc-tooltip .btn:hover {
+  color: var(--primary-color) !important /*required*/;
+  background-color: var(--boxes) !important /*required*/;
+}
+
 /*MATH*/
+
+.MathJax_SVG:focus {
+  outline: none;
+}
 
 .md-rawblock {
   margin: 1.5rem 0rem;
@@ -960,11 +1041,7 @@ input[type='checkbox']:checked:after {
 .md-rawblock:hover > .md-rawblock-container {
   background-color: transparent;
   border: solid 1px var(--borders);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
-}
-
-.md-mathblock-input .CodeMirror div.CodeMirror-cursor {
-  border-left: 1px solid white;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 .md-math-block .md-rawblock-control:not(.md-rawblock-tooltip) {
@@ -990,6 +1067,18 @@ input[type='checkbox']:checked:after {
   width: 100%;
 }
 
+.md-mathblock-input span.cm-tag {
+  color: #15726d;
+}
+
+.md-mathblock-input span.cm-atom {
+  color: #8a1fa0;
+}
+
+.md-mathblock-input span.cm-number {
+  color: #df4617;
+}
+
 /*HTML*/
 
 .md-htmlblock-panel {
@@ -999,19 +1088,22 @@ input[type='checkbox']:checked:after {
 
 /*FOOTER*/
 
+footer.ty-footer {
+  border: none;
+}
+
 .footer-item {
   opacity: 1 !important;
   color: var(--light-text-color);
   transition: 0.3s;
-  background: none !important;
 }
 
 .footer-item:hover {
-  color: var(--light-text-color-brighter) !important;
+  color: var(--light-text-color-darker) !important;
 }
 
 #outline-btn:hover {
-  color: var(--light-text-color-brighter) !important;
+  color: var(--light-text-color-darker) !important;
 }
 
 /*SIDEBAR*/
@@ -1136,7 +1228,7 @@ input[type='checkbox']:checked:after {
 .ty-search-item {
   border: none;
   transition-duration: 0.3s !important;
-  transition-property: background-color, border, color !important;
+  transition-property: background-color, border, color, height !important;
   padding: 1rem;
 }
 
@@ -1188,7 +1280,7 @@ input[type='checkbox']:checked:after {
   float: right;
   border-radius: 0.3rem;
   font-weight: 500;
-  background-color: var(--bg-color) !important;
+  background-color: white !important;
 }
 
 #typora-sidebar .file-list-item.file-library-file-node {
@@ -1198,7 +1290,7 @@ input[type='checkbox']:checked:after {
 #typora-sidebar .file-tree-node.active .file-node-background,
 #typora-sidebar .file-list-item.active,
 #typora-sidebar .ty-search-item.active {
-  background-color: var(--bg-color);
+  background-color: white;
   outline: 1px solid var(--borders);
   border: none;
   color: var(--primary-color) !important;
@@ -1255,6 +1347,10 @@ input[type='checkbox']:checked:after {
   padding-left: 0rem;
 }
 
+#typora-sidebar .ty-search-item-collapse-icon {
+  top: 9px;
+}
+
 /*no left border*/
 #typora-sidebar .file-tree-node.active > .file-node-background {
   border: none;
@@ -1268,12 +1364,12 @@ input[type='checkbox']:checked:after {
 #typora-sidebar #sidebar-files-menu {
   border: solid 1px var(--borders);
   border-radius: 0.3rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 #typora-sidebar #ty-sidebar-footer {
-  border-top: solid 1px var(--borders);
   background-color: var(--bg-color);
+  border-top: solid 1px var(--borders);
   font-weight: 500;
 }
 
@@ -1285,10 +1381,6 @@ input[type='checkbox']:checked:after {
 #typora-sidebar #ty-sidebar-footer li:hover {
   color: var(--primary-color);
   background-color: var(--boxes);
-}
-
-#typora-sidebar .ty-search-item-collapse-icon {
-  top: 9px;
 }
 
 /*cursor*/
@@ -1305,7 +1397,6 @@ input[type='checkbox']:checked:after {
   background-color: var(--borders);
 }
 
-/*sidebar footer*/
 #typora-sidebar .sidebar-footer-item {
   transition-duration: 0.2s;
   transition-property: background-color, color;
@@ -1318,11 +1409,11 @@ input[type='checkbox']:checked:after {
 }
 
 #typora-quick-open {
-  background-color: var(--bg-color);
+  background-color: white;
   border: 1px solid var(--borders);
   border-radius: 0.3rem;
   padding: 0rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 #typora-quick-open-input {
@@ -1337,7 +1428,7 @@ input[type='checkbox']:checked:after {
 }
 
 .typora-quick-open-item {
-  background-color: var(--bg-color);
+  background-color: white;
   border: none;
   font-weight: 500;
   transition-duration: 0.2s;
@@ -1379,7 +1470,7 @@ input[type='checkbox']:checked:after {
 
 #md-notification {
   border-bottom: solid 1px var(--borders);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 #md-notifcation .btn {
@@ -1394,12 +1485,12 @@ input[type='checkbox']:checked:after {
 
 .ty-preferences .window-header {
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   border-bottom: solid 1px var(--borders);
 }
 
 .ty-preferences .window-header-content {
-  background-color: var(--bg-color);
+  background-color: white;
   margin: 0rem;
 }
 
@@ -1424,7 +1515,7 @@ input[type='checkbox']:checked:after {
 
 /*preferences sidebar*/
 .ty-preferences .window-content {
-  background-color: var(--bg-color);
+  background-color: white;
 }
 
 .ty-preferences .nav-group-item {
@@ -1447,7 +1538,7 @@ input[type='checkbox']:checked:after {
   border-radius: 0rem;
   border: none;
   outline: 1px solid var(--borders);
-  background-color: var(--bg-color);
+  background-color: white;
   color: var(--primary-color);
 }
 
@@ -1519,13 +1610,14 @@ input[type='checkbox']:checked:after {
 .header-close .icon {
   border: none !important;
 }
+
 /*DROPDOWN*/
 
 .dropdown-menu:not(.megamenu-menu-list),
 .auto-suggest-container {
   background-color: var(--bg-color);
   border: solid 1px var(--borders) !important;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   user-select: none;
 }
 
@@ -1578,8 +1670,7 @@ header .menu-style-btn:hover {
 /*BUTTON*/
 
 .btn,
-button,
-.md-image-btn {
+button {
   border: none !important;
   border-radius: 0.3em !important;
   color: var(--text-color) !important;
@@ -1590,16 +1681,14 @@ button,
   outline: none;
 }
 
-.btn-default,
-.md-image-btn {
+.btn-default {
   border: none !important;
   border-radius: 0.3em !important;
   background-color: var(--boxes) !important;
 }
 
 .btn:hover,
-.button-hover,
-.md-image-btn:hover {
+.button-hover {
   border: none;
   border-radius: 0.3em;
   background-color: var(--borders) !important;
@@ -1609,8 +1698,7 @@ button,
 button:active,
 button.active,
 .btn:active,
-.btn-default:active,
-.md-image-btn:active {
+.btn-default:active {
   border: none;
   border-radius: 0.3em;
   background-color: var(--boxes-darker) !important;
@@ -1619,8 +1707,7 @@ button.active,
   color: var(--text-color);
 }
 
-.btn:focus,
-.md-image-btn:focus {
+.btn:focus {
   border: none !important;
   outline: none !important;
   background-color: var(--boxes-darker);
@@ -1641,11 +1728,11 @@ button.active,
 
 .btn.dropdown-toggle-split,
 .btn.dropdown-toggle-split:hover {
-  border-radius: 0em 0.3em 0.3em 0em;
+  border-radius: 0em 0.3em 0.3em 0em !important;
 }
 
 #ty-spell-check-dict-missing-primary-btn {
-  border-radius: 0.3em 0em 0em 0.3em;
+  border-radius: 0.3em 0em 0em 0.3em !important;
 }
 
 .open > .dropdown-toggle.btn-primary {
@@ -1744,7 +1831,7 @@ button.active,
 .form-control:focus,
 #file-library-search-input:focus {
   background-color: transparent !important;
-  border-radius: 0.3rem !important;
+  border-radius: 0r3em !important;
   border-color: var(--primary-color) !important;
   box-shadow: none !important;
   color: var(--heading-text-color) !important;
@@ -1757,7 +1844,7 @@ button.active,
 .search::placeholder,
 .form-control::placeholder,
 #file-library-search-input::placeholder {
-  color: var(--light-text-color-brighter) !important;
+  color: var(--light-text-color-darker) !important;
 }
 
 .clear-btn-icon {
@@ -1780,7 +1867,7 @@ button.active,
   border-radius: 0.3rem;
   border: solid 1px var(--borders);
   user-select: none;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.08) 0px 2px 6px 0px;
 }
 
 #zoom-hint #zoom-hint-reset {
@@ -1792,7 +1879,7 @@ button.active,
 
 #md-searchpanel {
   border-bottom: 1px solid var(--borders);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   max-height: 46px;
 }
 
@@ -1822,7 +1909,7 @@ button.active,
 .searchpanel-search-option-btn {
   top: 9px;
   border: none;
-  color: var(--light-text-color-brighter) !important /*required*/;
+  color: var(--light-text-color-darker) !important /*required*/;
   transition-duration: 0.3s;
 }
 
@@ -1855,11 +1942,6 @@ button.active,
 }
 
 /*NUMBER-INPUT*/
-
-input[type='text']::placeholder {
-  color: var(--light-text-color-brighter) !important;
-}
-
 input[type='number'] {
   background-color: var(--boxes) !important;
   border: none !important;
@@ -1911,12 +1993,12 @@ select:hover {
 
 .modal-body {
   font-size: 0.9rem;
-  color: var(--light-text-color-brighter);
+  color: var(--light-text-color-darker);
   user-select: none;
 }
 
 .modal-content {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
   border: solid 1px var(--borders);
   border-radius: 0.3rem;
 }
@@ -1926,7 +2008,7 @@ select:hover {
 }
 
 .modal-open .modal.fade.in {
-  background-color: rgba(2, 7, 12, 0.781);
+  background-color: rgba(8, 57, 136, 0.1);
 }
 
 /*SCROLLBAR*/
@@ -1984,20 +2066,15 @@ select:hover {
 /*TOOLTIP*/
 
 .ty-tooltip {
-  color: var(--text-color) !important;
-  background-color: var(--boxes) !important;
+  background-color: var(--bg-color) !important;
   border-radius: 0.3rem !important;
   border: 1px solid var(--borders) !important;
   -webkit-filter: none !important;
   filter: none;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
 /*FOOTER*/
-
-footer.ty-footer {
-  border: none;
-}
 
 .footer-item:hover {
   background-color: var(--boxes) !important;
@@ -2061,7 +2138,7 @@ footer.ty-footer {
 
 #megamenu-menu-list li a.active {
   color: var(--primary-color);
-  background-color: var(--bg-color);
+  background-color: white;
   outline: solid 1px var(--borders);
 }
 
@@ -2178,8 +2255,8 @@ footer.ty-footer {
 .long-btn {
   margin-bottom: 12px;
   margin-left: 2px;
-  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px;
-  background-color: var(--bg-color);
+  box-shadow: rgba(116, 129, 141, 0.1) 2px 2px 6px;
+  background-color: white;
   border: 1px solid var(--borders);
   border-radius: 0.3rem;
   padding: 1rem;
@@ -2191,7 +2268,7 @@ footer.ty-footer {
 }
 
 .long-btn:hover {
-  background-color: var(--bg-color);
+  background-color: white;
   border: 1px solid var(--primary-color);
   color: var(--primary-color) !important /*important required*/;
 }
@@ -2217,13 +2294,13 @@ footer.ty-footer {
 .theme-preview-div {
   border: none;
   border-radius: 0.4rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 0px 15px;
   margin: 0.75rem;
   transition-duration: 0.3s;
 }
 
 .theme-preview-div:hover {
-  box-shadow: rgba(0, 0, 0, 0.6) 3px 8px 15px;
+  box-shadow: rgba(116, 129, 141, 0.5) 3px 8px 15px;
   cursor: pointer;
   transform: rotate3d(1, -0.2, 0.2, 15deg);
 }
@@ -2291,8 +2368,8 @@ footer.ty-footer {
 
 a[type='page-link'] {
   display: block;
-  background-color: var(--bg-color);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+  background-color: white;
+  box-shadow: rgba(116, 129, 141, 0.2) 0px 3px 8px 0px;
   border: 1px solid var(--borders);
   border-radius: 0.3rem;
   padding: 1rem;
@@ -2304,7 +2381,7 @@ a[type='page-link'] {
 }
 
 a[type='page-link']:hover {
-  box-shadow: rgba(0, 0, 0.2, 0.2) 0px 3px 8px 0px;
+  box-shadow: rgba(116, 129, 161, 0.1) 0px 3px 8px 0px;
   border: 1px solid var(--primary-color);
 }
 
@@ -2316,9 +2393,15 @@ p[type='description'] {
 
 
 
-</style>
+</style><title>AmongUsAUtoMute</title>
 </head>
-<body class='typora-export os-windows'>
-<div id='write'  class=''><h1><a name="among-us-mute-bot" class="md-header-anchor"></a><span>Among Us Mute Bot</span></h1><blockquote><p><span>ℹ️ Dieser Bot ist eine self-host Lösung von dem offiziellen AutoMuteUs Bot aus diesem </span><a href='https://github.com/denverquane/automuteus'><span>Github Projekt</span></a><span>.</span></p></blockquote><p><a href='https://discord.gg/Rd37JP5'><img src="https://img.shields.io/discord/257469328918577153?logo=discord" referrerpolicy="no-referrer"></a></p><ol start='' ><li><span>Bot einladen: </span><a href='https://discord.com/oauth2/authorize?client_id=762435324953231440&amp;scope=bot&amp;permissions=267746384'><img src="https://img.shields.io/static/v1?label=Bot1&amp;message=invite%20me&amp;color=purple" referrerpolicy="no-referrer" alt="Invite Link"></a></li><li><a href='https://github.com/denverquane/amonguscapture/releases/latest/download/amonguscapture.zip'><span>Download Among Us Capture Installer</span></a></li><li><span>Sobald du die CaptureInstaller.bat hast, führe die Datei aus. Es kann sein, dass eine Windows Smart Screen Meldung erscheint, wenn ja, klicke auf </span><code>More Info</code><span> und </span><code>Run Anyway</code><span> </span><a href='https://media.discordapp.net/attachments/780435741650059268/798023233186168863/smartscreen.png'><span>example</span></a></li><li><span>Einen neuen Discord Bot </span><a href='https://discord.com/developers/applications'><span>hier</span></a><span> erstellen. Dafür auf den Button &quot;New Application&quot; oben rechts klicken und einen Namen für den Bot angeben. Dieser Bot unterstützt den ersten Bot beim Muten und Stummschalten.</span></li><li><span>Dann auf &quot;Bot&quot; links klicken und auf den Button &quot;Add Bot&quot; klicken.</span></li><li><span>Bot Token kopieren und in den Einstellungen von Among Us Capture unter &quot;Discord&quot; den Bot Token einfügen</span></li><li><span>Um den Bot dann nur noch auf Deinen Server einzuladen klicke auf &quot;OAuth2&quot;. Dies steht links über &quot;Bot&quot;.</span></li><li><span>Klicke bei Scopes &quot;bot&quot; an und bei Bot Permissions die Berechtigung &quot;Mute Members&quot; und &quot;Deafen Members&quot; an, damit der Bot die Mitspieler Stumm- &amp; Taubstellt.</span></li><li><span>Kopiere den Link der in der Mitte steht und öffne einen neuen Tab in der du den Link einfügst, um den Bot damit auf Deinen Server einzuladen.</span></li><li><span>In Discord sollten nun beide Bots Online sein. Klicke den Discord Server Namen an und gehe auf &quot;Privatsphäreneinstellungen&quot; und erlaube, dass Mitglieder Direktnachrichten verschicken dürfen.</span></li><li><span>Betrete nun einen Sprachkanal und gib </span><code>.au new</code><span> in einen Textkanal ein.</span></li></ol><iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/wWCXOgTzNqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><h2><a name="commands" class="md-header-anchor"></a><span>Commands</span></h2><p><span>The Discord Bot uses the </span><code>.au</code><span> prefix for any commands</span></p><figure><table><thead><tr><th><span>Command</span></th><th><span>Alias</span></th><th><span>Arguments</span></th><th><span>Description</span></th><th><span>Example</span></th></tr></thead><tbody><tr><td><code>.au help</code></td><td><code>.au h</code></td><td><span>None</span></td><td><span>Print help info and command usage</span></td><td>&nbsp;</td></tr><tr><td><code>.au new</code></td><td><code>.au n</code></td><td><span>None</span></td><td><span>Start a new game in the current text channel. Optionally accepts the room code and region</span></td><td><code>.au n CODE eu</code></td></tr><tr><td><code>.au track</code></td><td><code>.au t</code></td><td><span>VC Name</span></td><td><span>Tell Bot to use a single voice channel for mute/unmute, and ignore any other channels</span></td><td><code>.au t Test Voice</code></td></tr><tr><td><code>.au link</code></td><td><code>.au l</code></td><td><span>@name color</span></td><td><span>Manually link a discord user to their in-game color</span></td><td><code>.au l @Soup cyan</code></td></tr><tr><td><code>.au refresh</code></td><td><code>.au r</code></td><td><span>None</span></td><td><span>Remake the bot&#39;s status message entirely, in case it ends up too far up in the chat.</span></td><td>&nbsp;</td></tr><tr><td><code>.au end</code></td><td><code>.au e</code></td><td><span>None</span></td><td><span>End the game entirely, and stop tracking players. Unmutes all and resets state</span></td><td>&nbsp;</td></tr><tr><td><code>.au unlink</code></td><td><code>.au u</code></td><td><span>@name</span></td><td><span>Manually unlink a player</span></td><td><code>.au u @player</code></td></tr><tr><td><code>.au settings</code></td><td><code>.au s</code></td><td>&nbsp;</td><td><span>View and change settings for the bot, such as the command prefix or mute behavior</span></td><td>&nbsp;</td></tr><tr><td><code>.au pause</code></td><td><code>.au p</code></td><td><span>None</span></td><td><span>Pause the bot, and don&#39;t let it automute anyone until unpaused. </span><strong><span>will not un-mute muted players, be careful!</span></strong></td><td>&nbsp;</td></tr><tr><td><code>.au info</code></td><td><code>.au i</code></td><td><span>None</span></td><td><span>View general info about the Bot</span></td><td>&nbsp;</td></tr></tbody></table></figure><p><em><span>In addition to handful of more secretive Easter Egg commands...</span></em></p></div>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='among-us-mute-bot-tor-support'><span>Among Us Mute Bot (TOR Support)</span></h1><blockquote><p>ℹ️<span> Dieser Bot ist eine self-host Lösung von dem offiziellen AutoMuteUs Bot aus diesem </span><a href='https://github.com/denverquane/automuteus'><span>Github Projekt</span></a><span>.</span></p></blockquote><p><a href="https://discord.gg/Rd37JP5" alt="Discord Link">
+<span>        </span><img src="https://img.shields.io/discord/257469328918577153?logo=discord" />
+<span>    </span></a></p><p><span>Damit TheOtherRoles unterstützt wird, musst du zwei Bots einladen und einer aus der Lobby muss das Programm </span><code>AmongUsCapture.exe</code><span> offen haben.</span>
+<span>Man benötigt genau zwei Bots: Einen den man nur einladen muss und einen zweiten den du selber erstellen musst, der den ersten Bot nur beim Muten und Taubstellen unterstützt. Der zweite Bot ist auch nur solange Online, wie lange die </span><code>AmongUsCapture.exe</code><span> offen ist. Wie du den zweiten Bot erstellst, erfährst du unten:</span></p><ol start='' ><li><span>Bot einladen: </span><a href="https://discord.com/oauth2/authorize?client_id=762435324953231440&scope=bot&permissions=267746384" alt="invite">
+<span>    </span><img alt="Invite Link" src="https://img.shields.io/static/v1?label=bot&message=invite%20me&color=purple">
+</a></li><li><span>Download </span><a href='https://edef2.pcloud.com/cBZuj6pikZFk9RxVZZZv0e7v7Z2ZZAW5ZkZCmGHRZ57Z5kZ9Zp7ZA7ZM7ZmZ67ZBZoZfZe7ZeZ27Z9QIXZ5MO79lH2J37v8ALpFeYIubtw4PUX/AmongUsCapture.exe'><code>AmongUsCapture.exe</code></a><span> (TOR Support)</span></li><li><span>Den zweiten Discord Bot erstellst du </span><a href='https://discord.com/developers/applications'><span>hier</span></a><span>. Dafür  auf den Button &quot;New Application&quot; oben rechts klicken und einen Namen für den Bot angeben. </span><img src="https://j.is-inside.me/SUSsMlJs.png" referrerpolicy="no-referrer"></li><li><span>Dann auf &quot;Bot&quot; links klicken und auf den Button &quot;Add Bot&quot; klicken und das ganze mit &quot;Yes, do it!&quot; bestätigen.</span><img src="https://j.is-inside.me/E7GUS5I2.png" referrerpolicy="no-referrer"></li><li><span>Bot Token kopieren, </span><code>AmongUsCapture.exe</code><span> starten und  in den Einstellungen von Among Us Capture unter &quot;Discord&quot; den Bot Token einfügen. </span><img src="https://j.is-inside.me/wsHymTxn.png" referrerpolicy="no-referrer"><span>Das ganze mit dem Button &quot;Submit&quot; bestätigen.</span>
+<img src="https://j.is-inside.me/qMFK6doM.png" referrerpolicy="no-referrer"></li><li><span>Um den erstellten Bot dann nur noch auf Deinen Server einzuladen klicke auf &quot;OAuth2&quot;. </span><img src="https://j.is-inside.me/q9DPUQZQ.png" referrerpolicy="no-referrer"></li><li><span>Klicke bei Scopes &quot;bot&quot; an und bei Bot Permissions die Berechtigung &quot;Mute Members&quot; und &quot;Deafen Members&quot; an, damit der Bot die Mitspieler Stumm- &amp; Taubstellt. </span><img src="https://j.is-inside.me/0q5WR7O4.png" referrerpolicy="no-referrer"><span>Kopiere den Link, der in der Mitte steht und öffne einen neuen Tab in der du den Link einfügst, um den Bot damit auf Deinen Server einzuladen.</span></li><li><span>In Discord sollten nun beide Bots Online sein. Klicke den Discord Server Namen an und gehe auf &quot;Privatsphäreneinstellungen&quot; und erlaube, dass Mitglieder Direktnachrichten verschicken dürfen. </span><img src="https://j.is-inside.me/kgYWi8ya.gif" referrerpolicy="no-referrer"></li><li><span>Betrete nun einen Sprachkanal und gib </span><code>.au new</code><span> in einen Textkanal ein. Der Bot schickt dir nun eine privat Nachricht. Öffne vom Bot, dann bitte den obersten Link, damit der Bot mit deiner &quot;Among Us Capture&quot; verknüpft ist.</span></li></ol><p><strong><span>Hinweis:</span></strong><span> Für Crewmates, die die neuen Farben von TheOtherRoles nutzen, musst du in Discord mit folgendem Befehl linken: </span><code>.au link @DiscordUser IngameName</code></p><h2 id='commands'><span>Commands</span></h2><p><span>The Discord Bot uses the </span><code>.au</code><span> prefix for any commands</span></p><figure><table><thead><tr><th><span>Command</span></th><th><span>Alias</span></th><th><span>Arguments</span></th><th><span>Description</span></th><th><span>Example</span></th></tr></thead><tbody><tr><td><code>.au help</code></td><td><code>.au h</code></td><td><span>None</span></td><td><span>Print help info and command usage</span></td><td><span> </span></td></tr><tr><td><code>.au new</code></td><td><code>.au n</code></td><td><span>None</span></td><td><span>Start a new game in the current text channel. Optionally accepts the room code and region</span></td><td><code>.au n CODE eu</code></td></tr><tr><td><code>.au track</code></td><td><code>.au t</code></td><td><span>VC Name</span></td><td><span>Tell Bot to use a single voice channel for mute/unmute, and ignore any other channels</span></td><td><code>.au t Test Voice</code></td></tr><tr><td><code>.au link</code></td><td><code>.au l</code></td><td><span>@name color/name</span></td><td><span>Manually link a discord user to their in-game color/name</span></td><td><code>.au l @Soup cyan</code></td></tr><tr><td><code>.au refresh</code></td><td><code>.au r</code></td><td><span>None</span></td><td><span>Remake the bot&#39;s status message entirely, in case it ends up too far up in the chat.</span></td><td><span> </span></td></tr><tr><td><code>.au end</code></td><td><code>.au e</code></td><td><span>None</span></td><td><span>End the game entirely, and stop tracking players. Unmutes all and resets state</span></td><td><span> </span></td></tr><tr><td><code>.au unlink</code></td><td><code>.au u</code></td><td><span>@name</span></td><td><span>Manually unlink a player</span></td><td><code>.au u @player</code></td></tr><tr><td><code>.au settings</code></td><td><code>.au s</code></td><td><span> </span></td><td><span>View and change settings for the bot, such as the command prefix or mute behavior</span></td><td><span> </span></td></tr><tr><td><code>.au pause</code></td><td><code>.au p</code></td><td><span>None</span></td><td><span>Pause the bot, and don&#39;t let it automute anyone until unpaused. </span><strong><span>will not un-mute muted players, be careful!</span></strong></td><td><span> </span></td></tr><tr><td><code>.au info</code></td><td><code>.au i</code></td><td><span>None</span></td><td><span>View general info about the Bot</span></td><td><span> </span></td></tr></tbody></table></figure></div></div>
 </body>
 </html>
