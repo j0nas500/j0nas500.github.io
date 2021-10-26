@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+        li {
+            list-style: none;
+        }
+        .user-display {
+            border-bottom-color: rgb(30, 144, 255);
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-image-outset: 0;
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-left-color: rgb(30, 144, 255);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(30, 144, 255);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(30, 144, 255);
+            border-top-style: none;
+            border-top-width: 0px;
+            box-sizing: border-box;
+            color: rgb(30, 144, 255);
+            font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-optical-sizing: auto;
+            font-size: 13px;
+            font-size-adjust: none;
+            font-stretch: 100%;
+            font-style: normal;
+            font-variant: normal;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-variation-settings: normal;
+            font-weight: 700;
+            line-height: 20px;
+            list-style-image: none;
+            list-style-position: inside;
+            list-style-type: none;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            vertical-align: baseline;
+            word-break: break-word;
+        }
+        .text-fragment {
+            border-bottom-color: rgb(31, 31, 35);
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-image-outset: 0;
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-left-color: rgb(31, 31, 35);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(31, 31, 35);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(31, 31, 35);
+            border-top-style: none;
+            border-top-width: 0px;
+            box-sizing: border-box;
+            color: rgb(31, 31, 35);
+            font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-optical-sizing: auto;
+            font-size: 13px;
+            font-size-adjust: none;
+            font-stretch: 100%;
+            font-style: normal;
+            font-variant: normal;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-variation-settings: normal;
+            font-weight: 400;
+            line-height: 20px;
+            list-style-image: none;
+            list-style-position: inside;
+            list-style-type: none;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            vertical-align: baseline;
+            word-break: break-word
+        }
+        .chat-image{
+            border-bottom-color: rgb(31, 31, 35);
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-image-outset: 0;
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-left-color: rgb(31, 31, 35);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(31, 31, 35);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(31, 31, 35);
+            border-top-style: none;
+            border-top-width: 0px;
+            box-sizing: border-box;
+            color: rgb(31, 31, 35);
+            display: inline-block;
+            font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-optical-sizing: auto;
+            font-size: 13px;
+            font-size-adjust: none;
+            font-stretch: 100%;
+            font-style: normal;
+            font-variant: normal;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-variation-settings: normal;
+            font-weight: 400;
+            height: 28px;
+            line-height: 20px;
+            list-style-image: none;
+            list-style-position: inside;
+            list-style-type: none;
+            margin-bottom: -4px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: -4px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            text-align: center;
+            vertical-align: baseline;
+            width: 28px;
+            word-break: break-word;
+        }
+
+        .timestamp {
+            border-bottom-color: rgb(31, 31, 35);
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-image-outset: 0;
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-left-color: rgb(31, 31, 35);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(31, 31, 35);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(31, 31, 35);
+            border-top-style: none;
+            border-top-width: 0px;
+            box-sizing: border-box;
+            color: rgb(31, 31, 35);
+            font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-optical-sizing: auto;
+            font-size: 12px;
+            font-size-adjust: none;
+            font-stretch: 100%;
+            font-style: normal;
+            font-variant: normal;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-variation-settings: normal;
+            font-weight: 400;
+            line-height: 18px;
+            list-style-image: none;
+            list-style-position: inside;
+            list-style-type: none;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 5px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            text-align: right;
+            vertical-align: baseline;
+            white-space: nowrap;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+<div>
+<div>
+<div>
+<ul id='chat-div' style="min-height: 0px;"></ul>
+</div>
+</div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a43b732cba67266","version":"2021.10.0","r":1,"token":"3e61eed7274c47bd960b7d917c1ced8f","si":100}'></script>
+<li><span class="timestamp">02:03 </span><span class="user-display" style="color: #8A2BE2">otp_elias</span><span class="text-fragment">: <span class="text-fragment">Wie azubi ?</span></span></li><li><span class="timestamp">03:02 </span><span class="user-display" style="color: #8A2BE2">otp_elias</span><span class="text-fragment">: <span class="text-fragment">du nich ?</span></span></li><li><span class="timestamp">03:19 </span><span class="user-display" style="color: #008800">Craki15</span><span class="text-fragment">: <span class="text-fragment">Krass..</span></span></li><li><span class="timestamp">04:43 </span><span class="user-display" style="color: #008800">Craki15</span><span class="text-fragment">: <span class="text-fragment">Was heißt früh auf?</span></span></li><li><span class="timestamp">06:06 </span><span class="user-display" style="color: #008800">Craki15</span><span class="text-fragment">: <span class="text-fragment">Well well, dann solltest du heut noch Staubsaugen</span></span></li><li><span class="timestamp">06:21 </span><span class="user-display" style="color: #008800">Craki15</span><span class="text-fragment">: <span class="text-fragment">Jonas was macht dein Liebesleben? </span><span><div class="chat-image"><img alt="sykHeart" class="chat-image chat-line__message--emote" src="https://static-cdn.jtvnw.net/emoticons/v2/555555560/default/light/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v2/555555560/default/light/1.0 1x,https://static-cdn.jtvnw.net/emoticons/v2/555555560/default/light/2.0 2x,https://static-cdn.jtvnw.net/emoticons/v2/555555560/default/light/3.0 4x"></div></span></span></li><li><span class="timestamp">07:04 </span><span class="user-display" style="color: #8A2BE2">otp_elias</span><span class="text-fragment">: <span class="text-fragment">jonas bist du auch azubi ?</span></span></li><li><span class="timestamp">07:58 </span><span class="user-display" style="color: #008800">Craki15</span><span class="text-fragment">: <span class="text-fragment">Lieber Liebe zum Stream als gar keine I guess</span></span></li><li><span class="timestamp">25:23 </span><span class="user-display" style="color: #8A2BE2">otp_elias</span><span class="text-fragment">: <span class="text-fragment">Wasn jz los</span></span></li><li><span class="timestamp">25:27 </span><span class="user-display" style="color: #8A2BE2">otp_elias</span><span class="text-fragment">: <span class="text-fragment">auf einmal nur noch werbung</span></span></li><li><span class="timestamp">26:02 </span><span class="user-display" style="color: #8A2BE2">beelzebub6_</span><span class="text-fragment">: <span class="text-fragment">Moin</span></span></li><li><span class="timestamp">26:10 </span><span class="user-display" style="color: #8A2BE2">beelzebub6_</span><span class="text-fragment">: <span class="text-fragment">Dann erzähl mal ein bisschen</span></span></li><li><span class="timestamp">38:19 </span><span class="user-display">henner247</span><span class="text-fragment">: <span class="text-fragment">respekt</span></span></li><li><span class="timestamp">50:30 </span><span class="user-display">henner247</span><span class="text-fragment">: <span class="text-fragment">wie heißt dein headset?</span></span></li><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a43b732cba77266","version":"2021.10.0","r":1,"token":"3e61eed7274c47bd960b7d917c1ced8f","si":100}'></script>
+</body>
+</html>
