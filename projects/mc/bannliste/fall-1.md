@@ -80,7 +80,7 @@ Verwendung von TNT
 
 ## Persönliche Nachricht
 
-Es tut mir leid euch mitzuteilen, dass ihr aus dem Minecraft Projekt ausgeschlossen seid. Ich habe mein bestes gegeben um es für alle so nachvollziehbar/transparent wie möglich zu gestalten. In diesem Abschnitt möchte ich ein paar Fragen beantworten:
+Es tut mir leid euch mitzuteilen, dass ihr es fast geschafft habt aus dem Minecraft Projekt ausgeschlossen zu werden. Ich habe mein bestes gegeben um es für alle so nachvollziehbar/transparent wie möglich zu gestalten. In diesem Abschnitt möchte ich ein paar Fragen beantworten:
 
 **Warum nimmst du die Regeln so ernst?**
 
