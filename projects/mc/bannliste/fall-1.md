@@ -1,5 +1,5 @@
 # Fall 1
-
+**STATUS: In Arbeit**
 ## Betroffen
 
 | Discord | MC USRN | CHARN | Verstoß |
@@ -97,4 +97,4 @@ So dass sich über Regeln lustig gemacht wird, sich gegen diese widersetzt wird 
 
 Dieses Projekt ist immer noch ein freiwilliges Projekt. Es zwingt keinem hier daran teilzunehmen. Solltet ihr also nicht zufrieden sein, bitte ich euch, gebt mir Feedback und ich versuche was ich ändern kann, wenn es nicht änderbar ist, schließt selber den Schluss ob das Projek für einen was ist oder nicht. Ihr seid alt genug. Aber beschwert euch nicht, wenn Personen, die viel Liebe, Zeit und Geld in ein Projekt stecken, dann Gegenmaßnahmen ergreifen, wenn damit wie Dreck umgegangen wird. So schwer mir diese Entscheidung auch fallen mag, wer keineswegs Respekt zeigt, Regeln ausnutzt und keine Besserung zeigt, fliegt.
 
-Ich gebe euch beiden noch eine weitere und letzte Chance, wenn ihr wirklich auf das Projekt Bock habt, daran teilzunehmen. Schreibt mir dafür einen Entbannungsantrag.
+Ich gebe euch beiden noch eine weitere und letzte Chance, wenn ihr wirklich auf das Projekt Bock habt, daran teilzunehmen. Dann befolg bitte die Regeln. Es wäre schade am zweiten Wochenden gleich zwei Spieler zu verlieren.
