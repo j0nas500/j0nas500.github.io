@@ -86,9 +86,11 @@ Es tut mir leid euch mitzuteilen, dass ihr aus dem Minecraft Projekt ausgeschlos
 
 Nunja ich habe die Regeln nicht umsonst für den Minecraft Server aufgestellt. Ich habe mir schon dabei Gedanken gemacht. Zugegbenermaßen, bin ich mit der New-Life-Regel nicht ganz so zufrieden, aber bisher habe ich noch keine bessere Lösung gefunden. Meiner Meinung nach, kann das Projekt nur Leben und viel Spaß machen, wenn sich alle an die aufgestellten Regeln hält. Sollte jemand vermehrt gegen diese Verstoßen bleibt mir nichts anderes übrig um Gegenmaßnahmen zu ergreifen, damit aus meiner Sicht, das Projekt nicht gestört wird und es für alle Fair bleibt.
 
-**Warum hast du nicht einfach die TNT Explosion nicht entfernt?**
+**Warum hast du nicht einfach die TNT Explosion entfernt?**
 
 Dies ist nicht möglich.
+
+---
 
 Dieses Projekt lebt von viel Vertrauen und meinem Geld :D Daher finde ich es Schade, wie mit Projekten wie diesen, an denen andere Menschen mit Leidenschaft und sehr viel Zeit daran gearbeitet haben umgegangen wird. Es ist schade wenn ein Projekt für eine kleine Gruppe wie dieses ein so tolles Projekt werden kann, einfach so in den Dreck gezogen wird.
 So dass sich über Regeln lustig gemacht wird, sich gegen diese widersetzt wird und sich bei Erhmahnen, kein ""ja ich habe es verstanden, ich versuche mich zu bessern"", sondern eher ein "ja nimm doch einfach nicht alles so ernst" kommt.
