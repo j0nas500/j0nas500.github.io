@@ -1,0 +1,749 @@
+# Start logging at 2021-11-05 00:46:47 Mitteleuropäische Zeit
+[00:46:47]  j0nas500: Kruiz Control Initialized
+[00:46:47] Freitag, 5. November 2021
+[00:50:20]  j0nas500: !kcreset
+[00:50:23]  j0nas500: Kruiz Control Initialized
+[00:50:41]  j0nas500: !kcreset
+[00:50:44]  j0nas500: Kruiz Control Initialized
+[00:51:22]  j0nas500: Kruiz Control Initialized
+[00:52:07]  j0nas500: !kcreset
+[00:52:10]  j0nas500: Kruiz Control Initialized
+[00:52:13]  j0nas500: Switch Szene
+[00:52:22]  j0nas500: Switch Szene
+[00:52:31]  j0nas500: !kcreset
+[00:52:34]  j0nas500: Kruiz Control Initialized
+[00:52:35]  j0nas500: Switch Szene
+[00:52:36]  j0nas500: Switch Szene
+[00:52:54]  j0nas500: !aim
+[01:28:52]  j0nas500: Kruiz Control Initialized
+[01:32:06]  j0nas500: !kcreset
+[01:32:09]  j0nas500: Kruiz Control Initialized
+[01:32:10]  j0nas500: !thumb
+[01:32:11]  j0nas500: API: Error
+[01:32:35]  j0nas500: !kcreset
+[01:32:37]  j0nas500: !thumb
+[01:32:37]  j0nas500: API: {api_data}
+[01:32:38]  j0nas500: Kruiz Control Initialized
+[01:33:05]  j0nas500: !kcreset
+[01:33:07]  j0nas500: Kruiz Control Initialized
+[01:33:08]  j0nas500: !thumb
+[01:33:08]  j0nas500: API: Error
+[01:42:19]  j0nas500: !kcreset
+[01:42:22]  j0nas500: Kruiz Control Initialized
+[01:42:23]  j0nas500: !thumb
+[01:42:23]  j0nas500: API: Error
+[01:43:50]  j0nas500: !kcreset
+[01:43:53]  j0nas500: Kruiz Control Initialized
+[01:43:53]  j0nas500: !thumb
+[01:43:54]  j0nas500: API: Error
+[01:44:28]  j0nas500: !kcreset
+[01:44:31]  j0nas500: Kruiz Control Initialized
+[01:44:34]  j0nas500: !thumb
+[01:44:35]  j0nas500: API: Error
+[01:54:28]  j0nas500: !kcreset
+[01:54:31]  j0nas500: Kruiz Control Initialized
+[01:54:57]  j0nas500: !kcreset
+[01:54:59]  j0nas500: Kruiz Control Initialized
+[01:55:01]  j0nas500: !live
+[01:55:30]  j0nas500: !kcreset
+[01:55:33]  j0nas500: Kruiz Control Initialized
+[01:55:36]  j0nas500: !live
+[01:55:45]  j0nas500: !updateDiscord
+[01:55:59]  j0nas500: !kcreset
+[01:56:01]  j0nas500: Kruiz Control Initialized
+[01:56:11]  j0nas500: !kcreset
+[01:56:13]  j0nas500: Kruiz Control Initialized
+[01:56:15]  j0nas500: !live
+[01:56:21]  j0nas500: !updateDiscord
+[01:56:50]  j0nas500: !kcreset
+[01:56:52]  j0nas500: Kruiz Control Initialized
+[01:56:55]  j0nas500: !live
+[01:57:02]  j0nas500: !updateDiscord
+[01:57:03]  j0nas500: Update
+[01:57:34]  j0nas500: !kcreset
+[01:57:36]  j0nas500: Kruiz Control Initialized
+[01:57:38]  j0nas500: !updateDiscord
+[01:57:38]  j0nas500: Update
+[01:57:43]  j0nas500: !live
+[01:58:01]  j0nas500: !kcreset
+[01:58:04]  j0nas500: Kruiz Control Initialized
+[01:58:06]  j0nas500: !live
+[01:58:13]  j0nas500: !updateDiscord
+[01:58:14]  j0nas500: Update
+[01:58:47]  j0nas500: !kcreset
+[01:58:50]  j0nas500: Kruiz Control Initialized
+[01:58:53]  j0nas500: !live
+[01:59:03]  j0nas500: !updateDiscord
+[01:59:04]  j0nas500: Update
+[01:59:34]  j0nas500: !kcreset
+[01:59:36]  j0nas500: Kruiz Control Initialized
+[01:59:40]  j0nas500: !live
+[01:59:48]  j0nas500: !updateDiscord
+[01:59:49]  j0nas500: Update
+[02:07:34]  j0nas500: !kcreset
+[02:07:36]  j0nas500: Kruiz Control Initialized
+[02:07:42]  j0nas500: !live
+[02:08:02]  j0nas500: !kcreset
+[02:08:04]  j0nas500: Kruiz Control Initialized
+[02:08:07]  j0nas500: !live
+[02:08:36]  j0nas500: !kcreset
+[02:08:38]  j0nas500: Kruiz Control Initialized
+[02:08:39]  j0nas500: !live
+[02:09:48]  j0nas500: !kcreset
+[02:09:51]  j0nas500: Kruiz Control Initialized
+[02:09:52]  j0nas500: !live
+[02:09:57]  j0nas500: Ergebnis: 1
+[02:11:48]  j0nas500: !kcreset
+[02:11:51]  j0nas500: Kruiz Control Initialized
+[02:11:56]  j0nas500: !live
+[02:12:02]  j0nas500: 1
+[02:12:14]  j0nas500: !updateDiscord
+[02:12:15]  j0nas500: 2
+[02:12:46]  j0nas500: !kcreset
+[02:12:48]  j0nas500: Kruiz Control Initialized
+[02:12:50]  j0nas500: !live
+[02:12:56]  j0nas500: 1
+[02:12:58]  j0nas500: !updateDiscord
+[02:12:59]  j0nas500: 2
+[02:13:15]  j0nas500: !live
+[02:13:20]  j0nas500: 1
+[02:14:17]  j0nas500: !sample1
+[02:14:27]  j0nas500: The first sample
+[02:14:32]  j0nas500: !sample2
+[02:14:33]  j0nas500: The second sample
+[02:18:07]  j0nas500: !kcreset
+[02:18:10]  j0nas500: Kruiz Control Initialized
+[02:18:15]  j0nas500: !meta
+[02:18:15]  j0nas500: Kein Meta Gaming! - Bitte teilt im Chat nichts mit, was Jonas nicht aus seinen ingame Erfahrungen wissen könnte - nicht wo jemand ist, nicht wenn jemand stirbt, nicht wenn jemand etwas plant, etc!
+[02:18:18]  j0nas500: !kcreset
+[02:18:20]  j0nas500: Kruiz Control Initialized
+[02:24:44]  j0nas500: !kcreset
+[02:24:47]  j0nas500: Kruiz Control Initialized
+[02:24:50]  j0nas500: !setThumbID
+[02:27:57]  j0nas500: !kcreset
+[02:28:00]  j0nas500: Kruiz Control Initialized
+[02:28:00]  j0nas500: !setThumbID
+[02:28:17]  j0nas500: !setThumbID
+[02:28:19]  j0nas500: !kcreset
+[02:28:22]  j0nas500: Kruiz Control Initialized
+[02:28:32]  j0nas500: !setThumbID
+[02:28:33]  j0nas500: !kcreset
+[02:28:36]  j0nas500: Kruiz Control Initialized
+[02:28:37]  j0nas500: !setThumbID
+[02:28:52]  j0nas500: !kcreset
+[02:28:55]  j0nas500: Kruiz Control Initialized
+[02:28:56]  j0nas500: !setThumbID
+[02:29:03]  j0nas500: !setThumbID
+[02:29:25]  j0nas500: !kcreset
+[02:29:28]  j0nas500: Kruiz Control Initialized
+[02:29:30]  j0nas500: !setThumbID
+[02:29:30]  j0nas500: Neuer Wert: 0
+[02:29:37]  j0nas500: !live
+[02:29:42]  j0nas500: 1
+[02:29:54]  j0nas500: !updateDiscord
+[02:29:55]  j0nas500: 2
+[02:30:02]  j0nas500: !kcreset
+[02:30:04]  j0nas500: Kruiz Control Initialized
+[02:30:08]  j0nas500: !live
+[02:30:14]  j0nas500: 3
+[02:32:03]  j0nas500: !live
+[02:32:09]  j0nas500: 4
+[02:32:19]  j0nas500: !offline
+[02:34:33]  j0nas500: !kcreset
+[02:34:35]  j0nas500: Kruiz Control Initialized
+[02:34:40]  j0nas500: !offline
+[02:37:56]  j0nas500: !mitspielen
+[02:37:57]  j0nas500: Um an dem MC RP Adventure Server teilzunehmen, musst du auf den Discord Server dir die Rolle Minecraft geben, der dir Zugriff auf alle relevanten Informationen gibt. Discord: https://jnkl.de/dc
+# Start logging at 2021-11-05 13:04:35 Mitteleuropäische Zeit
+[13:04:35] connected
+[13:04:41]  j0nas500: Kruiz Control Initialized
+[13:04:49]  j0nas500: !code
+[13:04:49]  j0nas500: Crab Games Code: No variable found
+[13:04:56]  j0nas500: !setcode 1
+[13:04:56]  j0nas500: Neuer Code: 1
+[13:05:07]  j0nas500: !setcode AXSD34S
+[13:05:07]  j0nas500: Neuer Code: AXSD34S
+[13:05:11]  j0nas500: !code
+[13:05:11]  j0nas500: Crab Games Code: AXSD34S
+[13:05:25]  j0nas500: !setcode AXSD31Q
+[13:05:26]  j0nas500: Neuer Code: AXSD31Q
+[13:05:27]  j0nas500: !code
+[13:05:27]  j0nas500: Crab Games Code: AXSD31Q
+[15:10:34] j0nas500 is live!
+[15:11:40]  j0nas500: !setcode nA
+[15:11:40]  j0nas500: Neuer Code: nA
+[15:13:00]  j0nas500: !live
+[15:13:16]  j0nas500: !kcreset
+[15:13:19]  j0nas500: Kruiz Control Initialized
+[15:14:19]  j0nas500: !live
+[15:17:08]  j0nas500: bin sofort da muss noch Wäsche aufhängen ganz vergessen
+[15:23:16]  nocho__: studimusicMo studimusicIn
+[15:23:43]  nocho__: studimusicHyp studimusicHyp
+[15:24:01]  nocho__: Wochenende
+[15:24:21]  nocho__: studimusicAbs
+[15:25:37]  nocho__: na dann zeich ma
+[15:26:26] Updated game to Crab Cakes Rescue
+[15:26:31] Unrecognized command: /set
+[15:26:36] Updated game to Crab Cakes Rescue
+[15:26:49]  nocho__: gibt es auch
+[15:30:13]  j0nas500: !setcode 109775240995862943
+[15:30:14]  j0nas500: Neuer Code: 109775240995862943
+[15:30:16]  j0nas500: !code
+[15:30:17]  j0nas500: Crab Games Code: 109775240995862943
+[15:35:51]  nocho__: aua
+[15:35:54]  nocho__: einfach explodiert
+[15:36:01]  shemytv: was ist der code?
+[15:36:06]  j0nas500: !code
+[15:36:07]  j0nas500: Crab Games Code: 109775240995862943
+[15:37:38]  j0nas500: alexandros51q hat ein Follow dagelassen
+[15:37:40]  nocho__: ez
+[15:37:53]  j0nas500: erricka362062z hat ein Follow dagelassen
+[15:38:08]  j0nas500: dayvon52d hat ein Follow dagelassen
+[15:38:24]  j0nas500: tija77775 hat ein Follow dagelassen
+[15:38:39]  j0nas500: lorenda53938p hat ein Follow dagelassen
+[15:38:54]  j0nas500: iwalani54249p hat ein Follow dagelassen
+[15:39:09]  j0nas500: alda8449m hat ein Follow dagelassen
+[15:39:25]  j0nas500: johnn881556z hat ein Follow dagelassen
+[15:39:38]  j0nas500: !kcreset
+[15:40:38]  nocho__: wuup wuup
+[15:41:14]  nocho__: red light green light
+[15:42:36]  fleqzz_: !code
+[15:42:37]  j0nas500: Crab Games Code: No variable found
+[15:46:58]  j0nas500: !setcode 109775240995862943
+[15:46:58]  j0nas500: Neuer Code: 109775240995862943
+[15:49:50]  nocho__: wilde mind games hier xD
+[15:57:35]  nocho__: fast so gut wie squid game
+[15:58:12] Updated game to Minecraft
+[16:00:18]  nocho__: xdoomsSip
+[16:00:51]  otp_elias: selam
+[16:02:16]  otp_elias: Wann startet
+[16:02:20]  otp_elias: das alles ?
+[16:02:54]  otp_elias: hab ausversehen enter gedrückt deswegen "Wann startet"
+[16:05:07]  otp_elias: Magie oder so arcane mods digga immer so kompliziert
+[16:06:31]  d1ng1rsu: zählt bei second chance auch fall dmg?
+[16:07:29]  d1ng1rsu: hoffe ich auch...
+[16:08:02]  florianien: ihh minecrafr
+[16:11:15]  otp_elias: Ein Lama
+[16:11:19]  florianien: ich bin für viel tnt
+[16:11:19]  otp_elias: cutee
+[16:12:08]  florianien: eier droppen hühner immer
+[16:13:19]  otp_elias: 187 is die ip
+[16:13:22]  otp_elias: oder 420
+[16:13:40]  beelzebub6_: Hey
+[16:13:40]  florianien: 069
+[16:14:08]  florianien: belzebub aka der Fliegendämon
+[16:15:18]  florianien: bin dann mal wider weeeeeg
+[16:15:38]  specialeeel: FeelsAmazingMan
+[16:15:53]  otp_elias: osmania germania
+[16:16:12]  otp_elias: !mitspielen
+[16:16:12]  j0nas500: Um an dem MC RP Adventure Server teilzunehmen, musst du auf den Discord Server dir die Rolle Minecraft geben, der dir Zugriff auf alle relevanten Informationen gibt. Discord: https://jnkl.de/dc
+[16:17:10]  beelzebub6_: Wie gehts?
+[16:20:08]  otp_elias: ca 5min -10min
+[16:20:10]  otp_elias: bestimmt
+[16:21:17]  otp_elias: j0 guck mal discord
+[16:22:40]  d1ng1rsu: trident
+[16:23:09]  otp_elias: @d1ng1rsu Dreizack ?
+[16:28:23]  otp_elias: Ich lad mal alle mods herunter
+[16:29:36]  otp_elias: 85 Mods ?
+[16:30:55]  otp_elias: f3 + g ?
+[16:31:28]  otp_elias: F3 und B sorry
+[16:34:56]  otp_elias: j0
+[16:35:17]  otp_elias: Gibts eine anzahl an Max usern ?
+[16:35:56]  otp_elias: Na ich würde drauf kommen popCat
+[16:36:12]  otp_elias: ratJAM ratJAM ratJAM ratJAM ratJAM
+[16:36:20]  otp_elias: ratJAM ratJAM ratJAM ratJAM ratJAM ratJAM
+[16:36:43]  otp_elias: Brauchst du noch iwas zum whitelisten ?
+[16:37:28]  otp_elias: jes
+[16:37:37]  otp_elias: i created ticket
+[16:43:50]  lawezz: Dumbooo
+[16:44:12]  lawezz: heute ist ja freitag LULW
+[16:44:19]  otp_elias: book of Rar
+[16:44:24]  lawezz: Tintensfisch
+[16:44:35]  otp_elias: @Lawezz SACK
+[16:44:57]  otp_elias: einfach terraria in minecraft
+[16:45:43]  lawezz: warum soll ich jz den mc launcher über mc store runterladen nein bitte nicht
+[16:46:00]  beelzebub6_: Bin wieder back
+[16:46:06]  lawezz: soooo schlecht
+[16:46:13]  lawezz: will ich nicht
+[16:46:24]  lawezz: @beelzebub6_ Moin Herr lennard
+[16:46:41]  lawezz: Doppel Türen Pog
+[16:47:10]  beelzebub6_: Achso Jungs, sorry das ich euch nicht geantwortet hab
+[16:47:16]  lawezz: HALLO WARUM BIN ICH NICHT WHITELISTED AHJAHHDAF
+[16:47:39]  lawezz: ach komm lösch dich doch
+[16:48:08]  lawezz: ich habs ernst genommen aber ok
+[16:48:22]  lawezz: dann halt nicht
+[16:49:14]  otp_elias: Is ooc reden erlaubt ?
+[16:49:23]  otp_elias: also in game
+[16:49:45]  sphiligaming: welche plugins sind drauf?
+[16:50:22]  fabxx45: und hat lion die regeln können
+[16:50:24]  fabxx45: KEKW
+[16:50:30]  j0nas500: @SphiliGaming https://j0nas500.de/projects/mc/mods
+[16:50:44]  sphiligaming: jo danke
+[16:51:12]  lawezz: @fabxx45 lösch dich
+[16:51:36]  lawezz: @fabxx45 erwartet von mir das ich 1 woche vor start alle regeln auswendig kann
+[16:52:10]  lawezz: lawezz
+[16:52:14]  fabxx45: vorbereitung gehört zur whitelist dazu
+[16:52:41]  lawezz: @fabxx45 ich lern doch auch nich 3 Monate vor nh arbeit den ganzen stoff auswendig
+[16:53:08]  fabxx45: 3 monate und 1 woche ist ein großer unterschied
+[16:53:28]  lawezz: @fabxx45 mach ich auch nich nh woche vorher
+[16:53:37]  lawezz: ne hab ich tatsächlich vergessen
+[16:54:33]  fabxx45: @Lawezz aber wenn du mal gta rp spielen willst legen manche server eine gewisse leistung von dir vor halt das du zeigst das du auch wirklich bock hast
+[16:55:42]  lawezz: @fabxx45 und hast du da nh woche vor dem gespräch alles auswendig gelernt?
+[16:55:56]  otp_elias: Ich bin iwie lost auf der Regel seite
+[16:56:32]  lawezz: kannst du was gegen die lags was tun?
+[16:56:49]  lawezz: k
+[16:57:16]  fabxx45: @Lawezz ja weil die meisten server legen das als grund vorausetzung vor das du überhaupt auf den server darfst
+[16:57:51]  herr_elo: habe eben rausgefunden wenn man das inventar öffnet und dort auf diese einstellungen geht kann man cheats anmachen aber items geben kann man sich dann nicht
+[16:57:53]  lawezz: @fabxx45 DAnn sry, ich hab neben bei noch Schule und nh Rest Leben
+[16:57:55]  fabxx45: viel spaß dir dann noch j0
+[16:58:24]  lawezz: schlag mal nh villager Kappa
+[16:58:26] fabxx45 redeemed Aim? 1250
+[16:58:43]  fabxx45: was machst du denn j0
+[16:58:45]  lawezz: Uiii
+[16:59:11]  lawezz: 247tfs Nicer Name KEKW
+[16:59:22]  lawezz: jessica ist leise
+[17:00:00]  lawezz: sooo schlecht muss den launcher neustarten
+[17:01:09]  lawezz: ALSOOOO
+[17:01:38]  lawezz: Jay 5Head
+[17:02:03]  lawezz: die stehen nur bei tag auf
+[17:02:08]  otp_elias: Ticket
+[17:02:09]  otp_elias: bitte
+[17:02:15]  otp_elias: will nur mal in die Welt laden
+[17:02:27]  lawezz: gibts nich auch push to talk?
+[17:03:04]  otp_elias: boar bei mir hat so viel rot geleuchtet bei den Hotkeys / settings xD
+[17:03:08]  lawezz: Der?
+[17:03:13]  lawezz: heißt doch JEssica
+[17:03:17]  otp_elias: gefühlt haben die mods die gleichen hotkeys
+[17:03:45]  lawezz: F an das Skeleton
+[17:03:58]  lawezz: SOOOOOOOOO Schlecht
+[17:04:19]  lawezz: ich hab 3x den scheiß mod ordner neu aufgesetzt
+[17:04:28]  otp_elias: j0
+[17:04:40]  lawezz: nein ich versuchs
+[17:04:51]  otp_elias: Wie macht man denn den Vc da auf wo man sich muten und entmuten kann
+[17:04:54]  lawezz: ich mach jz nh neues profil
+[17:05:19]  lawezz: j0 in der zip datei ist ja noch nh zip. brauch ich nur die?
+[17:05:52]  otp_elias: Lawezz du hast auch richtig gelesen ?
+[17:06:10]  lawezz: ist doch soo schlecht
+[17:06:30]  otp_elias: @Lawezz da steht das du die eine zip datei namens j0nas500 MC RPG Mods.zip
+[17:06:39]  otp_elias: herunterladen sollst
+[17:06:45]  otp_elias: nicht alles
+[17:07:36]  otp_elias: Wolltest du nicht auf tickets eingehen ? FeelsBadMan
+[17:07:52]  otp_elias: will doch nur minecraft spielen FeelsBadMan
+[17:08:54]  otp_elias: btw j0 bei uns aus der klasse auf einmal 3 leute positiv getestet
+[17:09:07]  otp_elias: auch pcr ding da
+[17:09:18]  otp_elias: ich hab schon gebetet auch posi zu sien aber nix da
+[17:09:34]  lawezz: so neues profil neuees Glück
+[17:10:04]  otp_elias: So wie ich heißen will ? weil mein MInecraft name is BumpelKase
+[17:11:09]  lawezz: @otp_elias OMEGALUL
+[17:11:31]  otp_elias: Knorke mein name
+[17:11:56]  lawezz: Ich hasse mein leben
+[17:12:10]  otp_elias: @Lawezz warum ? SADGE
+[17:12:27]  lawezz: Komm nich auf den server
+[17:12:33]  otp_elias: karnic1Love
+[17:12:42]  otp_elias: @Lawezz Ja ich bin doch auch noch nicht drauf
+[17:13:15]  lawezz: er sagt 24/7 das irgendwelche Charms fehlen
+[17:13:23]  lawezz: screenshot kommt sofort
+[17:13:27]  otp_elias: wie geil #mc-log Lawezz joined the game 2sek später Lawezz left
+[17:13:51]  lawezz: @otp_elias Ja fuckt up bin ich ehrlich
+[17:14:17]  otp_elias: @Lawezz Was hast du denn auch heruntergeladen und eingefügt ? xD
+[17:14:35]  lawezz: die zip die j0 gesagt hat
+[17:14:50]  maxmasterb: Hallo
+[17:15:06]  lawezz: ist da
+[17:15:07]  maxmasterb: Ich habe mal eine technische Frage.
+[17:15:13]  lawezz: 2s zu früh geguckt
+[17:15:45]  maxmasterb: Ich habe gerade 2 Kühe erledigt. Eine davon hat sich looten lassen, die andere nicht.
+[17:15:49]  otp_elias: Knorke war gemeint das "bumpelkase" geiler mc name is
+[17:16:01]  maxmasterb: Ich mache doch einfach rechtsclick drauf.
+[17:16:49]  otp_elias: xD
+[17:17:06]  otp_elias: dumbo
+[17:17:07]  otp_elias: lion
+[17:17:09]  otp_elias: dumbo
+[17:17:24]  lawezz: wann rufst du an?
+[17:17:27]  lawezz: Kappa
+[17:17:30]  otp_elias: muss ich dir Vorname und Nachname geben ?
+[17:17:38]  otp_elias: oder reicht vorname
+[17:17:48]  otp_elias: F3 + B
+[17:17:51]  otp_elias: für hitbox
+[17:18:13]  lawezz: alt + f4 KEKW Kappa
+[17:18:18]  otp_elias: drop einfach ein item
+[17:18:21]  otp_elias: da siehst du hitbox
+[17:18:35]  maxmasterb: Und noch ne Frage.
+[17:18:56]  maxmasterb: Kann man irgendwo die Level einsehen welche Level man hat?
+[17:18:57]  otp_elias: einfach Elias wenns geht
+[17:19:03]  otp_elias: wenns fine is
+[17:19:11]  lawezz: Junge rabbits sind gar nix gegen CHicken
+[17:19:13]  maxmasterb: Weil man ja für Stein Level 4 braucht...
+[17:19:16]  maxmasterb: Uff
+[17:19:30]  lawezz: sehr fein
+[17:19:52]  maxmasterb: Dankeschön.
+[17:20:06]  otp_elias: sshh dumbo
+[17:20:09]  lawezz: Ich hab gar nix gemackt
+[17:20:10]  maxmasterb: Nen klein wenig laggy ist er.
+[17:20:38]  lawezz: Mirakuli ist nh guter Name Pog
+[17:20:43]  otp_elias: ich glaube ich komme gleich kurz rauf wenn alles wieder läuft
+[17:20:52]  lawezz: AHHH IST MC LAUT
+[17:20:59]  maxmasterb: @Lawezz Ich weiß.
+[17:21:01]  otp_elias: um mal rein zu laden und denn komm ich morgen oder heute abend mal drauf zu zocken ^^
+[17:21:24]  otp_elias: mc musik find ich übel enspannt
+[17:21:29]  beelzebub6_: hast du jetzt nh "normale" Cam?
+[17:21:30]  maxmasterb: Es gibt doch sicher ne Möglichkeit Shader zu installieren...
+[17:21:40]  lawezz: server wieder on?
+[17:21:45]  otp_elias: @MaxMasterB jaa
+[17:21:59]  lawezz: an shader trau ich mich nicht dran xD
+[17:22:13]  otp_elias: max musst nur einen für 1.17 finden und pc muss das abkönnen wie viel sowas fürn block spiel zieht
+[17:22:17]  lawezz: dann !löschdich mal schneller
+[17:22:50]  maxmasterb: @otp_elias Das schwere daran wird das Finden des Packs... LUL
+[17:22:52]  otp_elias: j0
+[17:22:53]  lawezz: magine
+[17:23:00]  lawezz: dann sag bescheid wenn wieder on is
+[17:23:00]  otp_elias: würdest du was zu essen holen ?
+[17:23:07]  lawezz: solange play ich sp
+[17:23:42]  otp_elias: @MaxMasterB https://shadersmods.com/complementary-shaders/
+[17:24:03]  otp_elias: @Lawezz imaginr
+[17:24:06]  otp_elias: imagine*
+[17:24:09]  lawezz: KEKW
+[17:25:06]  lawezz: Hexen OMEGALUL
+[17:25:22]  lawezz: Jay macht WEltreise OMEGALUL
+[17:26:56]  otp_elias: Was heißt eigentlich die Gelbe umrandung um der hunger keule
+[17:27:32]  lawezz: Warum gibt es schwarze Schweine OMEGALUL
+[17:28:36]  otp_elias: ok
+[17:29:39]  otp_elias: Wo kriegn ich die MInecraft rolle ?
+[17:30:36]  otp_elias: white list
+[17:30:54]  otp_elias: BumpelKase
+[17:30:57]  lawezz: so ich verpiss mich mal zu Jürgen
+[17:31:08]  otp_elias: Leider gabs KumpelBlase schon :(
+[17:31:51]  maxmasterb: So, mal schauen, ob es gleich klappt mit den Shadern... LUL
+[17:32:27]  maxmasterb: Hab Sildurs Extreme mit Volumetric Lighting geladen... xD
+[17:34:53]  otp_elias: F3+B
+[17:37:46]  otp_elias: Name ß
+[17:37:48]  otp_elias: ?
+[17:39:51]  otp_elias: wie hast du die skill info aufgemacht ?
+[17:40:33]  otp_elias: ah okk
+[17:40:59]  otp_elias: ne habe keine neue bekommen
+[17:49:10]  maxmasterb: Optifine funktioniert nicht mit Frabric... D:
+[17:52:38]  maxmasterb: Er kommt aber irgendwie mit Optifabric nicht klar.
+[17:53:03]  maxmasterb: Hab ich das drinnen startet das Spiel gar nicht erst...
+[17:56:52]  maxmasterb: Fabric Mod Loader und Fabric API haben wir mit drinnen oder?
+[17:57:06]  maxmasterb: hmm
+[17:59:17]  otp_elias: Es laggt gerade ziemlich kann das sein ?
+[18:01:06]  otp_elias: j0 ich hab direkt sowas über krasses gefunden
+[18:01:21]  otp_elias: Da steht lvl 8 required
+[18:01:29]  otp_elias: heißt ich kann das noch nicht benutzen oder ?
+[18:02:25]  maxmasterb: Ich glaube der Frabric Loader ist einfach zu neu für Optifabric...
+[18:02:59]  otp_elias: Ach wegen lvl required
+[18:05:25]  maxmasterb: Cool ich habe ne Optifabric Version gefunden aber LambDynamicLights macht Probleme...
+[18:05:28]  maxmasterb: Uff
+[18:13:32]  maxmasterb: Ich installiere dein Pack nochmal neu... LUL
+[18:13:41]  maxmasterb: Hab irgendwas kaputt gemacht.
+[18:13:59]  maxmasterb: Geht anscheinend mit Iris Shaders.
+[18:14:30]  maxmasterb: Hab aber noch nicht rausgefunden wo ich die Shaderpacks dann hinpacken muss...
+[18:22:37]  otp_elias: Ich liebe backpacks
+[18:23:08]  otp_elias: Mies viel platz endlich
+[18:23:11]  otp_elias: so nice gemacht
+[18:23:15]  otp_elias: ich danke dir
+[18:26:30]  otp_elias: lol
+[18:26:56]  maxmasterb: Ach das geht nicht... D,:
+[18:27:17]  otp_elias: the moment to go
+[18:27:27]  otp_elias: ich bin gestorben aber nicht mehr am bett aufgewacht
+[18:27:49]  otp_elias: bin ja da schon 3 mal gespawnt
+[18:27:57]  otp_elias: weil 40 zombies mich wieder gekillt haben
+[18:28:24]  otp_elias: ok danke für den tipp
+[18:28:48]  otp_elias: Bei mir standen halt 40 zombies vorm haus
+[18:28:52]  otp_elias: no joke 40
+[18:28:53]  justsaruman: Hallo und guten Abend ihr Minecraft Leute
+[18:29:03]  justsaruman: ok cringer hab ich das leider nicht hinbekommen sheesh
+[18:29:03]  otp_elias: Aloha
+[18:29:22]  justsaruman: was nope
+[18:29:26]  justsaruman: meine Chatnachricht
+[18:29:31]  justsaruman: komische Begrüßung
+[18:29:59]  justsaruman: bin ein wenig durch den Wind
+[18:30:31]  justsaruman: @otp_elias aholA
+[18:30:45]  maxmasterb: Dieser eine Mod macht mir alles kaputt... D:
+[18:31:17]  maxmasterb: Ohh, das kann ich versuchen.
+[18:31:26]  maxmasterb: Optifine macht ja das gleiche.
+[18:31:29]  otp_elias: Aber ich mach morgen weiter
+[18:31:38]  henner247: HeyGuys
+[18:31:38] henner247 subscribed at Tier 1. They've subscribed for 2 months, currently on a 2 month streak!
+[18:31:38]  otp_elias: vllt findet ja jemand mein dream inv
+[18:32:14]  henner247: das war sehr angenehm Kappa
+[18:32:37]  henner247: ich hab nicht damit gerechnet dass der explodiert :D
+[18:33:16]  otp_elias: so ein tauer hat mich gekillt..
+[18:33:23]  otp_elias: Da spawnen 40 zombies drinne
+[18:33:35]  otp_elias: omg wie hab ich tower geschrieben xD
+[18:34:05]  otp_elias: das sieht aus wie aus Pixels
+[18:34:12]  otp_elias: son dungeon mit donkey kong oben drin
+[18:34:13]  otp_elias: nj
+[18:34:16]  maxmasterb: Jetzt ist Lithium das Problem... D:
+[18:34:41]  otp_elias: Ich würd meinen ich habe mein Glück zu sehr ausgenutzt
+[18:35:00]  otp_elias: weil ich miesen shit hatte
+[18:35:19]  maxmasterb: Lithium kann ich auch raushauen oder?
+[18:35:19]  otp_elias: kostet son server nich ?
+[18:37:15]  otp_elias: 41€ ?
+[18:37:18]  otp_elias: boar ...
+[18:37:36]  maxmasterb: @otp_elias Er hat es Zeitgeschalten.
+[18:37:55]  maxmasterb: Heißt, er bezahlt nur, wenn der Server an ist.
+[18:38:11]  otp_elias: oh ok
+[18:38:31] 1 raiders from DEANjpg have joined!
+[18:38:37]  j0nas500: Vielen Dank für den Raid mit 1 Zuschauern. DEANjpg hat zuletzt Just Chatting gestreamt. Schaut doch gerne auch mal bei @DEANjpg vorbei: https://twitch.tv/DEANjpg
+[18:39:10]  jaypengi: ach, darüber hab ich mich nicht aufgeregt xD
+[18:39:31]  jaypengi: ist erster tag, da kann das passieren ^^
+[18:40:02]  fabxx45: jonas weißt du was wir mal wieder machen müssen eurotruck simulator
+[18:40:12]  otp_elias: bei dem geld muss man dich ja unterstützen
+[18:40:16]  otp_elias: iei
+[18:40:18]  otp_elias: iwie
+[18:40:25]  fabxx45: lüge
+[18:40:30]  maxmasterb: So, nochmal die Frage. Kann ich auch Lithium raushauen? (Das macht jetzt Probleme. xD)
+[18:40:33]  otp_elias: lüge
+[18:40:56]  otp_elias: @MaxMasterB Hat er doch schon gesagt ^^
+[18:41:05]  fabxx45: jetzt ist grad discount auf drei dlcs
+[18:41:07]  otp_elias: doch
+[18:41:14]  otp_elias: oh
+[18:41:23]  maxmasterb: Sodium... xD
+[18:41:25]  fabxx45: bzw sogar mehr
+[18:41:53]  fabxx45: auf iberia black sea beyond baltic sea vivalafrance italia
+[18:42:04]  otp_elias: Kannst du am besten nur nich im stream
+[18:42:04]  herr_elo: was ist mit mir?
+[18:42:08]  maxmasterb: OHH
+[18:42:15]  maxmasterb: Es geht!
+[18:43:21]  herr_elo: kann ich dir genau sagen aber ist das erlaubt?
+[18:43:26]  lawezz: peepoHappy
+[18:43:30]  otp_elias: ne
+[18:43:45]  maxmasterb: So weit so gut...
+[18:44:01]  fabxx45: aber noch immer 110 euro für alles Rip
+[18:44:07]  maxmasterb: Es startet erstmal. Jetzt hat Optifabric Optifine nicht gefunden...
+[18:44:11]  herr_elo: auch nicht über mc chat?
+[18:44:12]  otp_elias: liegt das denn weil so viele leute an vielen orten alles gefühlt machen ?
+[18:44:18]  lawezz: Server wanna see some real speeeeeeeeeed
+[18:44:25]  otp_elias: also die einen farmen die anderen killen mobs ?
+[18:44:45]  herr_elo: achso ja gut
+[18:44:52]  lawezz: 60€ für den Server? monkaX
+[18:45:03]  otp_elias: @Lawezz monatlich
+[18:45:13]  otp_elias: er zahlt stündlich
+[18:45:21]  lawezz: @Lawezz monkaX monkaX
+[18:45:48]  otp_elias: 16h ?
+[18:46:23]  lawezz: ist der server gerade online?
+[18:46:24]  otp_elias: hab gedacht täglich 16h xD
+[18:46:57]  otp_elias: aber selbst wo ich abgekratzt bin hats fun gemacht tho
+[18:46:57]  maxmasterb: Jetzt lädt er ne andere Optifine Version nicht.... D:<
+[18:47:11]  otp_elias: so viele Möglichkeiten alles
+[18:47:27]  lawezz: Server online?
+[18:47:38]  lawezz: :(
+[18:48:17]  lawezz: ich schmeiß mal den Stream an
+[18:48:21]  maxmasterb: Wenn dann der Server irgendwann funktioniert, klappts vielleicht bei mir auch. LUL
+[18:48:34]  lawezz: Wir sehen uns aufm Server ConcernDoge
+[18:49:07]  lawezz: weiß ich auch nicht KEKW
+[18:49:17]  lawezz: irgenwo im Schnee OMEGALUL
+[18:49:53]  lawezz: naja jz aber !lurk
+[18:50:04]  lawezz: immernoch kein !lurk Sadge
+[18:50:59]  herr_elo: machst du mir auch was zu essen xD
+[18:51:11]  otp_elias: warte
+[18:51:14]  lawezz: server nicht da
+[18:51:24]  lawezz: J0 :(
+[18:51:35]  herr_elo: jetzt aber
+[18:51:43]  lawezz: Server off und der geht eindach
+[18:51:47]  otp_elias: Is der server on ?
+[18:51:56]  lawezz: besser is aber auch
+[18:51:58]  lawezz: @otp_elias ja
+[19:20:18]  maxmasterb: Habs hin bekommen. :D
+[19:21:12]  maxmasterb: Denke es lag daran, dass schon einmal Sodium mit drinnen war und bei Iris auch nochmal Sodium dabei ist.
+[19:25:20]  smokedoutnines: dogehype .com :o Engage your JonCarnage community
+[19:28:10] The message from smokedoutnines is now deleted.
+[19:28:10] 
+[19:29:39]  otp_elias: ok
+[19:31:24]  henner247: auf deiner discord page ist doch ein gif
+[19:31:32]  henner247: wie man das bier macht
+[19:38:58]  maxmasterb: Was macht eigentlich diese Light Mod, die ich gelöscht habe?
+[19:40:06]  lawezz: J0
+[19:40:09]  lawezz: hab nh frage
+[19:40:20]  lawezz: sattel leder
+[19:40:25]  otp_elias: Sattel kannst du nicht craften
+[19:40:26]  otp_elias: eig
+[19:40:32]  otp_elias: nur finden in kisten meist bei dörfern
+[19:40:34]  streamblox_: saddle
+[19:40:41]  otp_elias: oder solchen dungeosn
+[19:40:43]  lawezz: wolltet ihr nich so nh minimap mod drauf machen?
+[19:40:57]  otp_elias: Ja ach
+[19:40:57]  maxmasterb: Ich probiere es nochmal mit Lamb.
+[19:40:59]  otp_elias: kannst du nur FINDEN
+[19:41:05]  otp_elias: UND DÖRFER
+[19:41:26]  lawezz: ohhh wie frech
+[19:41:46]  maxmasterb: Joooo
+[19:41:48]  maxmasterb: Geht :D
+[19:44:16]  otp_elias: ja zum steuern
+[19:44:35]  otp_elias: ich habe diese damage zahlen bei mir garnicht fliegen sehen
+[19:45:42]  maxmasterb: Kann ich nachschauen, was ich aus Blöcken bauen kann?
+[19:46:08]  maxmasterb: Aber wie denn?
+[19:46:39]  otp_elias: mit r ?
+[19:46:48]  otp_elias: ich hab immer drauf geklickt
+[19:47:04]  otp_elias: Ah lol
+[19:49:11]  maxmasterb: Was ist eigentlich mit dem Portable Craftingtable?
+[19:49:35]  otp_elias: Das ist übel geil
+[19:49:42]  otp_elias: portable table
+[19:50:08]  maxmasterb: Da kannst du craften ohne mit den 9 Slots ohne an der Werkbank zu sein.
+[19:50:15]  maxmasterb: Auf V
+[19:50:28]  otp_elias: heißt crafting table im inv haben
+[19:50:33]  maxmasterb: Schau mal in der Steuerung nach.
+[19:50:56]  otp_elias: same here
+[19:51:03]  otp_elias: war bei mir auch doppelt belegt
+[19:51:24]  otp_elias: ich hab jz bock wieder von vorne anzufangen
+[19:51:28]  otp_elias: ich geh mal wieder ic
+[19:51:44]  otp_elias: was heißt denn die gold umrandung eigentlich ?
+[19:52:16]  otp_elias: beim essen
+[19:52:40]  otp_elias: oh bei dem dorf war ich auch.
+[19:52:47]  otp_elias: Lol
+[19:52:54]  otp_elias: das hatte ich nicht gesehen
+[20:02:42]  fabxx45: -rep camping bubba and cringe name
+[20:03:34]  otp_elias: Es laggt ziemlich stark
+[20:03:38]  otp_elias: also bei mir gerade
+[20:04:00]  otp_elias: Server
+[20:04:13]  otp_elias: ich bau was hab  10sek später dropt es
+[20:04:23]  otp_elias: ich schlage ein mob 5sek später kommen die hits an
+[20:04:34] tsd_pyro redeemed OOF 100
+[20:04:43]  otp_elias: ich merks
+[20:04:46]  tsd_pyro: moin
+[20:05:15]  otp_elias: ach weil ich was heruntergeladen habe
+[20:05:18]  otp_elias: kekw
+[20:09:48]  grenthot_dgc: moin ich hab mal ein ticket erstellt zum whitelisten
+[20:21:16]  grenthot_dgc: gibt es auch gebiete wo man nicht bauen darf?
+[20:24:40]  maxmasterb: Hab gerade ausversehen voll das geile Essen gezaubert... O:
+[20:25:41]  otp_elias: omg
+[20:26:01]  otp_elias: treffen skellete jeden schuss ?
+[20:27:05]  otp_elias: Die spielen smarter als manch dbd spieler
+[20:27:27]  grenthot_dgc: wie siehts mit whitelist aus?
+[20:31:11]  justsaruman: so da bin ich dann auch mal wieder
+[20:33:19]  otp_elias: Ja
+[20:33:22]  otp_elias: ja
+[20:33:32]  justsaruman: Boah, ich hab mir noch gar nichts ausgedacht wegen der Lore und so und bin auch echt exhausted so. Ich schau mal morgen Vormittag ob ich was Vorbereiten kann für Sonntag
+[20:34:07]  justsaruman: ah D1ng1rsu_
+[20:34:23]  justsaruman: ja morgen bin ich ja bei jemandem
+[20:36:37]  justsaruman: Jesus weo weo Jesus weo weo Jesus, du bist wunderbar
+[20:36:46]  justsaruman: sorry das musste sein
+[20:42:20]  otp_elias: Wusstest du schon das man linke mt gedrückt halten kann um alles auf einmal in backpack zu machen
+[20:42:30]  grenthot_dgc: fertig geschrieben
+[20:42:48]  otp_elias: minen würd ich nicht sagen..
+[20:42:57]  otp_elias: wenn du wüsstest was in den dungeons abgeht
+[20:43:32]  grenthot_dgc: alles gut
+[20:52:46]  mauricenite: moin
+[20:53:10]  mauricenite: wie viele sind grade auf dem server?
+[20:54:07]  mauricenite: wo hast du denn server? (lass mich raten nitrado???)
+[20:54:42]  mauricenite: ploudos/aternos???
+[20:55:08]  mauricenite: warum bei hetzner?
+[20:55:41]  mauricenite: hä seit wann geht denn sowas?
+[20:56:08]  mauricenite: ok
+[20:56:19]  mauricenite: habe ich noch nie nachgekuckt
+[20:56:41]  mauricenite: ist das nicht ein moded server?
+[20:57:03]  mauricenite: welches modpack?
+[20:57:35]  j0nas500: @MauriceNite https://j0nas500.de/projects/mc/mods
+[20:58:17]  mauricenite: bist du wansenig mach das doch als eine zip datei
+[20:58:39]  otp_elias: wie auch immer
+[20:58:40]  mauricenite: achso
+[20:58:43]  otp_elias: perfekt
+[20:58:45]  mauricenite: ich dachte schon
+[20:59:16]  otp_elias: wt
+[21:00:22]  mauricenite: hm liegt warscheinlich grade an hetzner
+[21:00:43]  mauricenite: weil version?
+[21:00:48]  mauricenite: welche
+[21:01:04]  mauricenite: forge?
+[21:01:46]  mauricenite: welche fabric version?
+[21:02:34]  mauricenite: die bräuchte ich aber
+[21:03:53]  mauricenite: ja ne sag mal die fabric version
+[21:04:08]  mauricenite: hm
+[21:04:12]  mauricenite: und jetzt?
+[21:05:36]  mauricenite: dir ein server erstellen hetzner ist doch eh schmutzt wie du grade gesehen hast
+[21:06:56]  mauricenite: ich bin server provider fals du es noch nicht mitbekommen hast
+[21:09:00]  mauricenite: nitehost (1. kerne anbindungs einbrüche  2. konstante leistung 3. bei mir hast du vollen zugriff bei hetzner nicht)
+[21:10:09]  mauricenite: du denkst du hast vollen zugriff ! aber das ist lange nicht alles zum server !
+[21:10:25]  mauricenite: weil hetzner nur verarsche ist
+[21:10:57]  mauricenite: wirst gleich sehen wie ein voller zugriff ausieht
+[21:11:29]  otp_elias: boar j0
+[21:11:35]  otp_elias: es gibt so unglaubliche scheiße
+[21:11:39]  otp_elias: was man finden kann
+[21:11:46] AutoMod: Held a message for reason: swearing level 1. Allow will post it in chat. Allow Deny
+[21:11:46] otp_elias: fick die ochsen
+[21:12:07]  otp_elias: Ja bin im Sand biom und da IS NE mega dungeon
+[21:12:11]  otp_elias: so sieht das aus
+[21:12:30]  otp_elias: So eine ruine oder sowas wie wir in Italien gesehen haben weißte noch ?
+[21:12:46]  otp_elias: übel riesig
+[21:18:20]  mauricenite: soll ich dir jetzt ein server fertig machen oder nicht?
+[21:20:08]  otp_elias: Soll ich mal pennen ?
+[21:45:13]  d1ng1rsu: was baust du denn da schönes?
+[21:45:58]  d1ng1rsu: ich hab alles gelevelt
+[21:46:08]  d1ng1rsu: auf maximum
+[21:46:25]  d1ng1rsu: xD
+[21:46:30]  d1ng1rsu: schön wärs
+[22:00:40]  otp_elias: jz bin ich erst fertig mit dem sand riesen
+[22:01:18]  otp_elias: und wenn du dir waffen craftest
+[22:01:23]  otp_elias: achte auf die effekte etc
+[22:01:31]  otp_elias: ja sie lohnen sich zu 100%
+[22:01:52]  otp_elias: Did he said Ganja ?
+[22:04:18]  otp_elias: @d1ng1rsu Was ist denn max lvl ?
+[22:04:55]  otp_elias: also muss man lvl 360 haben xD
+[22:04:59]  otp_elias: krass
+[22:07:07]  d1ng1rsu: @otp_elias bald hab ich die
+[22:07:23]  otp_elias: Mal gucken ob wir uns hoffentlich ic sehen xd
+[22:07:44]  otp_elias: @otp_elias am heutigen tage gemacht ?
+[22:08:14]  d1ng1rsu: wie ist denn dein IGN?
+[22:10:13]  d1ng1rsu: EYYYY
+[22:13:28]  otp_elias: Ist optifine erlaubt ?
+[22:13:45]  otp_elias: also dieser zoom
+[22:14:07]  otp_elias: ne ich kenne nur den zoom xd
+[22:16:13]  otp_elias: lag
+[22:16:28]  otp_elias: wieder
+[22:17:23]  otp_elias: Es kann sein das meine waffe bisschen dran schuld ist
+[22:22:48]  otp_elias: Mach
+[22:23:41]  otp_elias: Ich weis nicht vorhin hatte die son masseneffekt
+[22:24:07]  otp_elias: ich hab iwie 2 zombies angegriffen im dungeon und der hat iwie 10 rum geschleudert
+[22:24:57]  otp_elias: aber es laggt wenn du mit der angreifst anscheinend
+[22:25:54]  otp_elias: Mc Dungeon weapons
+[22:25:56]  otp_elias: die mod
+[22:31:49]  otp_elias: Jaa
+[22:32:04]  otp_elias: aber ich hab halt gedacht es hat nur so bisschen server probleme gegeben
+[22:32:19]  otp_elias: aber dnen hats im tream bei dir gelaggt und bei mir
+[22:32:24]  otp_elias: auch nur dann wo ich gefightet habe
+[22:36:09]  d1ng1rsu: KANN MAN EULEN ZÄHMEN???
+[22:36:34]  d1ng1rsu: das reicht mir, jetzt wird gegrinded
+[22:41:54]  lawezz: J0 500 Hallo
+[22:42:40] 1 raiders from Lawezz have joined!
+[22:42:46]  j0nas500: Vielen Dank für den Raid mit 1 Zuschauern. Lawezz hat zuletzt Minecraft gestreamt. Schaut doch gerne auch mal bei @Lawezz vorbei: https://twitch.tv/Lawezz
+[22:43:01]  lawezz: lawess
+[22:43:17]  lawezz: was bauste schönes?
+[22:43:36]  lawezz: ahhh ok
+[22:44:09]  lawezz: ich hab eben bisschen water dungeons erkundet und nh ferdinand geholt
+[22:44:20]  lawezz: wenns nur das ist Kappa KEKW
+[22:44:36]  lawezz: hab btw den wasser temple gefunden
+[22:44:50]  lawezz: darf ich spoilern wo er ist?
+[22:44:57]  beelzebub6_: Wird das hier ein 24 Stunden Stream oder wat?
+[22:45:24]  beelzebub6_: um 0 Uhr ist der Server weg?
+[22:45:53]  beelzebub6_: wofür suchtest du dann?
+[22:48:35]  otp_elias: Ich liebe das dungeoning
+[22:53:02]  otp_elias: Aber ich hab bis jz auch nur solche türme gefunden
+[22:53:08]  otp_elias: und nich sowas riesiges
+[23:02:32]  otp_elias: omg
+[23:02:48]  otp_elias: mein bett
+[23:03:09]  otp_elias: bin abgekratzt
+[23:03:22]  otp_elias: Unter eis
+[23:10:21]  otp_elias: garnich ?
+[23:10:31]  otp_elias: also eig nicht
+[23:10:36]  otp_elias: aber drück doch mal u
+[23:24:58] disconnected
+[23:24:58] Server connection timed out, reconnecting
+[23:25:00] connected
+[23:29:33]  otp_elias: och man ich hab keine lust mehr xD
+[23:29:55]  otp_elias: Weil ich meine items nicht wieder finde
+[23:41:09]  otp_elias: Kann man iwie das Haus von jemandem selbst iwie unzutritt fähig für andere machen ?
+[23:51:00]  otp_elias: Kannst mitm corser drüber gehen
+[23:51:05]  otp_elias: aber halt ooc nur verwenden xd
+[23:54:39]  otp_elias: oder meins
+[23:55:25]  otp_elias: tränker
+[23:55:30]  otp_elias: tränke
+[23:56:43]  otp_elias: geil
+[23:57:01]  otp_elias: Hab disconnect gedrückt
+[23:57:34]  otp_elias: Ja jut
+[23:57:41]  otp_elias: denn wieder von 0 anfangen xD
+[23:57:55]  otp_elias: ich würde mal meinen meine sachen sind despawned
+[23:58:02]  otp_elias: aber ich habn Haus
+[23:58:23]  otp_elias: Denn sind sie am meeres grund iwo
+[23:58:52]  otp_elias: denn bin ich blind
+[23:59:08]  otp_elias: Es wird so viel sein
+[23:59:19]  otp_elias: Wenn es jemand findet er denkt jackpot
+[23:59:43]  otp_elias: habe 2 mal mies krasse scheiße auf der welt da verloren
