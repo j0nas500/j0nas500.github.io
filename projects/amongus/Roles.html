@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  @font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b31d28;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2 {
+  background-color: #d73a49;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #22863a;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #005cc5;
+  font-weight: 700;
+}
+
+.markdown-body .pl-mi {
+  color: #24292e;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #24292e;
+  font-weight: 700;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffeef0;
+  color: #b31d28;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #f0fff4;
+  color: #22863a;
+}
+
+.markdown-body .pl-mc {
+  background-color: #ffebda;
+  color: #e36209;
+}
+
+.markdown-body .pl-mi2 {
+  background-color: #005cc5;
+  color: #f6f8fa;
+}
+
+.markdown-body .pl-mdr {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  color: #032f62;
+  text-decoration: underline;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.markdown-body hr:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body hr:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-bottom: 8px!important;
+  padding-top: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.markdown-body hr {
+  background-color: #e1e4e8;
+  border: 0;
+  height: .25em;
+  margin: 24px 0;
+  padding: 0;
+}
+
+.markdown-body blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  color: #6a737d;
+  font-size: .85em;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.markdown-body dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.markdown-body table {
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  word-break: normal;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  max-width: auto;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+}
+
+.markdown-body .commit-tease-sha {
+  color: #444d56;
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 90%;
+}
+
+.markdown-body .blob-wrapper {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: rgba(27,31,35,.3);
+  cursor: pointer;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  min-width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  color: #24292e;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  overflow: visible;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  background: #ffea7f;
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+  color: #444d56;
+  display: inline-block;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  border-color: #0366d6;
+  position: relative;
+  z-index: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+/*# sourceURL=webpack://./node_modules/github-markdown-css/github-markdown.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9naXRodWItbWFya2Rvd24tY3NzL2dpdGh1Yi1tYXJrZG93bi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7RUFDMUIsMkRBQXF0RTtBQUN2dEU7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLDJCQUEyQjtBQUM3Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2Qsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7QUFFQTs7Ozs7O0VBTUUsY0FBYztFQUNkLHNCQUFzQjtFQUN0QixrQkFBa0I7QUFDcEI7O0FBRUE7Ozs7OztFQU1FLHFCQUFxQjtBQUN2Qjs7QUFFQTs7Ozs7O0VBTUUsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsMEJBQTBCO0VBQzFCLDhCQUE4QjtFQUM5QixjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLGtJQUFrSTtFQUNsSSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTs7Ozs7OztFQU9FLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0VBQ0UsY0FBYztFQUNkLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7OztFQUdFLGNBQWM7RUFDZCxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFD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 */
+  </style>
+  <style>
+  /**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #9a6e3a;
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+/*# sourceURL=webpack://./node_modules/prismjs/themes/prism.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9wcmlzbWpzL3RoZW1lcy9wcmlzbS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7RUFJRTs7QUFFRjs7Q0FFQyxZQUFZO0NBQ1osZ0JBQWdCO0NBQ2hCLHdCQUF3QjtDQUN4QixzRUFBc0U7Q0FDdEUsY0FBYztDQUNkLGdCQUFnQjtDQUNoQixnQkFBZ0I7Q0FDaEIsb0JBQW9CO0NBQ3BCLGtCQUFrQjtDQUNsQixpQkFBaUI7Q0FDakIsZ0JBQWdCOztDQUVoQixnQkFBZ0I7Q0FDaEIsY0FBYztDQUNkLFdBQVc7O0NBRVgscUJBQXFCO0NBQ3JCLGtCQUFrQjtDQUNsQixpQkFBaUI7Q0FDakIsYUFBYTtBQUNkOztBQUVBOztDQUVDLGlCQUFpQjtDQUNqQixtQkFBbUI7QUFDcEI7O0FBRUE7O0NBRUMsaUJBQWlCO0NBQ2pCLG1CQUFtQjtBQUNwQjs7QUFFQTtDQUNDOztFQUVDLGlCQUFpQjtDQUNsQjtBQUNEOztBQUVBLGdCQUFnQjtBQUNoQjtDQUNDLFlBQVk7Q0FDWixjQUFjO0NBQ2QsY0FBYztBQUNmOztBQUVBOztDQUVDLG1CQUFtQjtBQUNwQjs7QUFFQSxnQkFBZ0I7QUFDaEI7Q0FDQyxhQUFhO0NBQ2IsbUJBQW1CO0NBQ25CLG1CQUFtQjtBQUNwQjs7QUFFQTs7OztDQUlDLGdCQUFnQjtBQUNqQjs7QUFFQTtDQUNDLFdBQVc7QUFDWjs7QUFFQTtDQUNDLFdBQVc7QUFDWjs7QUFFQTs7Ozs7OztDQU9DLFdBQVc7QUFDWjs7QUFFQTs7Ozs7O0NBTUMsV0FBVztBQUNaOztBQUVBOzs7OztDQUtDLGNBQWM7Q0FDZCxvRUFBb0U7Q0FDcEUsaUNBQWlDO0FBQ2xDOztBQUVBOzs7Q0FHQyxXQUFXO0FBQ1o7O0FBRUE7O0NBRUMsY0FBYztBQUNmOztBQUVBOzs7Q0FHQyxXQUFXO0FBQ1o7O0FBRUE7O0NBRUMsaUJBQWlCO0FBQ2xCO0FBQ0E7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2IiLCJzb3VyY2VSb290IjoiIn0= */
+  </style>
+  <style>
+  
+  </style>
+  <style>
+    .markdown-body {
+      font-family: -apple-system,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+
+    @media not print {
+      .markdown-body {
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    }
+
+    .hf-container {
+      color: #24292e;
+      line-height: 1.3;
+    }
+
+    .markdown-body .highlight pre,
+    .markdown-body pre {
+      white-space: pre-wrap;
+    }
+    .markdown-body table {
+      display: table;
+    }
+    .markdown-body img[data-align="center"] {
+      display: block;
+      margin: 0 auto;
+    }
+    .markdown-body img[data-align="right"] {
+      display: block;
+      margin: 0 0 0 auto;
+    }
+    .markdown-body li.task-list-item {
+      list-style-type: none;
+    }
+    .markdown-body li > [type=checkbox] {
+      margin: 0 0 0 -1.3em;
+    }
+    .markdown-body input[type="checkbox"] ~ p {
+      margin-top: 0;
+      display: inline-block;
+    }
+    .markdown-body ol ol,
+    .markdown-body ul ol {
+      list-style-type: decimal;
+    }
+    .markdown-body ol ol ol,
+    .markdown-body ol ul ol,
+    .markdown-body ul ol ol,
+    .markdown-body ul ul ol {
+      list-style-type: decimal;
+    }
+  </style>
+  <style>.markdown-body a.footnote-ref {
+  text-decoration: none;
+}
+
+.footnotes {
+  font-size: .85em;
+  opacity: .8;
+}
+
+.footnotes li[role="doc-endnote"] {
+  position: relative;
+}
+
+.footnotes .footnote-back {
+  position: absolute;
+  font-family: initial;
+  top: .2em;
+  right: 1em;
+  text-decoration: none;
+}
+
+.inline-math.invalid,
+.multiple-math.invalid {
+  color: rgb(255, 105, 105);
+}
+
+.toc-container {
+  width: 100%;
+}
+
+.toc-container .toc-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.toc-container li,
+.toc-container ul,
+.toc-container ul li {
+  list-style: none !important;
+}
+
+.toc-container > ul {
+  padding-left: 0;
+}
+
+.toc-container ul li span {
+  display : flex;
+}
+
+.toc-container ul li span a {
+  color: inherit;
+  text-decoration: none;
+}
+.toc-container ul li span a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.toc-container ul li span span.dots {
+  flex: 1;
+  height: 0.65em;
+  margin: 0 10px;
+  border-bottom: 2px dotted black;
+}
+
+/*# sourceURL=webpack://./src/muya/lib/assets/styles/exportStyle.css */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9tdXlhL2xpYi9hc3NldHMvc3R5bGVzL2V4cG9ydFN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLFNBQVM7RUFDVCxVQUFVO0VBQ1YscUJBQXFCO0FBQ3ZCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBOzs7RUFHRSwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7QUFDQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxPQUFPO0VBQ1AsY0FBYztFQUNkLGNBQWM7RUFDZCwrQkFBK0I7QUFDakMiLCJzb3VyY2VSb290IjoiIn0= */</style>
+  <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
+</head>
+<body>
+  <article class="markdown-body"><h1 class="atx" id="roles">Roles</h1>
+<table>
+<thead>
+<tr>
+<th>Impostor</th>
+<th>Crewmate</th>
+<th>Neutral</th>
+<th>Modifier</th>
+<th>Gamemode</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="#mafia">Godfather (Mafia)</a></td>
+<td><a href="#mayor">Mayor</a></td>
+<td><a href="#jester">Jester</a></td>
+<td><a href="#bloody">Bloody</a></td>
+<td><a href="#roles">Classic</a></td>
+</tr>
+<tr>
+<td><a href="#mafia">Mafioso (Mafia)</a></td>
+<td><a href="#engineer">Engineer</a></td>
+<td><a href="#arsonist">Arsonist</a></td>
+<td><a href="#anti-teleport">Anti Teleport</a></td>
+<td><a href="#guesser-modifier">Guesser</a></td>
+</tr>
+<tr>
+<td><a href="#mafia">Janitor (Mafia)</a></td>
+<td><a href="#sheriff">Sheriff</a></td>
+<td><a href="#jackal">Jackal</a></td>
+<td><a href="#tie-breaker">Tie Breaker</a></td>
+<td><a href="#hide-n-seek">Hide 'n Seek</a></td>
+</tr>
+<tr>
+<td><a href="#morphling">Morphling</a></td>
+<td><a href="#deputy">Deputy</a></td>
+<td><a href="#sidekick">Sidekick</a></td>
+<td><a href="#bait">Bait</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#camouflager">Camouflager</a></td>
+<td><a href="#lighter">Lighter</a></td>
+<td><a href="#vulture">Vulture</a></td>
+<td><a href="#lovers">Lovers</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#vampire">Vampire</a></td>
+<td><a href="#detective">Detective</a></td>
+<td><a href="#lawyer">Lawyer</a></td>
+<td><a href="#sunglasses">Sunglasses</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#eraser">Eraser</a></td>
+<td><a href="#time-master">Time Master</a></td>
+<td><a href="#prosecutor">Prosecutor</a></td>
+<td><a href="#mini">Mini</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#trickster">Trickster</a></td>
+<td><a href="#medic">Medic</a></td>
+<td><a href="#pursuer">Pursuer</a></td>
+<td><a href="#vip">VIP</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#cleaner">Cleaner</a></td>
+<td><a href="#swapper">Swapper</a></td>
+<td><a href="#thief">Thief</a></td>
+<td><a href="#invert">Invert</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#warlock">Warlock</a></td>
+<td><a href="#seer">Seer</a></td>
+<td></td>
+<td><a href="#chameleon">Chameleon</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#bounty-hunter">Bounty Hunter</a></td>
+<td><a href="#hacker">Hacker</a></td>
+<td></td>
+<td><a href="#shifter">Shifter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#witch">Witch</a></td>
+<td><a href="#tracker">Tracker</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#ninja">Ninja</a></td>
+<td><a href="#snitch">Snitch</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#guesser">Evil Guesser</a></td>
+<td><a href="#spy">Spy</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#portalmaker">Portalmaker</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#security-guard">Security Guard</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#medium">Medium</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#trapper">Trapper</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#guesser">Nice Guesser</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 class="atx" id="mafia">Mafia</h2>
+<h3 class="atx" id="team-impostors"><strong>Team: Impostors</strong></h3>
+<p>Die Mafia ist eine Gruppe von drei Impostoren.</p>
+<p>Der Godfather arbeitet wie ein normaler Impostor.</p>
+<p>Der Mafioso ist ein Impostor, der nicht töten kann, bis der Godfather tot ist.</p>
+<p>Der Janitor ist ein Impostor, der nicht töten kann, aber er kann stattdessen Leichen verstecken.</p>
+<h2 class="atx" id="morphling">Morphling</h2>
+<h3 class="atx" id="team-impostors-1"><strong>Team: Impostors</strong></h3>
+<p>Der Morphling ist ein Impostor, der zusätzlich das Aussehen eines Spielers scannen kann. Nach einer beliebigen Zeit kann er für 10s dieses Aussehen annehmen.</p>
+<h2 class="atx" id="camouflager">Camouflager</h2>
+<h3 class="atx" id="team-impostors-2"><strong>Team: Impostors</strong></h3>
+<p>Der Camouflager ist ein Impostor, der zusätzlich einen Tarnungsmodus aktivieren kann. Der Camouflager-Modus dauert 10s und während er aktiv ist, werden alle Spielernamen/Tiere/Hüte versteckt und alle Spieler haben die gleiche Farbe.</p>
+<h2 class="atx" id="vampire">Vampire</h2>
+<h3 class="atx" id="team-impostors-3"><strong>Team: Impostors</strong></h3>
+<p>Der Vampir ist ein Impostor, der andere Spieler beißen kann. Gebissene Spieler sterben nach einer konfigurierbaren Zeitspanne.</p>
+<p>Wenn die Spawn-Chance des Vampirs größer als 0 ist (auch wenn kein Vampir im Spiel ist), können alle Spieler einen Knoblauch platzieren.</p>
+<p>Wenn sich ein Opfer in der Nähe eines Knoblauchs befindet, verwandelt sich der "Biss-Knopf" in den standardmäßigen "Töten-Knopf" und der Vampir kann nur einen normalen Kill ausführen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If a bitten player is still alive when a meeting is being called, they die at the start of the meeting.</p>
+</li>
+<li><p>The cooldown is the same as the default kill cooldown (+ the kill delay if the Vampire bites the target).</p>
+</li>
+<li><p>If there is a Vampire in the game, there can't be a Warlock.</p>
+</li>
+</ul>
+<h2 class="atx" id="eraser">Eraser</h2>
+<h3 class="atx" id="team-impostors-4"><strong>Team: Impostors</strong></h3>
+<p>Der Eraser ist ein Impostor, der die Rolle jedes Spielers löschen kann.</p>
+<p>Die anvisierten Spieler verlieren ihre Rolle nach dem Meeting, kurz bevor ein Spieler verbannt wird.</p>
+<p>Nach jeder Löschung erhöht sich die Abklingzeit um 10 Sekunden.</p>
+<p>Die Löschung wird auch dann durchgeführt, wenn der Eraser oder sein Ziel vor dem nächsten Meeting sterben.</p>
+<p>Standardmäßig kann der Eraser alle Personen außer dem Spion und anderen Impostoren löschen.</p>
+<p>Abhängig von den Optionen kann er auch diese auslöschen (Impostoren verlieren ihre spezielle Impostor-Fähigkeit).</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Shifter shift will always be triggered before the Erase (hence either the new role of the Shifter will be erased or the Shifter saves the role of their target, depending on whom the Eraser erased).</p>
+</li>
+<li><p>As the erase is being triggered before the ejection of a player, a Jester win would not happen, as the erase will be triggered before.</p>
+</li>
+<li><p>Modifier will not be erased.</p>
+</li>
+</ul>
+<h2 class="atx" id="trickster">Trickster</h2>
+<h3 class="atx" id="team-impostors-5"><strong>Team: Impostors</strong></h3>
+<p>Der Trickster ist ein Impostor, der 3 Kästchen platzieren kann, die zunächst für die anderen Spieler unsichtbar sind.</p>
+<p>Wenn der Trickster alle seine Kisten platziert hat, werden sie in ein vent-Netzwerk umgewandelt, das nur vom Trickster selbst genutzt werden kann, aber die Kisten sind für die anderen Spieler sichtbar.</p>
+<p>Wenn die Kisten in ein vent-Netz umgewandelt werden, erhält der Trickster die neue Fähigkeit "Licht aus", um die Sichtbarkeit von Nicht-Impostoren einzuschränken, die von anderen Spielern nicht behoben werden kann. Die Lichter werden nach einer Weile automatisch wiederhergestellt.</p>
+<h2 class="atx" id="cleaner">Cleaner</h2>
+<h3 class="atx" id="team-impostors-6"><strong>Team: Impostors</strong></h3>
+<p>Der Cleaner ist ein Impostor, der die Fähigkeit hat, Leichen aufzuräumen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Kill and Clean cooldown are shared, preventing them from immediately cleaning their own kills.</p>
+</li>
+<li><p>If there is a Cleaner in the game, there can't be a Vulture.</p>
+</li>
+</ul>
+<h2 class="atx" id="warlock">Warlock</h2>
+<h3 class="atx" id="team-impostors-7"><strong>Team: Impostors</strong></h3>
+<p>Der Warlock ist ein Impostor, der einen anderen Spieler verfluchen kann (der verfluchte Spieler wird nicht benachrichtigt).</p>
+<p>Wenn die verfluchte Person neben einem anderen Spieler steht, kann der Warlock diesen Spieler töten (egal, wie weit er entfernt ist).</p>
+<p>Wird ein Kill mit Hilfe eines verfluchten Spielers durchgeführt, wird der Fluch aufgehoben und der Warlock kann sich für eine einstellbare Zeit nicht mehr bewegen.</p>
+<p>Der Warlock kann weiterhin normale Kills ausführen, aber die beiden Tasten haben die gleiche Abklingzeit.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Warlock can always kill their Impostor mates (and even themself) using the "cursed kill"</p>
+</li>
+<li><p>If there is a Warlock in the game, there can't be a Vampire</p>
+</li>
+<li><p>Performing a normal kill, doesn't lift the curse</p>
+</li>
+</ul>
+<h2 class="atx" id="bounty-hunter">Bounty Hunter</h2>
+<h3 class="atx" id="team-impostors-8"><strong>Team: Impostors</strong></h3>
+<p>Der Bounty Hunter ist ein Impostor, der laufend Kopfgelder erhält (der anvisierte Spieler wird nicht benachrichtigt).</p>
+<p>Das Ziel des Bounty Hunters wechselt nach jedem Meeting und nach einer konfigurierbaren Zeitspanne.</p>
+<p>Wenn der Bounty Hunter sein Ziel tötet, ist seine Abklingzeit viel kürzer als sonst.</p>
+<p>Das Töten eines Spielers, der nicht das aktuelle Ziel ist, führt zu einer erhöhten Abklingzeit.</p>
+<p>Je nach Option wird ein Pfeil angezeigt, der auf das aktuelle Ziel zeigt.</p>
+<h2 class="atx" id="witch">Witch</h2>
+<h3 class="atx" id="team-impostors-9"><strong>Team: Impostors</strong></h3>
+<p>Die Witch ist ein Impostor, der die Fähigkeit hat, andere Spieler zu verzaubern.</p>
+<p>Während des nächsten Meetings wird der verzauberte Spieler hervorgehoben und er stirbt direkt nach dem Meeting.</p>
+<p>Ähnlich wie beim Vampir werden Schilde und blanks zweimal überprüft (am Ende des Zaubers auf den Spieler und am Ende des Meetings, wenn der Zauber aktiviert wird).</p>
+<p>Dies kann dazu führen, dass Spieler während des Meetings als verzaubert markiert werden, aber am Ende nicht sterben (wenn sie einen Schild erhalten oder die Witch leer ausgeht, nachdem sie von der Witch verzaubert wurden).</p>
+<p>Stirbt die Witch vor Beginn des Meetings oder wird die Witch während des Meetings erraten, werden die verzauberten Spieler hervorgehoben, überleben aber in jedem Fall.</p>
+<p>Abhängig von den Optionen kann man wählen, ob die Abwahl der Witch alle mit einem Zauberspruch belegten Spieler retten soll oder nicht.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>The spellbound players will die before the voted player dies (which might trigger e.g. trigger an Impostor win condition, even if the Witch is the one being voted)</li>
+</ul>
+<h2 class="atx" id="ninja">Ninja</h2>
+<h3 class="atx" id="team-impostors-10"><strong>Team: Impostors</strong></h3>
+<p>Der Ninja ist ein Impostor, der die Fähigkeit hat, einen anderen Spieler überall auf der Karte zu töten.</p>
+<p>Du kannst einen Spieler mit deiner Fähigkeit markieren und durch erneutes Benutzen der Fähigkeit an die Position des markierten Spielers springen und ihn töten.</p>
+<p>Abhängig von den Optionen weißt du, wo sich dein markierter Spieler befindet.</p>
+<p>Wenn der Ninja seine Fähigkeit einsetzt, hinterlässt er für eine konfigurierbare Zeitspanne eine Spur (Blätter) an der Stelle, an der er die Fähigkeit aktiviert hat und zusätzlich an der Stelle, an der er den zuvor markierten Spieler getötet hat.</p>
+<p>Wenn der Ninja einen Kill mit seiner Fähigkeit ausführt, kann er für einige Sekunden unsichtbar sein (abhängig von den Optionen)</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Ninja has a 5 second cooldown after marking a player</p>
+</li>
+<li><p>The trace has a darker (black) or lighter (white) color depending on the players color that will fade into green</p>
+</li>
+<li><p>The mark on the marked player will reset after a meeting or after using the ability to kill the marked player. Performing a normal kill will <strong>NOT</strong> reset the mark</p>
+</li>
+<li><p>If the Ninja tries to kill a shielded player (e.g. Medic shield, Shield last game first kill), the kill will not be performed</p>
+</li>
+<li><p>If the Ninja tries to kill the Time Master while the shield is active, the Ninja won't teleport to the players position, but the Time Master shield will still be activated</p>
+</li>
+<li><p>If the marked target is on a different floor on Submerged, the arrow will always point to the elevator</p>
+</li>
+</ul>
+<h2 class="atx" id="guesser">Guesser</h2>
+<h3 class="atx" id="team-crewmates-oder-impostors"><strong>Team: Crewmates oder Impostors</strong></h3>
+<p>Der Guesser kann ein Crewmate oder ein Impostor sein (je nach Einstellung).</p>
+<p>Der Guesser kann während des Meetings Spieler erschießen, indem er deren Rolle errät. Wenn er falsch rät, stirbt der Guesser stattdessen.</p>
+<p>Die Tipps Impostor und Crewmate sind nur dann richtig, wenn der Spieler dem entsprechenden Team angehört und keine Sonderrolle hat.</p>
+<p>Man kann nur während der Abstimmungszeit schießen.</p>
+<p>Abhängig von den Optionen kann der Guesser den geschützten Spieler nicht erraten und abhängig von den Medic-Optionen kann der Medic/geschützte Spieler benachrichtigt werden (niemand wird sterben, unabhängig davon, was der Guesser erraten hat).</p>
+<h2 class="atx" id="jester">Jester</h2>
+<h3 class="atx" id="team-neutral"><strong>Team: Neutral</strong></h3>
+<p>Der Jester hat keine Aufgaben. Er gewinnt das Spiel als Solo, wenn er während eines Meetings abgewählt wird.</p>
+<h2 class="atx" id="arsonist">Arsonist</h2>
+<h3 class="atx" id="team-neutral-1"><strong>Team: Neutral</strong></h3>
+<h2 class="atx" id="arsonist-1">Arsonist</h2>
+<h3 class="atx" id="team-neutral-2"><strong>Team: Neutral</strong></h3>
+<p>Der Arsonist hat keine Aufgaben, er muss das Spiel im Alleingang gewinnen.</p>
+<p>Der Arsonist kann andere Spieler dousen, indem er die douse-Taste drückt und ein paar Sekunden neben dem Spieler bleibt.</p>
+<p>Wenn der Spieler, den der Arsonist doused, außer Reichweite geht, wird die Abklingzeit auf 0 zurückgesetzt.</p>
+<p>Nachdem er alle Spieler doused hat, kann der Arsonist alle Spieler anzünden, was zu einem Sieg des Arsonists führt.</p>
+<h2 class="atx" id="jackal">Jackal</h2>
+<h3 class="atx" id="team-jackal"><strong>Team: Jackal</strong></h3>
+<p>Der Jackal ist Teil eines Extra-Teams, das versucht, alle anderen Spieler zu eliminieren.</p>
+<p>Der Jackal hat keine Aufgaben und kann Impostors, Crewmates und Neutrale töten.</p>
+<p>Der Jackal kann (wenn es die Optionen erlauben) einen anderen Spieler als seinen Sidekick auswählen.</p>
+<p>Durch das Erschaffen eines Sidekicks werden alle Aufgaben des Sidekicks entfernt und er wird dem Team Jackal hinzugefügt. Der Sidekick verliert seine aktuelle Rolle (außer wenn er ein Lover ist, dann spielt er in zwei Teams).</p>
+<p>Die Aktion "Sidekick erschaffen" kann nur einmal pro Jackal oder einmal pro Spiel verwendet werden (abhängig von den Optionen).</p>
+<p>Der Jackal kann auch Impostors zu seinem Sidekick ernennen, aber je nach den Optionen verwandelt sich der Impostor entweder wirklich in den Sidekick und verlässt das Team Impostors, oder er sieht für den Jackal nur wie der Sidekick aus und bleibt, wie er war.</p>
+<p>Auch wenn ein Spion oder Impostor zum Sidekick wird, erscheint er für die Impostors immer noch rot.</p>
+<p>Das Team Jackal ermöglicht mehrere neue Spielausgänge, von denen hier einige Beispiele aufgeführt sind:</p>
+<ul>
+<li><p>Die Impostors könnten eliminiert werden und dann spielt die Crew gegen das Team Jackal.</p>
+</li>
+<li><p>Die Crew könnte eliminiert werden, dann kämpft das Team Jackal gegen die Impostors (Die Crew kann in diesem Szenario immer noch einen Aufgabensieg erzielen)</p>
+</li>
+</ul>
+<p>Die Priorität der Siegbedingungen ist die folgende:</p>
+<ol>
+<li><p>Crewmate Mini verliert durch Abstimmung</p>
+</li>
+<li><p>Jester gewinnt durch Abstimmung</p>
+</li>
+<li><p>Arsonist gewinnt</p>
+</li>
+<li><p>Team Impostor gewinnt durch Sabotage</p>
+</li>
+<li><p>Team Crew gewinnt durch Aufgaben (auch möglich, wenn die gesamte Crew tot ist)</p>
+</li>
+<li><p>Die Liebenden unter den letzten drei Spielern gewinnen</p>
+</li>
+<li><p>Team Jackal gewinnt durch Überzahl (wenn das Team Jackal die gleiche oder eine größere Anzahl von Spielern hat als die Crew und 0 Impostoren übrig sind und Team Jackal keinen Lover hat)</p>
+</li>
+<li><p>Team Impostor gewinnt durch Überzahl (Wenn das Team Impostor gleich viele oder mehr Spieler hat als die Mannschaft und 0 Spieler des Teams Jackal übrig sind und das Team Impostor keinen Lover hat)</p>
+</li>
+<li><p>Team Crew gewinnt durch Überzahl (wenn kein Spieler des Teams Jackal und des Teams Impostors übrig ist)</p>
+</li>
+</ol>
+<h2 class="atx" id="sidekick">Sidekick</h2>
+<h3 class="atx" id="team-jackal-1"><strong>Team: Jackal</strong></h3>
+<p>Wird einem Spieler während des Spiels durch die "Erschaffe Sidekick-Aktion" des Jackals zugewiesen und schließt sich dem Jackal in seinem Bestreben an, alle anderen Spieler zu eliminieren.</p>
+<p>Nach dem Tod des Jackals (abhängig von den Optionen) kann er selbst zum Jackal befördert werden und möglicherweise sogar einen eigenen Sidekick zuweisen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>A player that converts into a Sidekick loses their previous role and tasks (if they had one).</p>
+</li>
+<li><p>The Sidekick may be killed by a Sheriff.</p>
+</li>
+<li><p>The Sidekick cannot target the Mini, while it's growing up.</p>
+</li>
+</ul>
+<h2 class="atx" id="vulture">Vulture</h2>
+<h3 class="atx" id="team-neutral-3"><strong>Team: Neutral</strong></h3>
+<p>Der Vulture hat keine Aufgaben, er muss das Spiel im Alleingang gewinnen.</p>
+<p>Der Vulture ist eine neutrale Rolle, die eine bestimmte Anzahl von Leichen fressen muss (abhängig von den Optionen), um zu gewinnen.</p>
+<p>Wenn ein Spieler stirbt, erhält der Vulture je nach Option einen Pfeil, der auf die Leiche zeigt.</p>
+<p>Wenn es einen Vulture im Spiel gibt, kann es keinen Cleaner geben.</p>
+<h2 class="atx" id="lawyer">Lawyer</h2>
+<h3 class="atx" id="team-neutral-4"><strong>Team: Neutral</strong></h3>
+<p>Der Lawyer ist eine neutrale Rolle, die einen Mandanten hat.</p>
+<p>Der Mandant kann ein Impostor oder Jackal sein, der kein Lover ist.</p>
+<p>Abhängig von den Optionen kann der Mandant auch ein Jester sein.</p>
+<p>Der Lawyer braucht den Sieg seines Mandanten, um das Spiel zu gewinnen.</p>
+<p>Ihr Mandant weiß nicht, dass er ihr Mandant ist.</p>
+<p>Wenn ihr Mandant abgewählt wird, stirbt der Lawyer mit seinem Mandanten.</p>
+<p>Wenn der Mandant stirbt, wechselt der Lawyer seine Rolle und wird zum <a href="#pursuer">Pursuer</a>, der ein anderes Ziel hat, nämlich das Spiel zu gewinnen.</p>
+<p>Wie der Lawyer gewinnt:</p>
+<ul>
+<li><p>Lawyer tot/lebendig, Mandant lebendig und Mandant gewinnt: Der Lawyer gewinnt zusammen mit dem Team des Mandanten.</p>
+</li>
+<li><p>Wenn ihr Mandant Jester ist und der Jester abgewählt wird, gewinnt der Lawyer zusammen mit dem Jester.</p>
+</li>
+</ul>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If the client disconnects, the Lawyer will also turn into the Pursuer.</p>
+</li>
+<li><p>The Lawyer needs to figure out the role of their client depending on the options.</p>
+</li>
+<li><p>The tasks only count, if the Lawyer gets promoted to Pursuer.</p>
+</li>
+<li><p>If the Lawyer dies before their client, they will lose all their tasks and will get the overview immediately.</p>
+</li>
+</ul>
+<h2 class="atx" id="prosecutor">Prosecutor</h2>
+<h3 class="atx" id="team-neutral-5"><strong>Team: Neutral</strong></h3>
+<p>Der Prosecutor ist eine neutrale Rolle, die dem Lawyer ähnelt. Der Prosecutor hat einen Mandanten, der ein Crewmitglied ist.</p>
+<p>Der Prosecutor ist darauf angewiesen, dass sein Mandant abgewählt wird, um das Spiel zu gewinnen.</p>
+<p>Der Mandant des Prosecutors weiß nicht, dass er sein Mandant ist.</p>
+<p>Wenn der Mandant zum Sidekick wird, wechselt der Prosecutor seine Rolle und wird zum <a href="#lawyer">Lawyer</a> des Mandanten und muss den Mandant von nun an schützen.</p>
+<p>Wenn der Mandant des Prosecutors stirbt, ändert der Prosecutor seine Rolle und wird zum <a href="#pursuer">Pursuer</a>, der ein anderes Ziel hat, um das Spiel zu gewinnen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Prosecutor's role settings are shared with the Lawyer settings.</p>
+</li>
+<li><p>If the client disconnects, the Prosecutor will also turn into the Pursuer.</p>
+</li>
+<li><p>The Prosecutor needs to figure out the role of their client depending on the options.</p>
+</li>
+<li><p>The tasks only count, if the Prosecutor gets promoted to Pursuer.</p>
+</li>
+<li><p>If the Prosecutor dies before their client, they will lose all their tasks and will get the overview immediately.</p>
+</li>
+</ul>
+<h2 class="atx" id="pursuer">Pursuer</h2>
+<h3 class="atx" id="team-neutral-6"><strong>Team: Neutral</strong></h3>
+<p>Der Pursuer ist immer noch eine neutrale Rolle, hat aber ein anderes Ziel, um das Spiel zu gewinnen; er muss noch am Leben sein, wenn das Spiel endet und die Crew gewinnt.</p>
+<p>Um dieses Ziel zu erreichen, verfügt der Verfolger über eine Fähigkeit namens "Blank", mit der er die Waffe eines Killers (dazu gehört auch der Sheriff) mit einer Platzpatrone füllen kann. Wenn der Killer also versucht, jemanden zu töten, verfehlt er sein Ziel, und seine Abklingzeiten werden wie üblich ausgelöst.</p>
+<p>Wenn der Killer die "Blank"-Waffe abfeuert, werden Schilde (z.B. Medic-Schild oder Time Master-Schild) nicht ausgelöst.</p>
+<p>Der Pursuer hat Aufgaben (die bereits als Lawyer/Prosecutor erledigt werden können), die für den Aufgabensieg der Crewmates zählen. Wenn der Pursuer stirbt, werden seine Aufgaben nicht mehr gezählt.</p>
+<h2 class="atx" id="thief">Thief</h2>
+<h3 class="atx" id="team-neutral-7"><strong>Team: Neutral</strong></h3>
+<p>Der Thief muss einen anderen Killer töten (Impostor, Jackal/Sidekick und falls aktiviert Sheriff)</p>
+<p>um eine Siegbedingung zu haben.</p>
+<p>Wenn der Dieb keinen anderen Killer tötet, verliert er das Spiel.</p>
+<p>Wenn der Dieb einen der anderen Killer tötet, übernimmt der Dieb deren Rolle (z. B. Ninja) und schließt sich deren Team an (in diesem Fall</p>
+<p>Team Impostor). Er hat dann die Siegbedingung der neuen Rolle (z. B. Impostor-Sieg).</p>
+<p>Wenn der Dieb versucht, eine nicht-tötende Rolle (Crewmate oder Neutral) zu töten, stirbt er ähnlich wie ein fehlgeleiteter Sheriff.</p>
+<h2 class="atx" id="mayor">Mayor</h2>
+<h3 class="atx" id="team-crewmates"><strong>Team: Crewmates</strong></h3>
+<p>Der Mayor führt die Crewmates an, indem er eine Stimme hat, die doppelt zählt.</p>
+<p>Der Mayor kann sein Meeting immer nutzen, auch wenn die maximale Anzahl an Meetings erreicht wurde.</p>
+<p>Der Mayor hat einen tragbaren Meeting-Button, abhängig von den Optionen.</p>
+<p>Der Mayor kann die Farben der Abstimmung sehen, nachdem er eine konfigurierbare Anzahl von Aufgaben erledigt hat, abhängig von den Optionen.</p>
+<h2 class="atx" id="engineer">Engineer</h2>
+<h3 class="atx" id="team-crewmates-1"><strong>Team: Crewmates</strong></h3>
+<p>Der Engineer (wenn er noch lebt) kann eine bestimmte Anzahl von Sabotagen pro Spiel von einem beliebigen Punkt der Karte aus beheben.</p>
+<p>Der Engineer kann Vents benutzen.</p>
+<p>Wenn sich der Engineer in einem vent befindet, sehen die Mitglieder des Teams Jackal/Impostors je nach Option einen blauen Umriss um alle vents auf der Karte (um sie zu warnen).</p>
+<p>Wegen der Vents kann der Engineer einige Aufgaben nicht über die Schaltfläche "Benutzen" starten, sondern nur durch Doppelklick.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>The kill button of Impostors activates if they stand next to a vent where the Engineer is. They can also kill them there. No other action (e.g. Morphling sample, Shifter shift, ...) can affect players inside vents.</li>
+</ul>
+<h2 class="atx" id="sheriff">Sheriff</h2>
+<h3 class="atx" id="team-crewmates-2"><strong>Team: Crewmates</strong></h3>
+<p>Der Sheriff hat die Fähigkeit, Impostoren oder neutrale Rollen zu töten, wenn er sie aktiviert hat.</p>
+<p>Wenn er versucht, einen Crewmate zu töten, stirbt dieser stattdessen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If the Sheriff shoots the person the Medic shielded, the Sheriff and the shielded person <strong>both remain unharmed</strong>.</p>
+</li>
+<li><p>If the Sheriff shoots a Mini Impostor while growing up, nothing happens. If it's fully grown, the Mini Impostor dies.</p>
+</li>
+</ul>
+<h2 class="atx" id="deputy">Deputy</h2>
+<h3 class="atx" id="team-crewmates-3"><strong>Team: Crewmates</strong></h3>
+<p>Der Deputy hat die Fähigkeit, dem Spieler Handschellen anzulegen.</p>
+<p>Die Handschellen bleiben solange verborgen, bis der Spieler, dem die Handschellen angelegt wurden, versucht, eine deaktivierte Taste/Hotkey zu betätigen.</p>
+<p>Handschellen deaktivieren:</p>
+<ul>
+<li><p>Töten</p>
+</li>
+<li><p>Fähigkeiten</p>
+</li>
+<li><p>Vent</p>
+</li>
+<li><p>Reports.</p>
+</li>
+</ul>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>Duration starts after the handcuffs become visible.</p>
+</li>
+<li><p>Deputy can not be in game without Sheriff.</p>
+</li>
+</ul>
+<h2 class="atx" id="lighter">Lighter</h2>
+<h3 class="atx" id="team-crewmates-4"><strong>Team: Crewmates</strong></h3>
+<p>Der Lighter kann von Zeit zu Zeit sein Feuerzeug einschalten, was seine Sicht um einen einstellbaren Wert erhöht.</p>
+<h2 class="atx" id="detective">Detective</h2>
+<h3 class="atx" id="team-crewmates-5"><strong>Team: Crewmates</strong></h3>
+<p>Der Detective kann Fußabdrücke sehen, die andere Spieler hinterlassen.</p>
+<p>Die andere Funktion des Detektivs zeigt sich, wenn er eine Leiche meldet: Er erhält Hinweise auf die Identität des Mörders. Die Art der Informationen, die sie erhalten, hängt von der Zeit ab, die du gebraucht hast, um die Leiche zu finden.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>When people change their colors (because of a morph or camouflage), all the footprints also change their colors (also the ones that were already on the ground). If the effects are over, all footprints switch back to the original color.</p>
+</li>
+<li><p>The Detective does not see footprints of players that sit in vents</p>
+</li>
+</ul>
+<h2 class="atx" id="time-master">Time Master</h2>
+<h3 class="atx" id="team-crewmates-6"><strong>Team: Crewmates</strong></h3>
+<p>Der Time Master verfügt über einen Time Shield, den er aktivieren kann. Der time shield bleibt für eine konfigurierbare Zeitspanne aktiv.</p>
+<p>Wenn ein Spieler versucht, den Time Master zu töten, während der Time Shield aktiv ist, wird er nicht getötet und die</p>
+<p>Zeit wird für eine bestimmte Zeit zurückgespult.</p>
+<p>Die Abklingzeit des Killers wird nicht zurückgesetzt, so dass der Time Master</p>
+<p>sicherstellen muss, dass das Spiel nicht in der gleichen Situation endet.</p>
+<p>Der Time Master ist vom rewind nicht betroffen</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>Only the movement is affected by the rewind.</p>
+</li>
+<li><p>A Vampire bite will trigger the rewind. If the Time Master misses shielding the bite, they can still shield the kill which happens a few seconds later.</p>
+</li>
+<li><p>If the Time Master was bitten and has their shield active before when a meeting is called, they survive but the time won't be rewound.</p>
+</li>
+<li><p>If the Time Master has a Medic shield, they won't rewind.</p>
+</li>
+<li><p>The shield itself ends immediately when triggered. So the Time Master can be attacked again as soon as the rewind ends.</p>
+</li>
+</ul>
+<h2 class="atx" id="medic">Medic</h2>
+<h3 class="atx" id="team-crewmates-7"><strong>Team: Crewmates</strong></h3>
+<p>Der Medic kann einen Spieler pro Spiel mit einem shield versehen (durch einen Umriss um den Spieler hervorgehoben), wodurch der Spieler nicht mehr getötet werden kann.</p>
+<p>Der abgeschirmte Spieler kann immer noch abgewählt werden und könnte auch ein Impostor sein.</p>
+<p>Wenn in den Optionen eingestellt, bekommt der geschützte Spieler und/oder der Medic einen roten Blitz auf dem Bildschirm, wenn jemand (Impostor, Sheriff, ...) versucht, ihn zu ermorden.</p>
+<p>Wenn der Medic stirbt, verschwindet der shield mit ihm.</p>
+<p>Der Sheriff stirbt nicht, wenn er versucht, ein Crewmitglied mit Schild zu töten, und führt keinen Kill aus, wenn er versucht, einen Impostor mit Schild zu töten.</p>
+<p>Abhängig von den Optionen werden Vermutungen des Guessers durch den shield blockiert und der abgeschirmte Spieler/Medic kann benachrichtigt werden.</p>
+<p>Eine weitere Funktion des Medic zeigt an, wenn er eine Leiche meldet: Er sieht, wie lange es her ist, dass der Spieler gestorben ist.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If the shielded player is a Lover and the other Lover dies, they nevertheless kill themselves.</p>
+</li>
+<li><p>If the Shifter has a shield or their target has a Shield, the shielded player switches.</p>
+</li>
+<li><p>Shields set after the next meeting, will be set before a possible shift is being performed.</p>
+</li>
+</ul>
+<h2 class="atx" id="swapper">Swapper</h2>
+<h3 class="atx" id="team-crewmates-8"><strong>Team: Crewmates</strong></h3>
+<p>Bei Meetings kann der Swapper die Stimmen tauschen, die zwei Personen erhalten (d.h. alle Stimmen die Spieler A erhalten hat, werden an Spieler B weitergegeben und umgekehrt).</p>
+<p>Aufgrund der Stärke des Swappers in Meetings kann er keine Notfall-Meetings starten und keine Lichter und Kommunikationen reparieren.</p>
+<p>Der Swapper hat jetzt anfängliche Swap-Ladungen und kann diese Ladungen wieder aufladen, nachdem er eine konfigurierbare Anzahl von Aufgaben erledigt hat.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The remaining charges will be displayed in brackets next to the players role while not in a meeting</p>
+</li>
+<li><p>In a meeting the charges will appear next to the Confirm Swap button</p>
+</li>
+</ul>
+<h2 class="atx" id="seer">Seer</h2>
+<h3 class="atx" id="team-crewmates-9"><strong>Team: Crewmates</strong></h3>
+<p>Der Seer hat zwei Fähigkeiten (man kann eine davon oder beide in den Optionen aktivieren).</p>
+<p>Der Seer sieht die Seelen von Spielern, die eine Runde zuvor gestorben sind, die Seelen verblassen langsam.</p>
+<p>Der Seer bekommt einen blauen Blitz auf seinem Bildschirm, wenn ein Spieler irgendwo auf der Karte stirbt.</p>
+<h2 class="atx" id="hacker">Hacker</h2>
+<h3 class="atx" id="team-crewmates-10"><strong>Team: Crewmates</strong></h3>
+<p>Wenn der Hacker den "Hackermodus" aktiviert, erhält er für eine bestimmte Dauer mehr Informationen als die anderen aus dem admin-table und vitals.</p>
+<p>Ansonsten sieht er die gleichen Informationen wie alle anderen.</p>
+<p><strong>Admin-table:</strong> Der Hacker kann die Farben (oder Farbtypen) der Spieler am Tisch sehen.</p>
+<p><strong>vitals</strong>: Der Hacker kann sehen, wie lange tote Spieler schon tot sind.</p>
+<p>Der Hacker kann auf seine mobilen Gadgets (Vitalwerte und Admin-Table) zugreifen, mit einer maximalen Anzahl von Aufladungen (Nutzungen) und einer konfigurierbaren Anzahl von Aufgaben, die zum Aufladen benötigt werden.</p>
+<p>Während des Zugriffs auf diese mobilen Gadgets kann sich der Hacker nicht bewegen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>If the Morphling morphs or the Camouflager camouflages, the colors on the admin table change accordingly</li>
+</ul>
+<h2 class="atx" id="tracker">Tracker</h2>
+<h3 class="atx" id="team-crewmates-11"><strong>Team: Crewmates</strong></h3>
+<p>Der Tracker kann einen Spieler zum Verfolgen auswählen. Abhängig von den Optionen kann der Tracker nach jedem Meeting eine andere Person verfolgen oder der Tracker verfolgt dieselbe Person während des gesamten Spiels.</p>
+<p>Ein Pfeil zeigt auf die zuletzt verfolgte Position des Spielers.</p>
+<p>Der Pfeil aktualisiert seine Position alle paar Sekunden (konfigurierbar).</p>
+<p>Abhängig von den Optionen hat der Tracker eine weitere Fähigkeit: Er kann alle Leichen auf der Karte für eine bestimmte Zeitspanne tracken. Trackt die Leichen weiter, auch wenn sie gecleaned oder gefressen wurden.</p>
+<h2 class="atx" id="snitch">Snitch</h2>
+<h3 class="atx" id="team-crewmates-12"><strong>Team: Crewmates</strong></h3>
+<p>Wenn die Snitch alle Aufgaben erledigt hat, erscheinen Pfeile (nur für die Snitch sichtbar), die auf die Impostors (je nach Option auch auf die Mitglieder des Teams Jackal) zeigen.</p>
+<p>Wenn die Snitch noch eine Aufgabe übrig hat (konfigurierbar), wird die Snitch den Impostoren (je nach Option auch den Mitgliedern des Teams Jackal) mit einem Pfeil, der auf die Snitch zeigt, angezeigt.</p>
+<h2 class="atx" id="spy">Spy</h2>
+<h3 class="atx" id="team-crewmates-13"><strong>Team: Crewmates</strong></h3>
+<p>Der Spy ist ein Crewmate, der keine besonderen Fähigkeiten hat.</p>
+<p>Der Spy sieht für die Impostors wie ein zusätzlicher Impostor aus, sie können den Unterschied nicht erkennen.</p>
+<p>Es gibt zwei Möglichkeiten (abhängig von den eingestellten Optionen):</p>
+<ul>
+<li><p>Die Impostors können den Spy nicht töten (weil sonst ihr Kill-Button verraten würde, wer der Spy ist)</p>
+</li>
+<li><p>Die Impostors können den Spion töten, aber sie können auch ihren Impostor-Partner töten (wenn sie einen anderen Impostor mit dem Spion verwechseln)</p>
+</li>
+</ul>
+<p>Du kannst festlegen, ob der Sheriff den Spion töten kann oder nicht (um die Lüge am Leben zu erhalten).</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>If the Spy gets sidekicked, it still will appear red to the Impostors.</li>
+</ul>
+<h2 class="atx" id="portalmaker">Portalmaker</h2>
+<h3 class="atx" id="team-crewmates-14"><strong>Team: Crewmates</strong></h3>
+<p>Der Portalmaker ist ein Crewmate, der zwei Portale auf der Karte platzieren kann.</p>
+<p>Diese beiden Portale sind miteinander verbunden.</p>
+<p>Diese Portale sind nach dem nächsten Meeting sichtbar und können von allen genutzt werden.</p>
+<p>Zusätzlich erhält der Portalmaker bei jedem Meeting, je nach Einstellung, Informationen darüber, wer die Portale &amp; wann im Chat benutzt hat.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The extra button to use a portal will appear after the Portalmaker set his portals and a meeting/body report was called.</p>
+</li>
+<li><p>While one player uses a portal, it is blocked for any other player until the player got teleported.</p>
+</li>
+<li><p>All ghosts can still use the portals, but won't block any living player from using it and the Portalmaker won't get any information about it in chat.</p>
+</li>
+<li><p>If a morphed person uses a portal it will show the morphed name/color depending on the options.</p>
+</li>
+<li><p>If a camouflaged person uses a portal it will show "A comouflaged person used the portal."</p>
+</li>
+</ul>
+<h2 class="atx" id="security-guard">Security Guard</h2>
+<h3 class="atx" id="team-crewmates-15"><strong>Team: Crewmates</strong></h3>
+<p>Der Security Guard ist ein Crewmate, der über eine bestimmte Anzahl von Schrauben verfügt, die er entweder zum Abdichten von Vents oder zum Anbringen neuer Kameras verwenden kann.</p>
+<p>Für das Anbringen einer neuen Kamera und das Versiegeln von Lüftungsöffnungen wird eine konfigurierbare Anzahl von Schrauben benötigt. Die Gesamtzahl der Schrauben, über die ein Security Guard verfügt, kann ebenfalls konfiguriert werden.</p>
+<p>Die neue Kamera wird nach dem nächsten Meeting sichtbar und für alle zugänglich sein.</p>
+<p>Die Vents werden nach dem nächsten Meeting versiegelt, Spieler können versiegelte Vents nicht mehr betreten oder verlassen, aber sie können sich immer noch unterirdisch dorthin "bewegen".</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>Trickster boxes can't be sealed</p>
+</li>
+<li><p>The Security Guard can't place cameras on MiraHQ</p>
+</li>
+<li><p>The remaining number of screws can be seen above their special button.</p>
+</li>
+<li><p>On Skeld the four cameras will be replaced every 3 seconds (with the next four cameras). You can also navigate manually using the arrow keys</p>
+</li>
+<li><p>Security Guard can access mobile cameras after placing all screws</p>
+</li>
+<li><p>While accessing the mobile cameras, the Security Guard is not able to move</p>
+</li>
+</ul>
+<h2 class="atx" id="medium">Medium</h2>
+<h3 class="atx" id="team-crewmates-16"><strong>Team: Crewmates</strong></h3>
+<p>Das Medium ist ein Crewmitglied, das die Seelen toter Spieler nach Informationen fragen kann. Wie der Seher sieht es die Orte, an denen die Spieler gestorben sind (nach dem nächsten meeting) und kann sie befragen. Im Chat erhält er dann zufällige Informationen über die Seele oder den Mörder. Die Seelen bleiben nur eine Runde lang, d.h. bis zum nächsten meeting. Je nach den Optionen können die Seelen nur einmal befragt werden und verschwinden dann.</p>
+<p>Fragen:</p>
+<p>Was ist deine Rolle?</p>
+<p>Was ist der Farbtyp deines Mörders?</p>
+<p>Wann bist du gestorben?</p>
+<p>Was ist die Rolle deines Mörders?</p>
+<h2 class="atx" id="trapper">Trapper</h2>
+<h3 class="atx" id="team-crewmates-17"><strong>Team: Crewmates</strong></h3>
+<p>Der Trapper ist ein Crewmate, der Fallen aufstellen kann, um Spieler in eine Falle zu locken und Informationen von ihnen zu erhalten.</p>
+<p>Die Fallen halten den Spieler für x-Sekunden fest (hängt von der Einstellung ab) und enthüllen Informationen im Chat</p>
+<p>über ihre "Rolle", ob sie eine "Gute/Böse Rolle" sind oder ihren "Namen".</p>
+<p>Die Falle ist erst sichtbar, wenn eine konfigurierbare Anzahl von Spielern gefangen wurde.</p>
+<p>Wenn die Falle sichtbar wird, erhält der Trapper die Informationen im Chat (in einer zufälligen Reihenfolge).</p>
+<p>Wenn eine Falle ausgelöst wird (und die Option aktiviert ist), öffnet sich die Karte des Trappers und zeigt an, welche Falle</p>
+<p>ausgelöst wurde.</p>
+<p>Die Fallen haben eine maximale Anzahl von Aufladungen (Verwendungen) und eine konfigurierbare Anzahl von Aufgaben sind nötig, um sie wieder aufzuladen.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>The Trapper can't be trapped in their own trap(s).</li>
+</ul>
+<h1 class="atx" id="modifier">Modifier</h1>
+<p>A Modifier is an addition to your Impostor/Neutral/Crewmate role.</p>
+<p>Some Modifiers can be ingame more than once (Quantity option).</p>
+<h2 class="atx" id="bloody">Bloody</h2>
+<p>If killed, the Bloody Modifier will leave a trail for x-seconds on their killer. The trail will have the color of the killed person.</p>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>Impostor, Neutral or Crewmate roles can have this Modifier</li>
+</ul>
+<hr>
+<h2 class="atx" id="anti-teleport">Anti Teleport</h2>
+<p>The Anti Teleport Modifier prevents the player from getting teleported to the Meeting Table if a body gets reported or an Emergency Meeting is called.</p>
+<p>The player will start the round where the previous one ended (Emergency Meeting Call/Body Report).</p>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>Impostor, Neutral or Crewmate roles can have this Modifier</li>
+</ul>
+<hr>
+<h2 class="atx" id="tie-breaker">Tie Breaker</h2>
+<p>If the Voting ends in a tie, the Tie Breaker takes place and the player with the Tie Breaker Modifier gets an extra vote thats not visible to anyone.</p>
+<p>Everyone will know if the Tie Breaker was involved in the Meeting or not.</p>
+<p><strong>NOTE</strong></p>
+<ul>
+<li><p>Impostor, Neutral or Crewmate roles can have this Modifier</p>
+</li>
+<li><p>There can only be on player with this Modifier</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="bait">Bait</h2>
+<p>The Bait forces the killer to self report the body (you can configure a delay in the options).</p>
+<p>There can be more than one Bait.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If the Sheriff has the Bait Modifier and dies while trying to kill a Crewmate, the Sheriff will <em>NOT</em> report themself.</p>
+</li>
+<li><p>Impostor, Neutral or Crewmate roles can have this Modifier</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="lovers">Lovers</h2>
+<p>There are always two Lovers which are linked together.</p>
+<p>Their primary goal is it to stay alive together until the end of the game.</p>
+<p>If one Lover dies (and the option is activated), the other Lover suicides.</p>
+<p>You can specify the chance of one Lover being an Impostor.</p>
+<p>The Lovers never know the role of their partner, they only see who their partner is.</p>
+<p>The Lovers win, if they are both alive when the game ends. They can also win with their original team (e.g. a dead Impostor Lover can win with the Impostors, an Arsonist Lover can still achieve an Arsonist win).</p>
+<p>If one of the Lovers is a killer (i.e. Jackal/Sidekick/Impostor), they can achieve a "Lovers solo win" where only the Lovers win.</p>
+<p>If there is no killer among the Lovers (e.g. an Arsonist Lover + Crewmate Lover) and they are both alive when the game ends, they win together with the Crewmates.</p>
+<p>If there's an Impostor/Jackal + Crewmate Lover in the game, the tasks of a Crewmate Lover won't be counted (for a task win) as long as they're alive.</p>
+<p>If the Lover dies, their tasks will also be counted.</p>
+<p>You can enable an exclusive chat only for Lovers.</p>
+<p><strong>NOTE:</strong></p>
+<p>In a 2 Crewmates vs 2 Impostors (or 2 members of team Jackal) and the Lovers are not in the same team, the game is not automatically over since the Lovers can still achieve a solo win. E.g. if there are the following roles Impostor + ImpLover + Lover + Crewmate left, the game will not end and the next kill will decide if the Impostors or Lovers win.</p>
+<hr>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>The Modifier <strong>Lover</strong> can't be guessed, you'll have to guess the primary role of one of the Lovers, to kill both of them.</li>
+</ul>
+<h2 class="atx" id="sunglasses">Sunglasses</h2>
+<p>The Sunglasses will lower the Crewmate's vision by a small percentage. The percentage is configurable in the options.</p>
+<p>The vision will also be affected when lights out.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>Sunglasses only affects Crewmates.</p>
+</li>
+<li><p>If you have the Sunglasses Modifier and get sidekicked, you will lose the Modifier.</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="mini">Mini</h2>
+<p>The Mini's character is smaller and hence visible to everyone in the game.</p>
+<p>The Mini cannot be killed until it turns 18 years old, however it can be voted out.</p>
+<p><strong>Impostor/Jackal Mini:</strong></p>
+<ul>
+<li><p>While growing up the kill cooldown is doubled. When it's fully grown up its kill cooldown is 2/3 of the default one.</p>
+</li>
+<li><p>If it gets thrown out of the ship, everything is fine.</p>
+</li>
+</ul>
+<p><strong>Crewmate Mini:</strong></p>
+<ul>
+<li><p>The Crewmate Mini aims to play out the strength its invincibility in the early game.</p>
+</li>
+<li><p>If it gets thrown out of the ship before it turns 18, everyone loses. So think twice before you vote out a Mini.</p>
+</li>
+</ul>
+<p><strong>Neutral Mini:</strong></p>
+<ul>
+<li><p>The cooldown is not effected, except for the Team Jackal/Sidekick.</p>
+</li>
+<li><p>If it gets thrown out of the ship, everything is fine except for the Jester.</p>
+</li>
+<li><p>If the Jester Mini gets voted out the game will end in a Jester win.</p>
+</li>
+</ul>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>If the Sheriff tries to kill the Mini before it's fully grown, nothing happens.</p>
+</li>
+<li><p>The Sheriff can kill the Impostor/Neutral Mini, but only if it's fully grown up.</p>
+</li>
+<li><p>If the Mini's primary role is guessed correctly, it dies like every other role and nothing further happens.</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="vip">VIP</h2>
+<p>An Impostor, Jackal or Crewmate can be affected by the VIP (Very Important Player) Modifier.</p>
+<p>The VIP will show everyone when he dies with a flash similar to the Seer Flash.</p>
+<p>If the option Show Team Color is On, then everyone will get a flash in the color of the team the player was part of.</p>
+<p>Teams:</p>
+<ul>
+<li><p>Impostor = Red</p>
+</li>
+<li><p>Neutral = Blue</p>
+</li>
+<li><p>Crewmate = White</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="invert">Invert</h2>
+<p>The Invert Modifier inverts your controls (no matter if keyboard or mouse).</p>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>Impostor, Neutral or Crewmate roles can have this Modifier</li>
+</ul>
+<hr>
+<h2 class="atx" id="chameleon">Chameleon</h2>
+<p>The Chameleon becomes (partially or fully) invisible when standing still for x-seconds (depends on the settings).</p>
+<p><strong>NOTE</strong></p>
+<ul>
+<li><p>You can use abilities while being invisible, only moving will make you visible again</p>
+</li>
+<li><p>Impostor, Neutral or Crewmate roles can have this Modifier</p>
+</li>
+</ul>
+<hr>
+<h2 class="atx" id="shifter">Shifter</h2>
+<p>The Shifter is a Modifier that can shift with another player. If the other player is Crewmate as well, they will swap their roles.</p>
+<p>Swapping roles with an Impostor or Neutral fails and the Shifter commits suicide after the next meeting (there won't be a body).</p>
+<p>The Shift will always be performed at the end of the next meeting right before a player is exiled. The target needs to be chosen during the round.</p>
+<p>Even if the Shifter or the target dies before the meeting, the Shift will still be performed.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>The Shifter shift will always be triggered before the Erase (hence either the new role of the Shifter will be erased or the Shifter gets the role of their target, depending on whom the Eraser erased)</p>
+</li>
+<li><p>One time use abilities (e.g. shielding a player or Engineer sabotage fix) can only used by one player in the game (i.e. the Shifter</p>
+</li>
+</ul>
+<p>can only use them, if the previous player did not use them before)</p>
+<ul>
+<li><p>The Shifter button is located in the bottom left corner right next to the garlic button (if the Vampire is enabled)</p>
+</li>
+<li><p>Only a Crewmate role can have this Modifier</p>
+</li>
+</ul>
+<hr>
+<h1 class="atx" id="gamemodes">Gamemodes</h1>
+<h2 class="atx" id="guesser-modifier">Guesser Modifier</h2>
+<p>The <strong>Guesser-Gamemode</strong> is an extension to the Classic-Gamemode and gives you a multitude of new options for Guessers.</p>
+<p>The Guesser is now like an addition and can be applied to all players IF you want to. Settings are available to set the number of guessers for each team separately (Impostor, Neutral, Crewmate).</p>
+<p>When playing this game mode, the Guessers can have another role (e.g. Medic Guesser). The same</p>
+<p>applies of course for Impostor and/or Neutral roles.</p>
+<p>Players can additionally have a modifier, if enabled (e.g. Medic Guesser Mini).</p>
+<h3 class="atx" id="game-options">Game Options</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Number of Crew Guessers</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Number of Neutral Guessers</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Number of Impostor Guessers</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Force Jackal Guesser</td>
+<td>If set to "On", the first neutral role who will be Guesser is the Jackal.</td>
+</tr>
+<tr>
+<td>Guessers Can Have A Modifier</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Guesser Number Of Shots</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Guesser Can Shoot Multiple Times Per Meeting</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Guesses Ignore The Medic Shield</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Evil Guesser Can Guess The Spy</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Guesser Can't Guess Snitch When Tasks Completed</td>
+<td>-</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>If a Crewmate Guesser gets sidekicked, they will remain a Guesser even if the host (maybe) has set up only 1 "Neutral role Guesser".</li>
+</ul>
+<h2 class="atx" id="hide-and39n-seek">Hide 'n Seek</h2>
+<p>The <strong>Hide 'n Seek-Gamemode</strong> is a standalone Gamemode where Hunter have to catch their prey ("Hunted" players).</p>
+<p>The Hunter and Hunted player who are still alive are displayed to everyone in the bottom left corner (similar to the Arsonist display).</p>
+<p>When the game starts, the Hunter's movement is disabled for x-seconds (depends on the settings).</p>
+<p>There is a time-limit for each round, if the timer runs out and at least one Hunted is still alive, the Crew wins. The Hunted players can also win, if Taskwin is enabled and the Crew completes all tasks.</p>
+<p>If the Hunters kill all players before one of these conditions is triggered, the Hunters win.</p>
+<h4 class="atx" id="hunter-abilities">Hunter Abilities:</h4>
+<ul>
+<li><p>Enable arrows (arrows point to all Hunted players for x-seconds (depending on settings))</p>
+</li>
+<li><p>Mobile Admin table (like Hacker)</p>
+</li>
+<li><p>Lighter ability (gives the Hunter a biggier vision radius for x-seconds (depending on settings))</p>
+</li>
+</ul>
+<h4 class="atx" id="hunted-ability">Hunted Ability:</h4>
+<ul>
+<li>Timeshield (like Timemaster, depending on settings)</li>
+</ul>
+<p>Each Hunter action or finished Crew task will lower the timer by a configurable amount of time.</p>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li><p>We added a vent on Polus (Specimen), but only for this Gamemode. The vent is connected with Admin &amp; Lab.</p>
+</li>
+<li><p>The Report button lights up, but cannot be pressed.</p>
+</li>
+<li><p>The tasks can be configured separately for this mode, without affecting your normal game settings.</p>
+</li>
+<li><p>Only the Hunter will be rewinded if they try to kill a player with an active timeshield.</p>
+</li>
+</ul>
+<h3 class="atx" id="game-options-1">Game Options</h3>
+<table>
+<thead>
+<tr>
+<th>General</th>
+<th>Description</th>
+<th>Hunter</th>
+<th>Description</th>
+<th>Hunted</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Map</td>
+<td>-</td>
+<td>Hunter Light Cooldown</td>
+<td>-</td>
+<td>Hunted Shield Cooldown</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Number Of Hunters</td>
+<td>-</td>
+<td>Hunter Light Duration</td>
+<td>-</td>
+<td>Hunted Shield Duration</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Kill Cooldown</td>
+<td>-</td>
+<td>Hunter Light Vision</td>
+<td>-</td>
+<td>Hunted Rewind Time</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hunter Vision</td>
+<td>-</td>
+<td>Hunter Light Punish in Sec</td>
+<td>-</td>
+<td>Hunted Shield Number</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hunted Vision</td>
+<td>-</td>
+<td>Hunter Admin Cooldown</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td>-</td>
+<td>Hunter Admin Duration</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td>-</td>
+<td>Hunter Admin Punish In Sec</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td>-</td>
+<td>Hunter Arrow Cooldown</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timer In Min</td>
+<td>-</td>
+<td>Hunter Arrow Duration</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Task Win Is Possible</td>
+<td>-</td>
+<td>Hunter Arrow Punish In Sec</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Finish Tasks Punish In Sec</td>
+<td>-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Enable Sabotages</td>
+<td>-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Time The Hunter Needs To Wait</td>
+<td>-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</article>
+</body>
+</html>
