@@ -181,6 +181,10 @@ h5 {
   color: #afbbc4;
 }
 
+.modifier {
+  font-style: italic;
+}
+
 [type=checkbox],
 [type=radio] {
   --border-width: 2px;
