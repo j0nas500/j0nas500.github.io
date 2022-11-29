@@ -695,41 +695,36 @@ $(document).ready(function(){
 
 ];
 
+let output = "";
+data.forEach(foundRole => {
+        output += '<div class="container">';
+        output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
+        output += '<h3>' + foundRole.desc + '</h3></hgroup>'
+        output += '<p>' + foundRole.longDesc + '</p>'
+        output += foundRole.notes
+        output += '</div>';
+})
+output += '</div>';
+$('#filter-records').html(output);
+
+
 $('#txt-search').keyup(function(){
-            let searchField = $(this).val();
-			if(searchField === '')  {
-				$('#filter-records').html('');
-				return;
-			}
-			let output = "";
-            try {
-                data.filter(role => {
-                    return (role.name.toLowerCase().startsWith(searchField.toLowerCase()));
-                }).forEach(foundRole => {
-                    output += '<div class="container">';
-                      output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
-                      output += '<h3>' + foundRole.desc + '</h3></hgroup>'
-                      output += '<p>' + foundRole.longDesc + '</p>'
-                      output += foundRole.notes
-                      output += '</div>';
-                      throw 'Break';
-                })
-                data.filter(role => {
-                    return (role.name.toLowerCase().includes(searchField.toLowerCase()))
-                }).forEach(foundRole => {
-                    output += '<div class="container">';
-                      output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
-                      output += '<h3>' + foundRole.desc + '</h3></hgroup>'
-                      output += '<p>' + foundRole.longDesc + '</p>'
-                      output += foundRole.notes
-                      output += '</div>';
-                      throw 'Break';
-                })
-            }catch (e) {
-				if (e !== 'Break') throw e;
-			}
-            
-            output += '</div>';
-			$('#filter-records').html(output);
+        let searchField = $(this).val();
+        let output = "";
+
+        
+        data.filter(role => {
+                return (role.name.toLowerCase().startsWith(searchField.toLowerCase()) || role.name.toLowerCase().includes(searchField.toLowerCase()));
+        }).forEach(foundRole => {
+                output += '<div class="container">';
+                output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
+                output += '<h3>' + foundRole.desc + '</h3></hgroup>'
+                output += '<p>' + foundRole.longDesc + '</p>'
+                output += foundRole.notes
+                output += '</div>';
+        })
+
+        output += '</div>';
+        $('#filter-records').html(output);
         });
   });
