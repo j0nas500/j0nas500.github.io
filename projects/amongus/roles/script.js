@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    const data = [	
+                
+const data = [	
 { 
 	"name": "Godfather (Mafia)", 
 	"team": "impostor", 
@@ -189,7 +190,7 @@ $(document).ready(function(){
         Das Team Jackal ermöglicht mehrere neue Spielausgänge, von denen hier einige Beispiele aufgeführt sind:
         <ul><li>Die Impostors könnten eliminiert werden und dann spielt die Crew gegen das Team Jackal.</li>
         <li>Die Crew könnte eliminiert werden, dann kämpft das Team Jackal gegen die Impostors (Die Crew kann in diesem Szenario immer noch einen Aufgabensieg erzielen)</li></ul>
-        <br><br>
+        <br>
         Die Priorität der Siegbedingungen ist die folgende:
         <ol><li>Crewmate Mini verliert durch Abstimmung</li>    
         <li>Jester gewinnt durch Abstimmung</li>    
@@ -420,59 +421,294 @@ $(document).ready(function(){
     `,
 },
 {
-    "name": "Seer", 
+    "name": "Hacker", 
 	"team": "crewmate", 
 	"desc": "Gruppe von 3 Impostors", 
 	"longDesc": 
-        `Der Seer hat zwei Fähigkeiten (man kann eine davon oder beide in den Optionen aktivieren).
-        Der Seer sieht die Seelen von Spielern, die eine Runde zuvor gestorben sind, die Seelen verblassen langsam.        
-        Der Seer bekommt einen blauen Blitz auf seinem Bildschirm, wenn ein Spieler irgendwo auf der Karte stirbt.`,
+        `Wenn der Hacker den "Hackermodus" aktiviert, erhält er für eine bestimmte Dauer mehr Informationen als die anderen aus dem admin-table und vitals.
+        Ansonsten sieht er die gleichen Informationen wie alle anderen.<br>        
+        <b>Admin-table</b>: Der Hacker kann die Farben (oder Farbtypen) der Spieler am Tisch sehen.<br>
+        <b>vitals</b>: Der Hacker kann sehen, wie lange tote Spieler schon tot sind.<br>
+        Der Hacker kann auf seine mobilen Gadgets (Vitalwerte und Admin-Table) zugreifen, mit einer maximalen Anzahl von Aufladungen (Nutzungen) und einer konfigurierbaren Anzahl von Aufgaben, die zum Aufladen benötigt werden.        
+        Während des Zugriffs auf diese mobilen Gadgets kann sich der Hacker nicht bewegen.`,
+	"notes": 
+        `<ul><li>If the Morphling morphs or the Camouflager camouflages, the colors on the admin table change accordingly</li></ul>`,
+},
+{
+    "name": "Tracker", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Der Tracker kann einen Spieler zum Verfolgen auswählen. Abhängig von den Optionen kann der Tracker nach jedem Meeting eine andere Person verfolgen oder der Tracker verfolgt dieselbe Person während des gesamten Spiels.
+        Ein Pfeil zeigt auf die zuletzt verfolgte Position des Spielers.        
+        Der Pfeil aktualisiert seine Position alle paar Sekunden (konfigurierbar).        
+        Abhängig von den Optionen hat der Tracker eine weitere Fähigkeit: Er kann alle Leichen auf der Karte für eine bestimmte Zeitspanne tracken. Trackt die Leichen weiter, auch wenn sie gecleaned oder gefressen wurden.`,
 	"notes": 
         ``,
 },
-
-
-
-
-
-
+{
+    "name": "Snitch", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Wenn die Snitch alle Aufgaben erledigt hat, erscheinen Pfeile (nur für die Snitch sichtbar), die auf die Impostors (je nach Option auch auf die Mitglieder des Teams Jackal) zeigen.
+        Wenn die Snitch noch eine Aufgabe übrig hat (konfigurierbar), wird die Snitch den Impostoren (je nach Option auch den Mitgliedern des Teams Jackal) mit einem Pfeil, der auf die Snitch zeigt, angezeigt.`,
+	"notes": 
+        ``,
+},
+{
+    "name": "Spy", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Der Spy ist ein Crewmate, der keine besonderen Fähigkeiten hat.
+        Der Spy sieht für die Impostors wie ein zusätzlicher Impostor aus, sie können den Unterschied nicht erkennen.        
+        <br>
+        Es gibt zwei Möglichkeiten (abhängig von den eingestellten Optionen):        
+        <ul><li>Die Impostors können den Spy nicht töten (weil sonst ihr Kill-Button verraten würde, wer der Spy ist)</li>
+        <li>Die Impostors können den Spy töten, aber sie können auch ihren Impostor-Partner töten (wenn sie einen anderen Impostor mit dem Spy verwechseln)</li></ul>
+        
+        Du kannst festlegen, ob der Sheriff den Spy töten kann oder nicht (um die Lüge am Leben zu erhalten).`,
+	"notes": 
+        `<ul><li>If the Spy gets sidekicked, it still will appear red to the Impostors.</li></ul>`,
+},
+{
+    "name": "Portalmaker", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Der Portalmaker ist ein Crewmate, der zwei Portale auf der Karte platzieren kann.
+        Diese beiden Portale sind miteinander verbunden.        
+        Diese Portale sind nach dem nächsten Meeting sichtbar und können von allen genutzt werden.        
+        Zusätzlich erhält der Portalmaker bei jedem Meeting, je nach Einstellung, Informationen darüber, wer die Portale & wann im Chat benutzt hat.`,
+	"notes": 
+        `<ul><li>The extra button to use a portal will appear after the Portalmaker set his portals and a meeting/body report was called.</li>    
+        <li>While one player uses a portal, it is blocked for any other player until the player got teleported.</li>    
+        <li>All ghosts can still use the portals, but won't block any living player from using it and the Portalmaker won't get any information about it in chat.</li>    
+        <li>If a morphed person uses a portal it will show the morphed name/color depending on the options.</li>    
+        <li>If a camouflaged person uses a portal it will show "A comouflaged person used the portal."</li></ul>
+    `,
+},
+{
+    "name": "Security Guard", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Der Security Guard ist ein Crewmate, der über eine bestimmte Anzahl von Schrauben verfügt, die er entweder zum Abdichten von Vents oder zum Anbringen neuer Kameras verwenden kann.
+        Für das Anbringen einer neuen Kamera und das Versiegeln von Lüftungsöffnungen wird eine konfigurierbare Anzahl von Schrauben benötigt. Die Gesamtzahl der Schrauben, über die ein Security Guard verfügt, kann ebenfalls konfiguriert werden.        
+        Die neue Kamera wird nach dem nächsten Meeting sichtbar und für alle zugänglich sein.        
+        Die Vents werden nach dem nächsten Meeting versiegelt, Spieler können versiegelte Vents nicht mehr betreten oder verlassen, aber sie können sich immer noch unterirdisch dorthin "bewegen".`,
+	"notes": 
+        `<ul><li>Trickster boxes can't be sealed</li>    
+        <li>The Security Guard can't place cameras on MiraHQ</li>    
+        <li>The remaining number of screws can be seen above their special button.</li>    
+        <li>On Skeld the four cameras will be replaced every 3 seconds (with the next four cameras). You can also navigate manually using the arrow keys</li>    
+        <li>Security Guard can access mobile cameras after placing all screws</li>    
+        <li>While accessing the mobile cameras, the Security Guard is not able to move</li>
+    `,
+},
+{
+    "name": "Medium", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Das Medium ist ein Crewmitglied, das die Seelen toter Spieler nach Informationen fragen kann. 
+        Wie der Seher sieht es die Orte, an denen die Spieler gestorben sind (nach dem nächsten meeting) und kann sie befragen. 
+        Im Chat erhält er dann zufällige Informationen über die Seele oder den Mörder. Die Seelen bleiben nur eine Runde lang, d.h. bis zum nächsten meeting. 
+        Je nach den Optionen können die Seelen nur einmal befragt werden und verschwinden dann.
+        <br><br>
+        Fragen:<br>
+        Was ist deine Rolle?<br>
+        Was ist der Farbtyp deines Mörders?<br>
+        Wann bist du gestorben?<br>
+        Was ist die Rolle deines Mörders?`,
+	"notes": 
+        ``,
+},
+{
+    "name": "Trapper", 
+	"team": "crewmate", 
+	"desc": "Gruppe von 3 Impostors", 
+	"longDesc": 
+        `Der Trapper ist ein Crewmate, der Fallen aufstellen kann, um Spieler in eine Falle zu locken und Informationen von ihnen zu erhalten.
+        Die Fallen halten den Spieler für x-Sekunden fest (hängt von der Einstellung ab) und enthüllen Informationen im Chat        
+        über ihre "Rolle", ob sie eine "Gute/Böse Rolle" sind oder ihren "Namen".        
+        Die Falle ist erst sichtbar, wenn eine konfigurierbare Anzahl von Spielern gefangen wurde.        
+        Wenn die Falle sichtbar wird, erhält der Trapper die Informationen im Chat (in einer zufälligen Reihenfolge).        
+        Wenn eine Falle ausgelöst wird (und die Option aktiviert ist), öffnet sich die Karte des Trappers und zeigt an, welche Falle        
+        ausgelöst wurde.        
+        Die Fallen haben eine maximale Anzahl von Aufladungen (Verwendungen) und eine konfigurierbare Anzahl von Aufgaben sind nötig, um sie wieder aufzuladen.`,
+	"notes": 
+        `<ul><li>The Trapper can't be trapped in their own trap(s).</li></ul>`,
+},
+{
+    "name": "Bloody", 
+	"team": "modifier", 
+	"desc": "Nach einem Kill hinterlässt man Spuren", 
+	"longDesc": 
+        `If killed, the Bloody Modifier will leave a trail for x-seconds on their killer. The trail will have the color of the killed person.`,
+	"notes": 
+        `<ul><li>Impostor, Neutral or Crewmate roles can have this Modifier</li></ul>`,
+},
+{
+    "name": "Anti Teleport", 
+	"team": "modifier", 
+	"desc": "Man wird nicht zum Meeting Raum teleportiert", 
+	"longDesc": 
+        `The Anti Teleport Modifier prevents the player from getting teleported to the Meeting Table if a body gets reported or an Emergency Meeting is called.
+        The player will start the round where the previous one ended (Emergency Meeting Call/Body Report).`,
+	"notes": 
+        `<ul><li>Impostor, Neutral or Crewmate roles can have this Modifier</li></ul>`,
+},
+{
+    "name": "Tie Breaker", 
+	"team": "modifier", 
+	"desc": "Setzt bei einem Unentschieden, den entscheidenen Vote", 
+	"longDesc": 
+        `If the Voting ends in a tie, the Tie Breaker takes place and the player with the Tie Breaker Modifier gets an extra vote thats not visible to anyone.
+        Everyone will know if the Tie Breaker was involved in the Meeting or not.`,
+	"notes": 
+        `<ul><li>Impostor, Neutral or Crewmate roles can have this Modifier</li>
+        <li>There can only be on player with this Modifier</li></ul>`,
+},
+{
+    "name": "Bait", 
+	"team": "modifier", 
+	"desc": "Erzwingt einen Self-Report", 
+	"longDesc": 
+        `The Bait forces the killer to self report the body (you can configure a delay in the options).
+        There can be more than one Bait.`,
+	"notes": 
+        `<ul><li>If the Sheriff has the Bait Modifier and dies while trying to kill a Crewmate, the Sheriff will NOT report themself</li>
+        <li>Impostor, Neutral or Crewmate roles can have this Modifier</li></ul>`,
+},
+{
+    "name": "Lovers", 
+	"team": "modifier", 
+	"desc": "Zwei Personen sind verliebt", 
+	"longDesc": 
+        `There are always two Lovers which are linked together.
+        Their primary goal is it to stay alive together until the end of the game.        
+        If one Lover dies (and the option is activated), the other Lover suicides.        
+        You can specify the chance of one Lover being an Impostor.        
+        The Lovers never know the role of their partner, they only see who their partner is.        
+        The Lovers win, if they are both alive when the game ends. They can also win with their original team (e.g. a dead Impostor Lover can win with the Impostors, an Arsonist Lover can still achieve an Arsonist win).        
+        If one of the Lovers is a killer (i.e. Jackal/Sidekick/Impostor), they can achieve a "Lovers solo win" where only the Lovers win.        
+        If there is no killer among the Lovers (e.g. an Arsonist Lover + Crewmate Lover) and they are both alive when the game ends, they win together with the Crewmates.        
+        If there's an Impostor/Jackal + Crewmate Lover in the game, the tasks of a Crewmate Lover won't be counted (for a task win) as long as they're alive.        
+        If the Lover dies, their tasks will also be counted.        
+        You can enable an exclusive chat only for Lovers.`,
+	"notes": 
+        `<ul><li>In a 2 Crewmates vs 2 Impostors (or 2 members of team Jackal) and the Lovers are not in the same team, the game is not automatically over since the Lovers can still achieve a solo win. E.g. if there are the following roles Impostor + ImpLover + Lover + Crewmate left, the game will not end and the next kill will decide if the Impostors or Lovers win.</li>
+        <li>The Modifier Lover can't be guessed, you'll have to guess the primary role of one of the Lovers, to kill both of them.</li></ul>`,
+},
+{
+    "name": "Sunglasses", 
+	"team": "modifier", 
+	"desc": "Schränkt die Sicht ein", 
+	"longDesc": 
+        `The Sunglasses will lower the Crewmate's vision by a small percentage. The percentage is configurable in the options.
+        The vision will also be affected when lights out.`,
+	"notes": 
+        `<ul><li>Sunglasses only affects Crewmates.</li>
+        <li>If you have the Sunglasses Modifier and get sidekicked, you will lose the Modifier</li></ul>`,
+},
+{
+    "name": "Mini", 
+	"team": "modifier", 
+	"desc": "Baby Crewmate/Neutral/Impostor", 
+	"longDesc": 
+        `The Mini's character is smaller and hence visible to everyone in the game.
+        The Mini cannot be killed until it turns 18 years old, however it can be voted out.
+        <br><br>
+        <b>Impostor/Jackal Mini:</b>
+        <ul><li>While growing up the kill cooldown is doubled. When it's fully grown up its kill cooldown is 2/3 of the default one.</li>
+        <li>If it gets thrown out of the ship, everything is fine.</li></ul>
+        <b>Crewmate Mini:</b>
+        <ul><li>The Crewmate Mini aims to play out the strength its invincibility in the early game.</li>
+        <li>If it gets thrown out of the ship before it turns 18, everyone loses. So think twice before you vote out a Mini.</li></ul>
+        <b>Neutral Mini:</b>
+        <ul><li>The cooldown is not effected, except for the Team Jackal/Sidekick</li>
+        <li>If it gets thrown out of the ship, everything is fine except for the Jester</li>
+        <li>If the Jester Mini gets voted out the game will end in a Jester win</li></ul>`,
+	"notes": 
+        `<ul><li>If the Sheriff tries to kill the Mini before it's fully grown, nothing happens</li>
+        <li>The Sheriff can kill the Impostor/Neutral Mini, but only if it's fully grown up</li>
+        <li>If the Mini's primary role is guessed correctly, it dies like every other role and nothing further happens</li></ul>`,
+},
+{
+    "name": "VIP", 
+	"team": "modifier", 
+	"desc": "Jeder bekommt mit, wenn diese Person stirbt", 
+	"longDesc": 
+        `An Impostor, Jackal or Crewmate can be affected by the VIP (Very Important Player) Modifier.
+        The VIP will show everyone when he dies with a flash similar to the Seer Flash.        
+        If the option Show Team Color is On, then everyone will get a flash in the color of the team the player was part of.
+        <br><br>
+        Teams:
+        <ul><li>Impostor = Red</li>
+        <li>Neutral = Blue</li>
+        <li>Crewmate = White</li></ul>
+`,
+	"notes": 
+        ``,
+},
+{
+    "name": "Invert", 
+	"team": "modifier", 
+	"desc": "Steuerung ist vertauscht", 
+	"longDesc": 
+        `The Invert Modifier inverts your controls (no matter if keyboard or mouse).`,
+	"notes": 
+        `<ul><li>Impostor, Neutral or Crewmate roles can have this Modifier</li></ul>`,
+},
+{
+    "name": "Chameleon", 
+	"team": "modifier", 
+	"desc": "Beim Stillstehen wird man unsichtbar", 
+	"longDesc": 
+        `The Chameleon becomes (partially or fully) invisible when standing still for x-seconds (depends on the settings).`,
+	"notes": 
+        `<ul><li>You can use abilities while being invisible, only moving will make you visible again</li>
+        <li>Impostor, Neutral or Crewmate roles can have this Modifier</li></ul>`,
+},
+{
+    "name": "Shifter", 
+	"team": "modifier", 
+	"desc": "Der Shifter tauscht die Rolle mit einem Crewmate", 
+	"longDesc": 
+        `The Shifter is a Modifier that can shift with another player. If the other player is Crewmate as well, they will swap their roles.
+        Swapping roles with an Impostor or Neutral fails and the Shifter commits suicide after the next meeting (there won't be a body).        
+        The Shift will always be performed at the end of the next meeting right before a player is exiled. The target needs to be chosen during the round.        
+        Even if the Shifter or the target dies before the meeting, the Shift will still be performed.`,
+	"notes": 
+        `<ul><li>The Shifter shift will always be triggered before the Erase (hence either the new role of the Shifter will be erased or the Shifter gets the role of their target, depending on whom the Eraser erased)</li>
+        <li>One time use abilities (e.g. shielding a player or Engineer sabotage fix) can only used by one player in the game (i.e. the Shifter can only use them, if the previous player did not use them before)</li>
+        <li>The Shifter button is located in the bottom left corner right next to the garlic button (if the Vampire is enabled)</li>
+        <li>Only a Crewmate role can have this Modifier</li></ul>`,
+},
 ];
 
+const showList = (searchField) => {
+        let output = "";
+        data.filter(role => {
+                return (role.name.toLowerCase().startsWith(searchField.toLowerCase()) || role.name.toLowerCase().includes(searchField.toLowerCase()));
+        }).forEach(foundRole => {
+                output += '<div class="container">';
+                output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
+                output += '<h3>' + foundRole.desc + '</h3></hgroup>'
+                output += '<p>' + foundRole.longDesc + '</p>'
+                output += foundRole.notes
+                output += '</div>';
+        })
+        output += '</div>';
+        $('#filter-records').html(output);
+        }
+        
+showList("")
+
+
 $('#txt-search').keyup(function(){
-            let searchField = $(this).val();
-			if(searchField === '')  {
-				$('#filter-records').html('');
-				return;
-			}
-			let output = "";
-            try {
-                data.filter(role => {
-                    return (role.name.toLowerCase().startsWith(searchField.toLowerCase()));
-                }).forEach(foundRole => {
-                    output += '<div class="container">';
-                      output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
-                      output += '<h3>' + foundRole.desc + '</h3></hgroup>'
-                      output += '<p>' + foundRole.longDesc + '</p>'
-                      output += foundRole.notes
-                      output += '</div>';
-                      throw 'Break';
-                })
-                data.filter(role => {
-                    return (role.name.toLowerCase().includes(searchField.toLowerCase()))
-                }).forEach(foundRole => {
-                    output += '<div class="container">';
-                      output += '<hgroup><h2 class='+foundRole.team+'>' + foundRole.name + '</h2>';
-                      output += '<h3>' + foundRole.desc + '</h3></hgroup>'
-                      output += '<p>' + foundRole.longDesc + '</p>'
-                      output += foundRole.notes
-                      output += '</div>';
-                      throw 'Break';
-                })
-            }catch (e) {
-				if (e !== 'Break') throw e;
-			}
-            
-            output += '</div>';
-			$('#filter-records').html(output);
+        showList($(this).val());
         });
-  });
+});
