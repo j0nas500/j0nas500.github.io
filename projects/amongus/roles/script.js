@@ -689,6 +689,7 @@ const data = [
 },
 ];
 
+
 const showList = (searchField) => {
         let output = "";
         data.filter(role => {
@@ -707,8 +708,7 @@ const showList = (searchField) => {
         
 showList("")
 
-
-$('#txt-search').keyup(function(){
+$('#txt-search').on("input", function() { 
         showList($(this).val());
-        });
+     });
 });
