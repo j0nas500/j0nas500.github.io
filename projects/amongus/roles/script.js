@@ -25,21 +25,21 @@ const data = [
 {
 "name": "Morphling", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "verwandelt sich in andere Spieler", 
 "longDesc": "Der Morphling ist ein Impostor, der das Aussehen eines Spielers scannen kann. Nach einer beliebigen Zeit kann er für 10s dieses Aussehen annehmen.",
 "notes": ""
 },
 {
 "name": "Camouflager", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "alle Spieler sehen gleich aus", 
 "longDesc": "Der Camouflager ist ein Impostor, der einen Tarnungsmodus aktivieren kann. Der Camouflager-Modus dauert 10s und während er aktiv ist, werden alle Spielernamen/Tiere/Hüte versteckt und alle Spieler haben die gleiche Farbe.",
 "notes": ""
 },
 {
 "name": "Vampire", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "beißt Spieler die erst nach einer bestimmten Zeit sterben", 
 "longDesc":     
 `Der Vampir ist ein Impostor, der andere Spieler beißen kann. Gebissene Spieler sterben nach einer konfigurierbaren Zeitspanne.
 Wenn die Spawn-Chance des Vampirs größer als 0 ist (auch wenn kein Vampir im Spiel ist), können alle Spieler einen Knoblauch platzieren.
@@ -52,7 +52,7 @@ Wenn sich ein Opfer in der Nähe eines Knoblauchs befindet, verwandelt sich der 
 {
 "name": "Eraser", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "löscht Rollen", 
 "longDesc": 
 `Der Eraser ist ein Impostor, der die Rolle jedes Spielers löschen kann.
 Die anvisierten Spieler verlieren ihre Rolle nach dem Meeting, kurz bevor ein Spieler verbannt wird.
@@ -66,7 +66,7 @@ Die Löschung wird auch dann durchgeführt, wenn der Eraser oder sein Ziel vor d
 {
 "name": "Trickster", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "baut sich sein eigenes Vent-System", 
 "longDesc": 
 `Der Trickster ist ein Impostor, der 3 Kästchen platzieren kann, die zunächst für die anderen Spieler unsichtbar sind.
 Wenn der Trickster alle seine Kisten platziert hat, werden sie in ein vent-Netzwerk umgewandelt, das nur vom Trickster selbst genutzt werden kann, aber die Kisten sind für die anderen Spieler sichtbar.
@@ -76,7 +76,7 @@ Wenn die Kisten in ein vent-Netz umgewandelt werden, erhält der Trickster die n
 {
 "name": "Cleaner", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "lässt Leichen verschwinden", 
 "longDesc": "Der Cleaner ist ein Impostor, der die Fähigkeit hat, Leichen aufzuräumen.",
 "notes": 
 `<ul><li>The Kill and Clean cooldown are shared, preventing them from immediately cleaning their own kills</li>
@@ -86,7 +86,7 @@ Wenn die Kisten in ein vent-Netz umgewandelt werden, erhält der Trickster die n
 {
 "name": "Warlock", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "verflucht Spieler, die für ihn töten", 
 "longDesc": 
 `Der Warlock ist ein Impostor, der einen anderen Spieler verfluchen kann (der verfluchte Spieler wird nicht benachrichtigt).
 Wenn die verfluchte Person neben einem anderen Spieler steht, kann der Warlock diesen Spieler töten (egal, wie weit er entfernt ist).
@@ -98,7 +98,7 @@ Der Warlock kann weiterhin normale Kills ausführen, aber die beiden Tasten habe
 {
 "name": "Witch", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "verzaubert Spieler, die nach dem Meeting sterben", 
 "longDesc": 
 `Die Witch ist ein Impostor, der die Fähigkeit hat, andere Spieler zu verzaubern.
 Während des nächsten Meetings wird der verzauberte Spieler hervorgehoben und er stirbt direkt nach dem Meeting.
@@ -111,7 +111,7 @@ Stirbt die Witch vor Beginn des Meetings oder wird die Witch während des Meetin
 {
 "name": "Bounty Hunter", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "wird belohnt, wenn es sein Ziel tötet", 
 "longDesc": 
 `Der Bounty Hunter ist ein Impostor, der laufend Kopfgelder erhält (der anvisierte Spieler wird nicht benachrichtigt).
 Das Ziel des Bounty Hunters wechselt nach jedem Meeting und nach einer konfigurierbaren Zeitspanne.
@@ -124,7 +124,7 @@ Je nach Option wird ein Pfeil angezeigt, der auf das aktuelle Ziel zeigt.`,
 {
 "name": "Ninja", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "kann sich zum markierten Spieler porten und ihn töten (wird unsichtbar)", 
 "longDesc": 
 `Der Ninja ist ein Impostor, der die Fähigkeit hat, einen anderen Spieler überall auf der Karte zu töten.
 Du kannst einen Spieler mit deiner Fähigkeit markieren und durch erneutes Benutzen der Fähigkeit an die Position des markierten Spielers springen und ihn töten.
@@ -143,7 +143,7 @@ Wenn der Ninja einen Kill mit seiner Fähigkeit ausführt, kann er für einige S
 {
 "name": "Guesser", 
 "team": "impostor", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "guessed eine Rolle im Meeting", 
 "longDesc": 
 `Der Guesser kann ein Crewmate oder ein Impostor sein (je nach Einstellung).
 Der Guesser kann während des Meetings Spieler erschießen, indem er deren Rolle errät. Wenn er falsch rät, stirbt der Guesser stattdessen.
@@ -156,7 +156,7 @@ Abhängig von den Optionen kann der Guesser den geshieldeten Spieler nicht errat
 {
 "name": "Jester", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss rausgevoted werden", 
 "longDesc": 
 `Der Jester hat keine Aufgaben. Er gewinnt das Spiel als Solo, wenn er während eines Meetings abgewählt wird.`,
 "notes": 
@@ -165,7 +165,7 @@ Abhängig von den Optionen kann der Guesser den geshieldeten Spieler nicht errat
 {
 "name": "Arsonist", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss alle dousen", 
 "longDesc": 
 `Der Arsonist hat keine Aufgaben, er muss das Spiel als Solist gewinnen.
 Der Arsonist kann andere Spieler dousen, indem er die douse-taste drückt und einige Sekunden lang neben dem Spieler bleibt.
@@ -177,7 +177,7 @@ Nachdem er alle Spieler doused hat, kann der Arsonist alle Spieler anzünden, wa
 {
 "name": "Jackal", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss gegen Impostors und Crewmates spielen", 
 "longDesc": 
 `Der Jackal ist Teil eines Extra-Teams, das versucht, alle anderen Spieler zu eliminieren.
 Der Jackal hat keine Aufgaben und kann Impostors, Crewmates und Neutrale töten.
@@ -208,7 +208,7 @@ Die Priorität der Siegbedingungen ist die folgende:
 {
 "name": "Sidekick", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "wird zum Jackal, nach dem Tod des eigentlichen Jackals", 
 "longDesc": 
 `Wird einem Spieler während des Spiels durch die "Erschaffe Sidekick-Aktion" des Jackals zugewiesen und schließt sich dem Jackal in seinem Bestreben an, alle anderen Spieler zu eliminieren.
 Nach dem Tod des Jackals (abhängig von den Optionen) kann er selbst zum Jackal befördert werden und möglicherweise sogar einen eigenen Sidekick zuweisen.`,
@@ -221,7 +221,7 @@ Nach dem Tod des Jackals (abhängig von den Optionen) kann er selbst zum Jackal 
 {
 "name": "Vulture", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss Leichen essen", 
 "longDesc": 
 `Der Vulture hat keine Aufgaben, er muss das Spiel im Alleingang gewinnen.
 Der Vulture ist eine neutrale Rolle, die eine bestimmte Anzahl von Leichen fressen muss (abhängig von den Optionen), um zu gewinnen.        
@@ -233,7 +233,7 @@ Wenn es einen Vulture im Spiel gibt, kann es keinen Cleaner geben.`,
 {
 "name": "Lawyer", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss seinen Mandanten beschützen", 
 "longDesc": 
 `Der Lawyer ist eine neutrale Rolle, die einen Mandanten hat.
 Der Mandant kann ein Impostor oder Jackal sein, der kein Lover ist.        
@@ -257,7 +257,7 @@ Wie der Lawyer gewinnt:
 {
 "name": "Prosecutor", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss seinen Mandanten verkaufen", 
 "longDesc": 
 `Der Prosecutor ist eine neutrale Rolle, die dem Lawyer ähnelt. Der Prosecutor hat einen Mandanten, der ein Crewmitglied ist.
 Der Prosecutor ist darauf angewiesen, dass sein Mandant rausgeworfen wird, um das Spiel zu gewinnen.        
@@ -275,7 +275,7 @@ Wenn der Mandant des Prosecutors stirbt, ändert der Prosecutor seine Rolle und 
 {
 "name": "Pursuer", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sabotiert Waffen der Killer", 
 "longDesc": 
 `Der Pursuer ist immer noch eine neutrale Rolle, hat aber ein anderes Ziel, um das Spiel zu gewinnen; er muss noch am Leben sein, wenn das Spiel endet und die Crew gewinnt.
 Um dieses Ziel zu erreichen, verfügt der Pursuer über eine Fähigkeit namens "Blank", mit der er die Waffe eines Killers (dazu gehört auch der Sheriff) mit einer Platzpatrone füllen kann. Wenn der Killer also versucht, jemanden zu töten, verfehlt er sein Ziel, und seine Abklingzeiten werden wie üblich ausgelöst.
@@ -287,7 +287,7 @@ Der Pursuer hat Aufgaben (die bereits als Lawyer/Prosecutor erledigt werden kön
 {
 "name": "Thief", 
 "team": "neutral", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "muss einen Killer töten, um seine Rolle zu klauen", 
 "longDesc": 
 `Der Thief muss einen anderen Killer töten (Impostor, Jackal/Sidekick und falls aktiviert Sheriff) um eine Siegbedingung zu haben.        
 Wenn der Thief keinen anderen Killer tötet, verliert er das Spiel.        
@@ -300,7 +300,7 @@ Wenn der Dieb versucht, eine nicht-tötende Rolle (Crewmate oder Neutral) zu tö
 {
 "name": "Mayor", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sein Vote zählt zweimal", 
 "longDesc": 
 `Der Mayor führt die Crewmates an, indem er eine Stimme hat, die doppelt zählt.
 Der Mayor kann sein Meeting immer nutzen, auch wenn die maximale Anzahl an Meetings erreicht wurde.        
@@ -312,7 +312,7 @@ Der Mayor kann die Farben der Abstimmung sehen, nachdem er eine konfigurierbare 
 {
 "name": "Engineer", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "repariert sofort eine Sabotage", 
 "longDesc": 
 `Der Engineer (wenn er noch lebt) kann eine bestimmte Anzahl von Sabotagen pro Spiel von einem beliebigen Punkt der Karte aus beheben.
 Der Engineer kann Vents benutzen.        
@@ -324,9 +324,9 @@ Wegen der Vents kann der Engineer einige Aufgaben nicht über die Schaltfläche 
 {
 "name": "Sheriff", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "kann Impostors und neutrale Rollen töten", 
 "longDesc": 
-`Der Sheriff hat die Fähigkeit, Impostoren oder neutrale Rollen zu töten, wenn er sie aktiviert hat.
+`Der Sheriff hat die Fähigkeit, Impostoren oder neutrale Rollen zu töten.
 Wenn er versucht, einen Crewmate zu töten, stirbt dieser stattdessen.`,
 "notes": 
 `<ul><li>If the Sheriff shoots the person the Medic shielded, the Sheriff and the shielded person both remain unharmed.</li>
@@ -335,7 +335,7 @@ Wenn er versucht, einen Crewmate zu töten, stirbt dieser stattdessen.`,
 {
 "name": "Deputy", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "legt Handschellen an", 
 "longDesc": 
 `Der Deputy hat die Fähigkeit, dem Spieler Handschellen anzulegen.
 Die Handschellen bleiben solange verborgen, bis der Spieler, dem die Handschellen angelegt wurden, versucht, eine deaktivierte Taste/Hotkey zu betätigen.
@@ -354,7 +354,7 @@ Handschellen deaktivieren:
 {
 "name": "Lighter", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sieht mehr", 
 "longDesc": 
 `Der Lighter kann von Zeit zu Zeit sein Feuerzeug einschalten, was seine Sicht um einen einstellbaren Wert erhöht.`,
 "notes": 
@@ -363,7 +363,7 @@ Handschellen deaktivieren:
 {
 "name": "Detective", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sieht Fußspuren", 
 "longDesc": 
 `Der Detective kann Fußabdrücke sehen, die andere Spieler hinterlassen.
 Die andere Funktion des Detektivs zeigt sich, wenn er eine Leiche meldet: Er erhält Hinweise auf die Identität des Mörders. Die Art der Informationen, die sie erhalten, hängt von der Zeit ab, die du gebraucht hast, um die Leiche zu finden.`,
@@ -375,7 +375,7 @@ Die andere Funktion des Detektivs zeigt sich, wenn er eine Leiche meldet: Er erh
 {
 "name": "Time Master", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "hat ein Shield, was ihn für kurze Zeit beschützt nicht getötet zu werden", 
 "longDesc": 
 `Der Time Master verfügt über einen Time Shield, den er aktivieren kann. Der time shield bleibt für eine konfigurierbare Zeitspanne aktiv
 Wenn ein Spieler versucht, den Time Master zu töten, während der Time Shield aktiv ist, wird er nicht getötet und die Zeit wird für eine bestimmte Zeit zurückgespult.
@@ -392,7 +392,7 @@ Der Time Master ist vom rewind nicht betroffen`,
 {
 "name": "Medic", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "gibt einen Spieler ein Shield, der dann nicht mehr getötet werden kann", 
 "longDesc": 
 `Der Medic kann einen Spieler pro Spiel mit einem shield versehen (durch einen Umriss um den Spieler hervorgehoben), wodurch der Spieler nicht mehr getötet werden kann.
 Der abgeschirmte Spieler kann immer noch abgewählt werden und könnte auch ein Impostor sein.        
@@ -410,7 +410,7 @@ Eine weitere Funktion des Medic zeigt an, wenn er eine Leiche meldet: Er sieht, 
 {
 "name": "Swapper", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "vertauscht Votes", 
 "longDesc": 
 `Bei Meetings kann der Swapper die Stimmen tauschen, die zwei Personen erhalten (d.h. alle Stimmen die Spieler A erhalten hat, werden an Spieler B weitergegeben und umgekehrt).
 Aufgrund der Stärke des Swappers in Meetings kann er keine Notfall-Meetings starten und keine Lichter und Kommunikationen reparieren.        
@@ -423,7 +423,7 @@ Der Swapper hat jetzt anfängliche Swap-Ladungen und kann diese Ladungen wieder 
 {
 "name": "Hacker", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sieht mehr auf Vitals & Admintable", 
 "longDesc": 
 `Wenn der Hacker den "Hackermodus" aktiviert, erhält er für eine bestimmte Dauer mehr Informationen als die anderen aus dem admin-table und vitals.
 Ansonsten sieht er die gleichen Informationen wie alle anderen.<br>        
@@ -437,7 +437,7 @@ Während des Zugriffs auf diese mobilen Gadgets kann sich der Hacker nicht beweg
 {
 "name": "Tracker", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "tracked einen Spieler/Leiche", 
 "longDesc": 
 `Der Tracker kann einen Spieler zum Verfolgen auswählen. Abhängig von den Optionen kann der Tracker nach jedem Meeting eine andere Person verfolgen oder der Tracker verfolgt dieselbe Person während des gesamten Spiels.
 Ein Pfeil zeigt auf die zuletzt verfolgte Position des Spielers.        
@@ -449,7 +449,7 @@ Abhängig von den Optionen hat der Tracker eine weitere Fähigkeit: Er kann alle
 {
 "name": "Snitch", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "sieht alle Impostors und den Jackal, nach dem die Snitch alle Tasks abgeschlossen hat", 
 "longDesc": 
 `Wenn die Snitch alle Aufgaben erledigt hat, erscheinen Pfeile (nur für die Snitch sichtbar), die auf die Impostors (je nach Option auch auf die Mitglieder des Teams Jackal) zeigen.
 Wenn die Snitch noch eine Aufgabe übrig hat (konfigurierbar), wird die Snitch den Impostoren (je nach Option auch den Mitgliedern des Teams Jackal) mit einem Pfeil, der auf die Snitch zeigt, angezeigt.`,
@@ -459,7 +459,7 @@ Wenn die Snitch noch eine Aufgabe übrig hat (konfigurierbar), wird die Snitch d
 {
 "name": "Spy", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "gibt sich als Impostor aus", 
 "longDesc": 
 `Der Spy ist ein Crewmate, der keine besonderen Fähigkeiten hat.
 Der Spy sieht für die Impostors wie ein zusätzlicher Impostor aus, sie können den Unterschied nicht erkennen.        
@@ -475,7 +475,7 @@ Du kannst festlegen, ob der Sheriff den Spy töten kann oder nicht (um die Lüge
 {
 "name": "Portalmaker", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "platziert zwei Portale", 
 "longDesc": 
 `Der Portalmaker ist ein Crewmate, der zwei Portale auf der Karte platzieren kann.
 Diese beiden Portale sind miteinander verbunden.        
@@ -492,7 +492,7 @@ Zusätzlich erhält der Portalmaker bei jedem Meeting, je nach Einstellung, Info
 {
 "name": "Security Guard", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "schließt Vents und bringt Kameras an", 
 "longDesc": 
 `Der Security Guard ist ein Crewmate, der über eine bestimmte Anzahl von Schrauben verfügt, die er entweder zum Abdichten von Vents oder zum Anbringen neuer Kameras verwenden kann.
 Für das Anbringen einer neuen Kamera und das Versiegeln von Lüftungsöffnungen wird eine konfigurierbare Anzahl von Schrauben benötigt. Die Gesamtzahl der Schrauben, über die ein Security Guard verfügt, kann ebenfalls konfiguriert werden.        
@@ -510,7 +510,7 @@ Die Vents werden nach dem nächsten Meeting versiegelt, Spieler können versiege
 {
 "name": "Medium", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "befragt Leichen", 
 "longDesc": 
 `Das Medium ist ein Crewmitglied, das die Seelen toter Spieler nach Informationen fragen kann. 
 Wie der Seher sieht es die Orte, an denen die Spieler gestorben sind (nach dem nächsten meeting) und kann sie befragen. 
@@ -528,7 +528,7 @@ Was ist die Rolle deines Mörders?`,
 {
 "name": "Trapper", 
 "team": "crewmate", 
-"desc": "Gruppe von 3 Impostors", 
+"desc": "platziert Fallen", 
 "longDesc": 
 `Der Trapper ist ein Crewmate, der Fallen aufstellen kann, um Spieler in eine Falle zu locken und Informationen von ihnen zu erhalten.
 Die Fallen halten den Spieler für x-Sekunden fest (hängt von der Einstellung ab) und enthüllen Informationen im Chat        
@@ -553,7 +553,7 @@ Die Fallen haben eine maximale Anzahl von Aufladungen (Verwendungen) und eine ko
 {
 "name": "Anti Teleport", 
 "team": "modifier", 
-"desc": "Man wird nicht zum Meeting Raum teleportiert", 
+"desc": "es findet keine Teleportation zum Meeting Raum statt", 
 "longDesc": 
 `The Anti Teleport Modifier prevents the player from getting teleported to the Meeting Table if a body gets reported or an Emergency Meeting is called.
 The player will start the round where the previous one ended (Emergency Meeting Call/Body Report).`,
