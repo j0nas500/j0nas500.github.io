@@ -421,6 +421,18 @@ Der Swapper hat jetzt anfängliche Swap-Ladungen und kann diese Ladungen wieder 
 `,
 },
 {
+"name": "Seer", 
+"team": "crewmate", 
+"desc": "sieht die Leichen als Geist und wird informiert, falls wer stirbt", 
+"longDesc": 
+`Der Seer hat zwei Fähigkeiten (man kann eine davon oder beide in den Optionen aktivieren).
+Der Seer sieht die Seelen von Spielern, die eine Runde zuvor gestorben sind, die Seelen verblassen langsam.
+Der Seer bekommt einen blauen Blitz auf seinem Bildschirm, wenn ein Spieler irgendwo auf der Karte stirbt.`,
+"notes": 
+`
+`,
+},
+{
 "name": "Hacker", 
 "team": "crewmate", 
 "desc": "sieht mehr auf Vitals & Admintable", 
